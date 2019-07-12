@@ -8,7 +8,13 @@
         <property name="dialect">org.hibernate.dialect.MySQLDialect</property>
         <!-- Echo all executed SQL to stdout -->
         <property name="show_sql">true</property>
+        <property name="hibernate.format_sql">true</property>
         <property name="hbm2ddl.auto">update</property>
+        <mapping class ="ru.frameworks.hibernateone.entity.Author"/>
+        <mapping class ="ru.frameworks.hibernateone.entity.Book"/>
+
+
+
 
     </session-factory>
 </hibernate-configuration>
