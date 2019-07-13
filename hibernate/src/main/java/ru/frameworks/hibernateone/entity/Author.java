@@ -1,18 +1,32 @@
 package ru.frameworks.hibernateone.entity;
 
+import lombok.AllArgsConstructor;
 import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.NonNull;
+import lombok.RequiredArgsConstructor;
 import lombok.Setter;
 import javax.persistence.*;
 import java.io.Serializable;
+import org.hibernate.annotations.DynamicUpdate;
 
 @Entity
-@Getter @Setter
+@Getter
+@Setter
+@AllArgsConstructor
+@NoArgsConstructor
+@RequiredArgsConstructor // для параметров NN
+@DynamicUpdate //Обьновление одного поля
 public class Author implements Serializable {
-    @Id
-    @GeneratedValue (strategy = GenerationType.IDENTITY) // генерация ID через Autoincrement в MySQL
-    private long id;
 
+  @Id
+  @GeneratedValue(strategy = GenerationType.IDENTITY) // генерация ID через Autoincrement в MySQL
+  private long id;
 
-    private String name;
+  @NonNull
+  private String name;
+
+  @Column(name = "second_name")
+  private String secondName;
 
 }

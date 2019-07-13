@@ -30,6 +30,30 @@ public class AuthorHelper {
         session.close();
         return authorList;
     }
+
+    //Добавление нового автора в таблице
+    public Author addAuthor(Author author){
+
+        Session session = sessionFactory.openSession();//Создаем сессию
+        session.beginTransaction();//Начинаем транзакцию
+        session.save(author);//сшенерит ID и вставит в объект
+        session.getTransaction().commit();
+        session.close(); //автоматически коммитится когда закрываем сессию
+        return  author;
+
+
+    }
+
+    public Author setAuthor(){
+        Session session = sessionFactory.openSession();//Создаем сессию
+        Author a1 = session.get(Author.class,1l);
+        a1.setName("Лермонтов27");
+        session.beginTransaction();
+        session.save(a1);
+        session.getTransaction().commit();
+        session.close();
+        return a1;
+    }
     public Author getAuthor(String name){
         return null;
     }
