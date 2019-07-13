@@ -23,7 +23,7 @@ public class BookHelper {
 
     //открываем сессию для манипуляции с перс объектами
     Session session = sessionFactory.openSession();
-    session.get(Book.class,1l);
+
 
     //Подготовка запроса
     CriteriaBuilder cb = session.getCriteriaBuilder();

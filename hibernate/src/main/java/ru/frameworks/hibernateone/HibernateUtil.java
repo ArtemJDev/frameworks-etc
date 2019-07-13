@@ -13,10 +13,8 @@ public class HibernateUtil {
     sessionFactory = new MetadataSources(registry).buildMetadata().buildSessionFactory();
   } catch (Exception e) {
     StandardServiceRegistryBuilder.destroy(registry);
-    System.out.println("error");
+    }
   }
-  }
-
    /*static {
     Configuration cfg = new Configuration().configure();
     StandardServiceRegistryBuilder builder = new StandardServiceRegistryBuilder().applySettings(cfg.getProperties());
