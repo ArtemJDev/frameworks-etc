@@ -1,6 +1,7 @@
 package ru.frameworks.hibernateone.entity;
 
 import lombok.AllArgsConstructor;
+import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.NonNull;
@@ -8,6 +9,7 @@ import lombok.RequiredArgsConstructor;
 import lombok.Setter;
 import javax.persistence.*;
 import java.io.Serializable;
+import lombok.ToString;
 import org.hibernate.annotations.DynamicUpdate;
 
 @Entity
@@ -17,6 +19,8 @@ import org.hibernate.annotations.DynamicUpdate;
 @NoArgsConstructor
 @RequiredArgsConstructor // для параметров NN
 @DynamicUpdate //Обьновление одного поля
+@EqualsAndHashCode (of="id") //генерация Equals hashCode
+@ToString (of="name", includeFieldNames = false) //Вывод тоСтринг
 public class Author implements Serializable {
 
   @Id
@@ -34,8 +38,5 @@ public class Author implements Serializable {
     this.name = name;
   }
 
-  public Author(String name) {
-    this.name = name;
-  }
 
 }
