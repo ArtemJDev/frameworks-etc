@@ -10,13 +10,23 @@ public class Main {
   private static final Logger log = Logger.getLogger(Book.class);
 
   public static void main(String[] args) {
-    Author author = new Author("тест");
+    //Author author = new Author("тест");
     //new AuthorHelper().addAuthor(author);
-    new AuthorHelper().setAuthor();
-
-    log.info("Начало логирования");
+    //new AuthorHelper().setAuthor();
     Session session = HibernateUtil.getSessionfactory().openSession();
-    System.out.println(new BookHelper().getBookList().get(0).getName());
+    session.beginTransaction();
+    for (int i = 0; i < 10; i++) {
+      Author a = new Author("name " + i);
+      a.setSecondName("Second name " + i);
+      if(i%10==0){
+        session.flush();
+      }
+      session.save(a);
+    }
+    session.getTransaction().commit();
+    session.close();
+
+
 
 
 

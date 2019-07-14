@@ -1,5 +1,6 @@
 package ru.frameworks.hibernateone;
 
+import javax.persistence.criteria.Selection;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import ru.frameworks.hibernateone.entity.Author;
@@ -44,10 +45,24 @@ public class AuthorHelper {
 
     }
 
+    public List<Author> getAuthotNotAllFields(){
+        Session session = sessionFactory.openSession();
+        CriteriaBuilder cb = session.getCriteriaBuilder();
+        CriteriaQuery cq = cb.createQuery(Author.class);
+        Root<Author> root = cq.from(Author.class);
+        Selection[] selections = {root.get("id"),root.get("name")}; //выборка полей, должен быть коснтурктор с этими
+        cq.select(cb.construct(Author.class, selections)); //неогбязхательно, если надо просто получить занчение
+
+        Query query = session.createQuery(cq);
+        List<Author> authorList = query.getResultList();
+        return authorList;
+    }
+
     public Author setAuthor(){
         Session session = sessionFactory.openSession();//Создаем сессию
         Author a1 = session.get(Author.class,1l);
         a1.setName("Лермонтов27");
+        a1.setSecondName("Tolstoy");
         session.beginTransaction();
         session.save(a1);
         session.getTransaction().commit();
