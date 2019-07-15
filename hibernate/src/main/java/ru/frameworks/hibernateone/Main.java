@@ -1,21 +1,19 @@
 package ru.frameworks.hibernateone;
 
 import org.apache.log4j.Logger;
+import org.h2.util.New;
 import org.hibernate.Session;
 import ru.frameworks.hibernateone.entity.Author;
 import ru.frameworks.hibernateone.entity.Book;
 
 public class Main {
 
-  private static final Logger log = Logger.getLogger(Book.class);
 
   public static void main(String[] args) {
-    ;
-    System.out.println(new AuthorHelper().getAuthorList().get(0).getSecondName());
     //Author author = new Author("тест");
-    //new AuthorHelper().addAuthor(author);
     //new AuthorHelper().setAuthor();
 
+    new AuthorHelper().getAuthor(1l);
 
 //    Session session = HibernateUtil.getSessionfactory().openSession();
 //    session.beginTransaction();
@@ -29,11 +27,6 @@ public class Main {
 //    }
 //    session.getTransaction().commit();
 //    session.close();
-
-
-
-
-
 //    for (Book book : new BookHelper().getBookList()) {
 //      System.out.println("book = " + book.getName());
 //    }

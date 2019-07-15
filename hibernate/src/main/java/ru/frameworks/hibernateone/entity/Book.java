@@ -1,5 +1,7 @@
 package ru.frameworks.hibernateone.entity;
 
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -28,5 +30,9 @@ public class Book implements Serializable {
     private String name;
 
     private long authorId;
+
+    @ManyToOne //имеет ссылку FC на таблицу autho, у многих книг один автор
+    @JoinColumn //Связать с полем автор, юудет подставляться вмиесто  author
+    private Author author;
 
 }

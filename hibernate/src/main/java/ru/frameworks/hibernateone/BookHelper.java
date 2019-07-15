@@ -20,21 +20,17 @@ public class BookHelper {
   }
 
   public List<Book> getBookList(){
-
     //открываем сессию для манипуляции с перс объектами
     Session session = sessionFactory.openSession();
-
 
     //Подготовка запроса
     CriteriaBuilder cb = session.getCriteriaBuilder();
     CriteriaQuery cq = cb.createQuery(Book.class);
     Root<Book> root = cq.from(Book.class);
     cq.select(root);
-
     //выполнение запроса
     Query query = session.createQuery(cq);
     List<Book> bookList = query.getResultList();
-
     session.close();
     return  bookList;
 
