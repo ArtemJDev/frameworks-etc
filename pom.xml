@@ -13,8 +13,10 @@
   </properties>
 
 
+
   <modules>
     <module>hibernate</module>
+    <module>RobotSpring</module>
   </modules>
 
   <build>
@@ -105,6 +107,6 @@
       <artifactId>spring-context</artifactId>
       <version>5.1.5.RELEASE</version>
     </dependency>
-
   </dependencies>
+
 </project>

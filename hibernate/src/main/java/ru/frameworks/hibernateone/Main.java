@@ -11,9 +11,9 @@ public class Main {
 
   public static void main(String[] args) {
     //Author author = new Author("тест");
-    //new AuthorHelper().setAuthor();
+    new AuthorHelper().setAuthor();
 
-    new AuthorHelper().getAuthor(1l);
+    //new AuthorHelper().getAuthor(1l);
 
 //    Session session = HibernateUtil.getSessionfactory().openSession();
 //    session.beginTransaction();
