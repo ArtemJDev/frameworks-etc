@@ -1,10 +1,14 @@
 package ru.javabegin.training.spring.impls.robot;
 
+import lombok.Getter;
+import lombok.Setter;
 import ru.javabegin.training.spring.interfaces.Hand;
 import ru.javabegin.training.spring.interfaces.Head;
 import ru.javabegin.training.spring.interfaces.Leg;
 import ru.javabegin.training.spring.interfaces.Robot;
 
+@Getter
+@Setter
 public class ModelT1000 implements Robot {
 
 	private Hand hand;

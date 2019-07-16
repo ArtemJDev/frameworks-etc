@@ -2,79 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51af441c-13f7-485b-9066-e5164ea9f418" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RobotSpring/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/DOP/RobotImpl2/RobotImpl2/.classpath" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/DOP/RobotImpl2/RobotImpl2/.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/DOP/RobotImpl2/RobotImpl2/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/DOP/RobotImpl2/RobotImpl2/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/DOP/RobotImpl2/RobotImpl2/.settings/org.eclipse.m2e.core.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/RobotSpring/.settings/org.eclipse.m2e.core.prefs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/DOP/RobotImpl2/RobotImpl2/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/DOP/RobotImpl2/RobotImpl2/src/main/java/ru/javabegin/training/spring/impls/sony/SonyHand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/DOP/RobotImpl2/RobotImpl2/src/main/java/ru/javabegin/training/spring/impls/sony/SonyHead.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/DOP/RobotImpl2/RobotImpl2/src/main/java/ru/javabegin/training/spring/impls/sony/SonyLeg.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/DOP/RobotImpl2/RobotImpl2/src/main/java/ru/javabegin/training/spring/impls/toshiba/ToshibaHand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/DOP/RobotImpl2/RobotImpl2/src/main/java/ru/javabegin/training/spring/impls/toshiba/ToshibaHead.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/DOP/RobotImpl2/RobotImpl2/src/main/java/ru/javabegin/training/spring/impls/toshiba/ToshibaLeg.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/DOP/RobotImpl2/RobotImpl2/src/main/java/ru/javabegin/training/spring/interfaces/Hand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/DOP/RobotImpl2/RobotImpl2/src/main/java/ru/javabegin/training/spring/interfaces/Head.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/DOP/RobotImpl2/RobotImpl2/src/main/java/ru/javabegin/training/spring/interfaces/Leg.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/DOP/RobotImpl2/RobotImpl2/src/main/java/ru/javabegin/training/spring/start/Robot.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/DOP/RobotImpl2/RobotImpl2/src/main/java/ru/javabegin/training/spring/start/RobotConstructor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/DOP/RobotImpl2/RobotImpl2/src/test/java/ru/javabegin/training/spring/lesson3/AppTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/DOP/RobotSpring/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/RobotSpring/.classpath" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/DOP/RobotSpring/.project" beforeDir="false" afterPath="$PROJECT_DIR$/RobotSpring/.project" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/DOP/RobotSpring/.settings/org.eclipse.core.resources.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/RobotSpring/.settings/org.eclipse.core.resources.prefs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/DOP/RobotSpring/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/RobotSpring/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/DOP/RobotSpring/.settings/org.eclipse.m2e.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/DOP/RobotSpring/.springBeans" beforeDir="false" afterPath="$PROJECT_DIR$/RobotSpring/.springBeans" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/DOP/RobotSpring/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/DOP/RobotSpring/src/main/java/ru/javabegin/training/spring/impls/robot/ModelT1000.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/DOP/RobotSpring/src/main/java/ru/javabegin/training/spring/impls/sony/SonyHand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/DOP/RobotSpring/src/main/java/ru/javabegin/training/spring/impls/sony/SonyHead.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/DOP/RobotSpring/src/main/java/ru/javabegin/training/spring/impls/sony/SonyLeg.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/DOP/RobotSpring/src/main/java/ru/javabegin/training/spring/impls/toshiba/ToshibaHand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/DOP/RobotSpring/src/main/java/ru/javabegin/training/spring/impls/toshiba/ToshibaHead.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/DOP/RobotSpring/src/main/java/ru/javabegin/training/spring/impls/toshiba/ToshibaLeg.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/DOP/RobotSpring/src/main/java/ru/javabegin/training/spring/interfaces/Hand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/DOP/RobotSpring/src/main/java/ru/javabegin/training/spring/interfaces/Head.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/DOP/RobotSpring/src/main/java/ru/javabegin/training/spring/interfaces/Leg.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/DOP/RobotSpring/src/main/java/ru/javabegin/training/spring/interfaces/Robot.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/DOP/RobotSpring/src/main/java/ru/javabegin/training/spring/main/Start.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/DOP/RobotSpring/src/main/resources/context.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/spring_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/spring_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/frameworks_etc.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/frameworks_etc.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_3_8_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_5_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_1_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_1_5_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_1_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_1_5_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_1_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_1_5_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_1_5_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Spring_4_3_18_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Spring_Batch_2_2_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Spring_Batch_2_2_6__2_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Spring_Integration_4_0_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Spring_Integration_4_0_3__2_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Spring_MVC_4_3_18_RELEASE__2_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Spring_Security_3_2_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Spring_Security_3_2_5__2_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Spring_Web_Services_2_0_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Spring_Web_Services_2_0_2__2_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Spring_Webflow_2_4_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Spring_Webflow_2_4_0__2_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hibernate/src/main/java/ru/frameworks/hibernateone/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/hibernate/src/main/java/ru/frameworks/hibernateone/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/web/WEB-INF/applicationContext.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/web/WEB-INF/dispatcher-servlet.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/web/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/web/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RobotSpring/src/main/java/ru/javabegin/training/spring/impls/robot/ModelT1000.java" beforeDir="false" afterPath="$PROJECT_DIR$/RobotSpring/src/main/java/ru/javabegin/training/spring/impls/robot/ModelT1000.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RobotSpring/src/main/java/ru/javabegin/training/spring/main/Start.java" beforeDir="false" afterPath="$PROJECT_DIR$/RobotSpring/src/main/java/ru/javabegin/training/spring/main/Start.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RobotSpring/src/main/resources/context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/RobotSpring/src/main/resources/context.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/HibernateTest/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -159,8 +90,107 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/RobotSpring/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/RobotSpring/src/main/java/ru/javabegin/training/spring/impls/robot/ModelT1000.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/RobotSpring/src/main/java/ru/javabegin/training/spring/impls/sony/SonyHand.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/RobotSpring/src/main/java/ru/javabegin/training/spring/impls/sony/SonyHead.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/RobotSpring/src/main/java/ru/javabegin/training/spring/impls/sony/SonyLeg.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/RobotSpring/src/main/java/ru/javabegin/training/spring/impls/toshiba/ToshibaHand.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/RobotSpring/src/main/java/ru/javabegin/training/spring/impls/toshiba/ToshibaHead.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/RobotSpring/src/main/java/ru/javabegin/training/spring/impls/toshiba/ToshibaLeg.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/RobotSpring/src/main/java/ru/javabegin/training/spring/interfaces/Hand.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/RobotSpring/src/main/java/ru/javabegin/training/spring/interfaces/Robot.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/RobotSpring/src/main/java/ru/javabegin/training/spring/main/Start.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/RobotSpring/src/main/resources/context.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="221">
               <caret line="13" selection-start-line="13" selection-end-line="13" />
@@ -232,7 +262,6 @@
         <option value="$PROJECT_DIR$/springfr/src/main/java/ru/javabegin/training/spring/impls/sony/SonyHead.java" />
         <option value="$PROJECT_DIR$/springfr/src/main/java/ru/javabegin/training/spring/impls/sony/SonyHand.java" />
         <option value="$PROJECT_DIR$/springfr/src/main/java/ru/javabegin/training/spring/impls/robot/ModelT1000.java" />
-        <option value="$PROJECT_DIR$/RobotSpring/src/main/java/ru/javabegin/training/spring/main/Start.java" />
         <option value="$PROJECT_DIR$/springfr/src/main/java/ru/javabegin/training/spring/impls/toshiba/ToshibaLeg.java" />
         <option value="$PROJECT_DIR$/springfr/src/main/java/ru/javabegin/training/spring/impls/toshiba/ToshibaHand.java" />
         <option value="$PROJECT_DIR$/springfr/src/main/java/ru/javabegin/training/spring/impls/toshiba/ToshibaHead.java" />
@@ -243,6 +272,9 @@
         <option value="$PROJECT_DIR$/spring/src/main/java/less/Conf.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/RobotSpring/pom.xml" />
+        <option value="$PROJECT_DIR$/RobotSpring/src/main/java/ru/javabegin/training/spring/impls/robot/ModelT1000.java" />
+        <option value="$PROJECT_DIR$/RobotSpring/src/main/java/ru/javabegin/training/spring/main/Start.java" />
+        <option value="$PROJECT_DIR$/RobotSpring/src/main/resources/context.xml" />
       </list>
     </option>
   </component>
@@ -283,6 +315,74 @@
             <path>
               <item name="frameworks_etc" type="b2602c69:ProjectViewProjectNode" />
               <item name="frameworks_etc" type="462c0819:PsiDirectoryNode" />
+              <item name="hibernate" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="frameworks_etc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="frameworks_etc" type="462c0819:PsiDirectoryNode" />
+              <item name="hibernate" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="frameworks_etc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="frameworks_etc" type="462c0819:PsiDirectoryNode" />
+              <item name="hibernate" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="frameworks_etc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="frameworks_etc" type="462c0819:PsiDirectoryNode" />
+              <item name="hibernate" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="frameworks_etc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="frameworks_etc" type="462c0819:PsiDirectoryNode" />
+              <item name="hibernate" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ru" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="frameworks_etc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="frameworks_etc" type="462c0819:PsiDirectoryNode" />
+              <item name="hibernate" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ru" type="462c0819:PsiDirectoryNode" />
+              <item name="frameworks" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="frameworks_etc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="frameworks_etc" type="462c0819:PsiDirectoryNode" />
+              <item name="hibernate" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ru" type="462c0819:PsiDirectoryNode" />
+              <item name="frameworks" type="462c0819:PsiDirectoryNode" />
+              <item name="hibernateone" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="frameworks_etc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="frameworks_etc" type="462c0819:PsiDirectoryNode" />
+              <item name="hibernate" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ru" type="462c0819:PsiDirectoryNode" />
+              <item name="frameworks" type="462c0819:PsiDirectoryNode" />
+              <item name="hibernateone" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="frameworks_etc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="frameworks_etc" type="462c0819:PsiDirectoryNode" />
               <item name="RobotSpring" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -290,6 +390,152 @@
               <item name="frameworks_etc" type="462c0819:PsiDirectoryNode" />
               <item name="RobotSpring" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="frameworks_etc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="frameworks_etc" type="462c0819:PsiDirectoryNode" />
+              <item name="RobotSpring" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="frameworks_etc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="frameworks_etc" type="462c0819:PsiDirectoryNode" />
+              <item name="RobotSpring" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="frameworks_etc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="frameworks_etc" type="462c0819:PsiDirectoryNode" />
+              <item name="RobotSpring" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ru" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="frameworks_etc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="frameworks_etc" type="462c0819:PsiDirectoryNode" />
+              <item name="RobotSpring" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ru" type="462c0819:PsiDirectoryNode" />
+              <item name="javabegin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="frameworks_etc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="frameworks_etc" type="462c0819:PsiDirectoryNode" />
+              <item name="RobotSpring" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ru" type="462c0819:PsiDirectoryNode" />
+              <item name="javabegin" type="462c0819:PsiDirectoryNode" />
+              <item name="training" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="frameworks_etc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="frameworks_etc" type="462c0819:PsiDirectoryNode" />
+              <item name="RobotSpring" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ru" type="462c0819:PsiDirectoryNode" />
+              <item name="javabegin" type="462c0819:PsiDirectoryNode" />
+              <item name="training" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="frameworks_etc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="frameworks_etc" type="462c0819:PsiDirectoryNode" />
+              <item name="RobotSpring" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ru" type="462c0819:PsiDirectoryNode" />
+              <item name="javabegin" type="462c0819:PsiDirectoryNode" />
+              <item name="training" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+              <item name="impls" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="frameworks_etc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="frameworks_etc" type="462c0819:PsiDirectoryNode" />
+              <item name="RobotSpring" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ru" type="462c0819:PsiDirectoryNode" />
+              <item name="javabegin" type="462c0819:PsiDirectoryNode" />
+              <item name="training" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+              <item name="impls" type="462c0819:PsiDirectoryNode" />
+              <item name="robot" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="frameworks_etc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="frameworks_etc" type="462c0819:PsiDirectoryNode" />
+              <item name="RobotSpring" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ru" type="462c0819:PsiDirectoryNode" />
+              <item name="javabegin" type="462c0819:PsiDirectoryNode" />
+              <item name="training" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+              <item name="impls" type="462c0819:PsiDirectoryNode" />
+              <item name="sony" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="frameworks_etc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="frameworks_etc" type="462c0819:PsiDirectoryNode" />
+              <item name="RobotSpring" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ru" type="462c0819:PsiDirectoryNode" />
+              <item name="javabegin" type="462c0819:PsiDirectoryNode" />
+              <item name="training" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+              <item name="impls" type="462c0819:PsiDirectoryNode" />
+              <item name="toshiba" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="frameworks_etc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="frameworks_etc" type="462c0819:PsiDirectoryNode" />
+              <item name="RobotSpring" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ru" type="462c0819:PsiDirectoryNode" />
+              <item name="javabegin" type="462c0819:PsiDirectoryNode" />
+              <item name="training" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+              <item name="interfaces" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="frameworks_etc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="frameworks_etc" type="462c0819:PsiDirectoryNode" />
+              <item name="RobotSpring" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ru" type="462c0819:PsiDirectoryNode" />
+              <item name="javabegin" type="462c0819:PsiDirectoryNode" />
+              <item name="training" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="frameworks_etc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="frameworks_etc" type="462c0819:PsiDirectoryNode" />
+              <item name="RobotSpring" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -319,7 +565,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
@@ -397,6 +643,7 @@
   </component>
   <component name="SpringBeansView">
     <option name="showFilesets" value="false" />
+    <option name="beanDetailsProportion" value="0.11374407" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -422,7 +669,7 @@
       <workItem from="1563123569512" duration="4106000" />
       <workItem from="1563184673847" duration="10682000" />
       <workItem from="1563210817368" duration="12000" />
-      <workItem from="1563276547072" duration="14902000" />
+      <workItem from="1563276547072" duration="19322000" />
     </task>
     <task id="LOCAL-00001" summary="Delete hiber">
       <created>1562923293323</created>
@@ -501,11 +748,25 @@
       <option name="project" value="LOCAL" />
       <updated>1563293794062</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="SpringStartUpdate">
+      <created>1563299923824</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1563299923824</updated>
+    </task>
+    <task id="LOCAL-00013" summary="SpringConstructor">
+      <created>1563304182543</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1563304182543</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59916000" />
+    <option name="totallyTimeSpent" value="64336000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -520,25 +781,25 @@
     <frame x="1432" y="-8" width="1616" height="876" extended-state="6" />
     <layout>
       <window_info id="Web" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7236842" visible="true" weight="0.25835475" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.8691438" visible="true" weight="0.25835475" />
       <window_info id="Structure" order="1" sideWeight="0.27640846" side_tool="true" weight="0.25835475" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" sideWeight="0.27640846" side_tool="true" weight="0.25835475" />
-      <window_info id="Persistence" order="7" sideWeight="0.27631578" side_tool="true" visible="true" weight="0.25835475" />
+      <window_info id="Persistence" order="7" sideWeight="0.13085622" side_tool="true" visible="true" weight="0.25835475" />
       <window_info anchor="bottom" id="Spring" weight="0.32916668" />
       <window_info anchor="bottom" id="SQL Generator" order="0" weight="0.32916668" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" />
-      <window_info anchor="bottom" id="Run" order="3" weight="0.27638888" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.20972222" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.3861111" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" weight="0.32916668" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="9" visible="true" weight="0.2611111" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="9" visible="true" weight="0.14027777" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.32916668" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
@@ -610,7 +871,9 @@
     <MESSAGE value="HibernateAutoGeneration" />
     <MESSAGE value="HibernateFin" />
     <MESSAGE value="SpringStart" />
-    <option name="LAST_COMMIT_MESSAGE" value="SpringStart" />
+    <MESSAGE value="SpringStartUpdate" />
+    <MESSAGE value="SpringConstructor" />
+    <option name="LAST_COMMIT_MESSAGE" value="SpringConstructor" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -654,102 +917,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.idea/DOP/RobotImpl2/RobotImpl2/src/main/java/ru/javabegin/training/spring/impls/sony/SonyLeg.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="18" lean-forward="true" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
-          <folding>
-            <element signature="e#160#161#0" expanded="true" />
-            <element signature="e#200#201#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/DOP/RobotImpl2/RobotImpl2/src/main/java/ru/javabegin/training/spring/start/Robot.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="20" lean-forward="true" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/DOP/RobotImpl2/RobotImpl2/src/main/java/ru/javabegin/training/spring/start/RobotConstructor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring_framework/spring_framework.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="uml://MAVEN/ru.frameworks:spring:2.0">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>MAVEN</ID>
-          <OriginalElement>ru.frameworks:spring:2.0</OriginalElement>
-          <nodes>
-            <node x="" y="">ru.frameworks:spring:2.0</node>
-            <node x="" y="">org.hibernate:hibernate-core:jar:5.4.3.Final</node>
-            <node x="" y="">org.hibernate:hibernate-core:jar:5.4.3.Final/org.jboss.logging:jboss-logging:jar:3.3.2.Final</node>
-            <node x="" y="">org.hibernate:hibernate-core:jar:5.4.3.Final/javax.persistence:javax.persistence-api:jar:2.2</node>
-            <node x="" y="">org.hibernate:hibernate-core:jar:5.4.3.Final/org.javassist:javassist:jar:3.24.0-GA</node>
-            <node x="" y="">org.hibernate:hibernate-core:jar:5.4.3.Final/net.bytebuddy:byte-buddy:jar:1.9.10</node>
-            <node x="" y="">org.hibernate:hibernate-core:jar:5.4.3.Final/antlr:antlr:jar:2.7.7</node>
-            <node x="" y="">org.hibernate:hibernate-core:jar:5.4.3.Final/org.jboss.spec.javax.transaction:jboss-transaction-api_1.2_spec:jar:1.1.1.Final</node>
-            <node x="" y="">org.hibernate:hibernate-core:jar:5.4.3.Final/org.jboss:jandex:jar:2.0.5.Final</node>
-            <node x="" y="">org.hibernate:hibernate-core:jar:5.4.3.Final/com.fasterxml:classmate:jar:1.3.4</node>
-            <node x="" y="">org.hibernate:hibernate-core:jar:5.4.3.Final/javax.activation:javax.activation-api:jar:1.2.0</node>
-            <node x="" y="">org.hibernate:hibernate-core:jar:5.4.3.Final/org.dom4j:dom4j:jar:2.1.1</node>
-            <node x="" y="">org.hibernate:hibernate-core:jar:5.4.3.Final/org.hibernate.common:hibernate-commons-annotations:jar:5.1.0.Final</node>
-            <node x="" y="">org.hibernate:hibernate-core:jar:5.4.3.Final/javax.xml.bind:jaxb-api:jar:2.3.1</node>
-            <node x="" y="">org.hibernate:hibernate-core:jar:5.4.3.Final/org.glassfish.jaxb:jaxb-runtime:jar:2.3.1</node>
-            <node x="" y="">org.hibernate:hibernate-core:jar:5.4.3.Final/org.glassfish.jaxb:jaxb-runtime:jar:2.3.1/org.glassfish.jaxb:txw2:jar:2.3.1</node>
-            <node x="" y="">org.hibernate:hibernate-core:jar:5.4.3.Final/org.glassfish.jaxb:jaxb-runtime:jar:2.3.1/com.sun.istack:istack-commons-runtime:jar:3.0.7</node>
-            <node x="" y="">org.hibernate:hibernate-core:jar:5.4.3.Final/org.glassfish.jaxb:jaxb-runtime:jar:2.3.1/org.jvnet.staxex:stax-ex:jar:1.8</node>
-            <node x="" y="">org.hibernate:hibernate-core:jar:5.4.3.Final/org.glassfish.jaxb:jaxb-runtime:jar:2.3.1/com.sun.xml.fastinfoset:FastInfoset:jar:1.2.15</node>
-            <node x="" y="">junit:junit:jar:4.12</node>
-            <node x="" y="">junit:junit:jar:4.12/org.hamcrest:hamcrest-core:jar:1.3</node>
-            <node x="" y="">org.hamcrest:hamcrest-all:jar:1.3</node>
-            <node x="" y="">com.h2database:h2:jar:1.4.196</node>
-            <node x="" y="">mysql:mysql-connector-java:jar:6.0.6</node>
-            <node x="" y="">org.projectlombok:lombok:jar:1.18.6</node>
-            <node x="" y="">log4j:log4j:jar:1.2.17</node>
-            <node x="" y="">org.springframework:spring-context:jar:5.1.5.RELEASE</node>
-            <node x="" y="">org.springframework:spring-context:jar:5.1.5.RELEASE/org.springframework:spring-aop:jar:5.1.5.RELEASE</node>
-            <node x="" y="">org.springframework:spring-context:jar:5.1.5.RELEASE/org.springframework:spring-beans:jar:5.1.5.RELEASE</node>
-            <node x="" y="">org.springframework:spring-context:jar:5.1.5.RELEASE/org.springframework:spring-core:jar:5.1.5.RELEASE</node>
-            <node x="" y="">org.springframework:spring-context:jar:5.1.5.RELEASE/org.springframework:spring-core:jar:5.1.5.RELEASE/org.springframework:spring-jcl:jar:5.1.5.RELEASE</node>
-            <node x="" y="">org.springframework:spring-context:jar:5.1.5.RELEASE/org.springframework:spring-expression:jar:5.1.5.RELEASE</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="0.5389908256880734" x="300.5" y="425.99999999999994" />
-          <SelectedNodes />
-          <Categories />
-          <VISIBILITY>All</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/DOP/RobotSpring/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spring/src/main/java/ru.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -816,52 +983,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/RobotSpring/src/main/resources/context.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RobotSpring/src/main/java/ru/javabegin/training/spring/impls/sony/SonyHand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RobotSpring/src/main/java/ru/javabegin/training/spring/interfaces/Robot.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RobotSpring/src/main/java/ru/javabegin/training/spring/impls/robot/ModelT1000.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="31" column="21" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
-          <folding>
-            <element signature="e#925#926#0" expanded="true" />
-            <element signature="e#971#972#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/springfr/src/main/resources/context.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="87" selection-start-line="6" selection-start-column="87" selection-end-line="6" selection-end-column="87" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RobotSpring/src/main/java/ru/javabegin/training/spring/main/Start.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1020,6 +1145,90 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/RobotSpring/src/main/java/ru/javabegin/training/spring/impls/sony/SonyHand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RobotSpring/src/main/java/ru/javabegin/training/spring/impls/sony/SonyHead.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RobotSpring/src/main/java/ru/javabegin/training/spring/impls/sony/SonyLeg.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RobotSpring/src/main/java/ru/javabegin/training/spring/impls/toshiba/ToshibaHand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RobotSpring/src/main/java/ru/javabegin/training/spring/impls/toshiba/ToshibaHead.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RobotSpring/src/main/java/ru/javabegin/training/spring/impls/toshiba/ToshibaLeg.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RobotSpring/src/main/java/ru/javabegin/training/spring/interfaces/Hand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RobotSpring/src/main/java/ru/javabegin/training/spring/interfaces/Robot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RobotSpring/src/main/java/ru/javabegin/training/spring/impls/robot/ModelT1000.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RobotSpring/src/main/resources/context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hibernate/src/main/java/ru/frameworks/hibernateone/entity/Author.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RobotSpring/src/main/java/ru/javabegin/training/spring/main/Start.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
@@ -1031,7 +1240,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -1039,7 +1247,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>Spring (hibernate)|Spring</last-edited>
+          <last-edited>Spring (RobotSpring)|Spring</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1074,7 +1282,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Spring|hibernate</last-edited>
+          <last-edited>hibernate</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

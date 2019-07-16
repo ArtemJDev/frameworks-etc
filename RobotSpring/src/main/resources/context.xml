@@ -5,9 +5,12 @@
 
 
 	<bean id="t1000" class="ru.javabegin.training.spring.impls.robot.ModelT1000">
-	<constructor-arg ref="SonyHand"/>
-	<constructor-arg ref="SonyLeg"/>
-	<constructor-arg ref="SonyHead"/>
+<!--	<constructor-arg ref="SonyHand"/>-->
+<!--	<constructor-arg ref="SonyLeg"/>-->
+<!--	<constructor-arg ref="SonyHead"/>-->
+		<property name="hand" ref="SonyHand"/>  <!--прописывание свойсвт экземпляра, GETTER SETER-->
+		<property name="leg" ref="SonyLeg"/>
+		<property name="head" ref="ToshibaHead"/>
 	</bean>
 
 	<bean id="SonyHand" class="ru.javabegin.training.spring.impls.sony.SonyHand"/>
