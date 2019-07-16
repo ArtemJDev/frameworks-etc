@@ -6,13 +6,16 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="OOPCompare" />
         <module name="hibernate" />
-        <module name="spring" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="frameworks_etc" target="11" />
       <module name="hibernate" target="11" />
+      <module name="OOPCompare" target="1.5" />
+      <module name="OOPCompare (1)" target="1.5" />
+      <module name="OOPCompare (2)" target="1.5" />
       <module name="spring" target="11" />
     </bytecodeTargetLevel>
   </component>
