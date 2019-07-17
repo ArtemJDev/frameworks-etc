@@ -6,8 +6,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="RobotSpring" />
         <module name="hibernate" />
+        <module name="Spring" />
         <module name="spring" />
       </profile>
     </annotationProcessing>
@@ -17,8 +17,8 @@
       <module name="OOPCompare" target="1.5" />
       <module name="OOPCompare (1)" target="1.5" />
       <module name="OOPCompare (2)" target="1.5" />
-      <module name="RobotSpring" target="11" />
       <module name="spring" target="11" />
+      <module name="Spring" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

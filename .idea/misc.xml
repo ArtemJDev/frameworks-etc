@@ -18,6 +18,6 @@
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="11 (2)" project-jdk-type="JavaSDK">
-    <output url="file://$PROJECT_DIR$/RobotSpring/target/classes/ru/javabegin/training/spring/main" />
+    <output url="file://$PROJECT_DIR$/Spring/target/classes/ru/javabegin/training/spring/main" />
   </component>
 </project>
