@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:p="http://www.springframework.org/schema/p"
+  xmlns:c="http://www.springframework.org/schema/c"
+  xmlns:lang="http://www.springframework.org/schema/lang"
+  xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/lang http://www.springframework.org/schema/lang/spring-lang.xsd"
+  default-lazy-init="true"
+>
+
+  <import resource="sony_context.xml"></import>
+  <import resource="db_context.xml"></import>
+
+  <bean id="t1000" class="ru.javabegin.training.spring.impls.robot.ModelT1000"
+    p:hand-ref="SonyHand" p:leg-ref="SonyLeg" p:head-ref="SonyHead"
+    c:color="Silver" c:year="2000" c:soundEnabled="true" depends-on="databaseBean">
+    <!--	<constructor-arg value="Silver" index="0" type="java.lang.String"/>-->
+    <!--	<constructor-arg value="2006" index="1" type="int"/>-->
+    <!--	<constructor-arg value="true" index="2" type="boolean"/>-->
+
+    <!--		<property name="hand" ref="SonyHand"/>  &lt;!&ndash;прописывание свойсвт экземпляра, GETTER SETER&ndash;&gt;-->
+    <!--		<property name="leg" ref="SonyLeg"/>-->
+    <!--		<property name="head" ref="ToshibaHead"/>-->
+  </bean>
+
+  <bean id="t1000empy" class="ru.javabegin.training.spring.impls.robot.ModelT1000">
+    <!--		empty object cannot be transferred-->
+    <constructor-arg ref="SonyHand" />
+    <constructor-arg ref="SonyLeg"  />
+    <constructor-arg ref="SonyHead"  />
+  </bean>
+
+  <bean id="t1000All" class="ru.javabegin.training.spring.impls.robot.ModelT1000" >
+    <constructor-arg ref="SonyHand" />
+    <constructor-arg ref="SonyLeg"  />
+    <constructor-arg ref="SonyHead"  />
+
+    <constructor-arg value="Red" />
+    <constructor-arg value="2000"  />
+    <constructor-arg value="false"  />
+  </bean>
+
+
+  <bean id="ToshibaHand" class="ru.javabegin.training.spring.impls.toshiba.ToshibaHand"/>
+  <bean id="ToshibaHead" class="ru.javabegin.training.spring.impls.toshiba.ToshibaHead"/>
+  <bean id="ToshibaLeg" class="ru.javabegin.training.spring.impls.toshiba.ToshibaLeg"/>
+
+
+</beans>

@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51af441c-13f7-485b-9066-e5164ea9f418" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Spring/src/main/java/ru/javabegin/training/spring/main/MyBeanPostProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring/src/main/java/ru/javabegin/training/spring/impls/Database.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring/src/main/resources/T1000.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring/src/main/resources/db_context.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring/src/main/resources/sony_context.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring/src/main/java/ru/javabegin/training/spring/impls/robot/ModelT1000.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring/src/main/java/ru/javabegin/training/spring/impls/robot/ModelT1000.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring/src/main/java/ru/javabegin/training/spring/main/Start.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring/src/main/java/ru/javabegin/training/spring/main/Start.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Spring/src/main/resources/context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Spring/src/main/resources/context.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/HibernateTest/target/" />
@@ -73,7 +74,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Spring/src/main/java/ru/javabegin/training/spring/main/Start.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
@@ -86,10 +87,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.5.RELEASE/spring-beans-5.1.5.RELEASE.jar!/org/springframework/beans/factory/BeanFactory.class">
+        <entry file="file://$PROJECT_DIR$/Spring/src/main/resources/context.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+            <state relative-caret-position="51">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Spring/src/main/resources/T1000.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="782">
+              <caret line="46" selection-start-line="46" selection-end-line="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Spring/src/main/resources/sony_context.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="78" selection-start-line="7" selection-start-column="78" selection-end-line="7" selection-end-column="78" />
             </state>
           </provider>
         </entry>
@@ -97,39 +116,36 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Spring/src/main/java/ru/javabegin/training/spring/impls/robot/ModelT1000.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-396">
-              <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
+            <state relative-caret-position="833">
+              <caret line="55" selection-start-line="55" selection-end-line="55" />
               <folding>
-                <element signature="e#1262#1263#0" expanded="true" />
-                <element signature="e#1308#1309#0" expanded="true" />
-                <element signature="e#1995#1996#0" expanded="true" />
-                <element signature="e#2025#2026#0" expanded="true" />
-                <element signature="e#2028#2029#0" expanded="true" />
-                <element signature="e#2058#2059#0" expanded="true" />
                 <element signature="e#2307#2308#0" expanded="true" />
-                <element signature="e#2346#2347#0" expanded="true" />
+                <element signature="e#2362#2363#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Spring/src/main/java/ru/javabegin/training/spring/main/MyBeanPostProcessor.java">
+        <entry file="file://$PROJECT_DIR$/Spring/src/main/resources/db_context.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
-              <folding>
-                <element signature="e#383#384#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="119">
+              <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Spring/src/main/resources/context.xml">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Spring/src/main/java/ru/javabegin/training/spring/impls/Database.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+            <state relative-caret-position="221">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
+              <folding>
+                <element signature="e#90#91#0" expanded="true" />
+                <element signature="e#116#117#0" expanded="true" />
+                <element signature="e#101#102#0" expanded="true" />
+                <element signature="e#131#132#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -151,10 +167,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/HibernateTest/pom.xml" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/hibernate/pom.xml" />
-        <option value="$PROJECT_DIR$/hibernate/src/main/resources/log4j.properties" />
         <option value="$PROJECT_DIR$/hibernate/src/main/java/ru/frameworks/hibernateone/HibernateUtil.java" />
         <option value="$PROJECT_DIR$/hibernate/src/main/resources/hibernate.cfg.xml" />
         <option value="$PROJECT_DIR$/hibernate/src/main/java/ru/frameworks/hibernateone/entity/Book.java" />
@@ -201,6 +213,10 @@
         <option value="$PROJECT_DIR$/Spring/src/main/java/ru/javabegin/training/spring/impls/robot/ModelT1000.java" />
         <option value="$PROJECT_DIR$/Spring/src/main/java/ru/javabegin/training/spring/main/MyBeanPostProcessor.java" />
         <option value="$PROJECT_DIR$/Spring/src/main/java/ru/javabegin/training/spring/main/Start.java" />
+        <option value="$PROJECT_DIR$/Spring/src/main/resources/sony_context.xml" />
+        <option value="$PROJECT_DIR$/Spring/src/main/resources/db_context.xml" />
+        <option value="$PROJECT_DIR$/Spring/src/main/java/ru/javabegin/training/spring/impls/Database.java" />
+        <option value="$PROJECT_DIR$/Spring/src/main/resources/T1000.xml" />
         <option value="$PROJECT_DIR$/Spring/src/main/resources/context.xml" />
       </list>
     </option>
@@ -333,6 +349,19 @@
               <item name="spring" type="462c0819:PsiDirectoryNode" />
               <item name="impls" type="462c0819:PsiDirectoryNode" />
               <item name="robot" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="frameworks_etc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="frameworks_etc" type="462c0819:PsiDirectoryNode" />
+              <item name="Spring" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ru" type="462c0819:PsiDirectoryNode" />
+              <item name="javabegin" type="462c0819:PsiDirectoryNode" />
+              <item name="training" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+              <item name="interfaces" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="frameworks_etc" type="b2602c69:ProjectViewProjectNode" />
@@ -559,7 +588,7 @@
       <workItem from="1563184673847" duration="10682000" />
       <workItem from="1563210817368" duration="12000" />
       <workItem from="1563276547072" duration="19322000" />
-      <workItem from="1563448371028" duration="9256000" />
+      <workItem from="1563448371028" duration="11107000" />
     </task>
     <task id="LOCAL-00001" summary="Delete hiber">
       <created>1562923293323</created>
@@ -666,11 +695,18 @@
       <option name="project" value="LOCAL" />
       <updated>1563452490612</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="SpringBeanPost">
+      <created>1563468066052</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1563468066053</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76544000" />
+    <option name="totallyTimeSpent" value="78395000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -684,25 +720,25 @@
   <component name="ToolWindowManager">
     <frame x="1432" y="-8" width="1616" height="876" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.83682984" visible="true" weight="0.26799485" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8604651" visible="true" weight="0.26799485" />
       <window_info id="Structure" order="1" sideWeight="0.27640846" side_tool="true" weight="0.25835475" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" sideWeight="0.16317016" side_tool="true" visible="true" weight="0.26799485" />
+      <window_info id="Favorites" order="6" sideWeight="0.13953489" side_tool="true" visible="true" weight="0.26799485" />
       <window_info id="Persistence" order="7" sideWeight="0.13953489" side_tool="true" weight="0.26799485" />
       <window_info id="Web" order="8" side_tool="true" />
       <window_info anchor="bottom" id="SQL Generator" order="0" weight="0.32916668" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" />
-      <window_info anchor="bottom" id="Run" order="3" weight="0.28333333" />
+      <window_info anchor="bottom" id="Run" order="3" visible="true" weight="0.28333333" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.3861111" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" weight="0.32916668" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="9" visible="true" weight="0.40416667" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.40416667" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.32916668" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
@@ -779,7 +815,8 @@
     <MESSAGE value="SpringConstructor" />
     <MESSAGE value="SpringConstChoice" />
     <MESSAGE value="SpringCandP+pom" />
-    <option name="LAST_COMMIT_MESSAGE" value="SpringCandP+pom" />
+    <MESSAGE value="SpringBeanPost" />
+    <option name="LAST_COMMIT_MESSAGE" value="SpringBeanPost" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -823,10 +860,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/spring/src/main/java/ru/frameworks/spring/impls/sony/SonyLeg.java" />
-    <entry file="file://$PROJECT_DIR$/spring/src/main/java/ru/frameworks/spring/impls/sony/SonyHand.java" />
-    <entry file="file://$PROJECT_DIR$/spring/src/main/java/ru/frameworks/spring/impls/toshiba/ToshibaHead.java" />
-    <entry file="file://$PROJECT_DIR$/spring/src/main/resources/ApplicationContext.xml" />
     <entry file="file://$PROJECT_DIR$/springfr/src/main/resources/context.xml" />
     <entry file="file://$PROJECT_DIR$/hibernate/src/main/resources/log4j.properties">
       <provider selected="true" editor-type-id="text-editor">
@@ -1007,16 +1040,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Spring/src/main/java/ru/javabegin/training/spring/main/Start.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.5.RELEASE/spring-beans-5.1.5.RELEASE.jar!/org/springframework/beans/factory/BeanFactory.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -1034,27 +1057,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Spring/src/main/java/ru/javabegin/training/spring/impls/robot/ModelT1000.java">
+    <entry file="file://$PROJECT_DIR$/Spring/src/main/resources/sony_context.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-396">
-          <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
+        <state relative-caret-position="119">
+          <caret line="7" column="78" selection-start-line="7" selection-start-column="78" selection-end-line="7" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spring/src/main/java/ru/javabegin/training/spring/impls/Database.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
           <folding>
-            <element signature="e#1262#1263#0" expanded="true" />
-            <element signature="e#1308#1309#0" expanded="true" />
-            <element signature="e#1995#1996#0" expanded="true" />
-            <element signature="e#2025#2026#0" expanded="true" />
-            <element signature="e#2028#2029#0" expanded="true" />
-            <element signature="e#2058#2059#0" expanded="true" />
-            <element signature="e#2307#2308#0" expanded="true" />
-            <element signature="e#2346#2347#0" expanded="true" />
+            <element signature="e#90#91#0" expanded="true" />
+            <element signature="e#116#117#0" expanded="true" />
+            <element signature="e#101#102#0" expanded="true" />
+            <element signature="e#131#132#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spring/src/main/resources/db_context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Spring/src/main/resources/context.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spring/src/main/resources/T1000.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spring/src/main/java/ru/javabegin/training/spring/impls/robot/ModelT1000.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="833">
+          <caret line="55" selection-start-line="55" selection-end-line="55" />
+          <folding>
+            <element signature="e#2307#2308#0" expanded="true" />
+            <element signature="e#2362#2363#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spring/src/main/java/ru/javabegin/training/spring/main/Start.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
