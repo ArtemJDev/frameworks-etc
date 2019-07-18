@@ -7,11 +7,7 @@ import ru.javabegin.training.spring.interfaces.Head;
 import ru.javabegin.training.spring.interfaces.Leg;
 import ru.javabegin.training.spring.interfaces.Robot;
 
-public class ModelT1000 implements Robot, InitializingBean, DisposableBean {
-
-	private Hand hand;
-	private Leg leg;
-	private Head head;
+public class ModelT1000 extends BaseModel implements InitializingBean, DisposableBean {
 
 	private String color;
 	private int year;
@@ -21,17 +17,12 @@ public class ModelT1000 implements Robot, InitializingBean, DisposableBean {
 	}
 
 	public ModelT1000(Hand hand, Leg leg, Head head) {
-		super();
-		this.hand = hand;
-		this.leg = leg;
-		this.head = head;
+		super(hand, leg, head);
+
 	}
 
 	public ModelT1000(Hand hand, Leg leg, Head head, String color, int year, boolean soundEnabled) {
-		super();
-		this.hand = hand;
-		this.leg = leg;
-		this.head = head;
+		super(hand, leg, head);
 		this.color = color;
 		this.year = year;
 		this.soundEnabled = soundEnabled;
@@ -46,9 +37,9 @@ public class ModelT1000 implements Robot, InitializingBean, DisposableBean {
 
 	@Override
 	public void action() {
-		head.calc();
-		hand.catchSomething();
-		leg.go();
+		getHead().calc();
+		getHand().catchSomething();
+		getLeg().go();
 		System.out.println("color: " + color);
 		System.out.println("year: " + year);
 		System.out.println("can play sound: " + soundEnabled);
@@ -57,30 +48,6 @@ public class ModelT1000 implements Robot, InitializingBean, DisposableBean {
 	@Override
 	public void dance() {
 		System.out.println("T1000 is dancing!");
-	}
-
-	public Hand getHand() {
-		return hand;
-	}
-
-	public void setHand(Hand hand) {
-		this.hand = hand;
-	}
-
-	public Leg getLeg() {
-		return leg;
-	}
-
-	public void setLeg(Leg leg) {
-		this.leg = leg;
-	}
-
-	public Head getHead() {
-		return head;
-	}
-
-	public void setHead(Head head) {
-		this.head = head;
 	}
 
 	public String getColor() {
@@ -107,9 +74,6 @@ public class ModelT1000 implements Robot, InitializingBean, DisposableBean {
 		this.soundEnabled = soundEnabled;
 	}
 
-	public void init(){
-    System.out.println("Init");
-  }
   @Override
   public void destroy(){
     System.out.println("Destroy");

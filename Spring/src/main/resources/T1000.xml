@@ -12,15 +12,18 @@
   <import resource="db_context.xml"></import>
 
   <bean id="t1000" class="ru.javabegin.training.spring.impls.robot.ModelT1000"
-    p:hand-ref="SonyHand" p:leg-ref="SonyLeg" p:head-ref="SonyHead"
-    c:color="Silver" c:year="2000" c:soundEnabled="true" depends-on="databaseBean">
-    <!--	<constructor-arg value="Silver" index="0" type="java.lang.String"/>-->
-    <!--	<constructor-arg value="2006" index="1" type="int"/>-->
-    <!--	<constructor-arg value="true" index="2" type="boolean"/>-->
+    parent="baseModel" >
 
-    <!--		<property name="hand" ref="SonyHand"/>  &lt;!&ndash;прописывание свойсвт экземпляра, GETTER SETER&ndash;&gt;-->
-    <!--		<property name="leg" ref="SonyLeg"/>-->
-    <!--		<property name="head" ref="ToshibaHead"/>-->
+    <constructor-arg value="silver" index="3" type="java.lang.String"/>
+    <constructor-arg value="100" index="4" type="int"/>
+    <constructor-arg value="true" index="5" type="boolean"/>
+    <property name="hand" ref="ToshibaHand"/>
+  </bean>
+
+  <bean id="baseModel" abstract="true">
+    <constructor-arg ref="SonyHand" />
+    <constructor-arg ref="SonyLeg"  />
+    <constructor-arg ref="SonyHead"  />
   </bean>
 
   <bean id="t1000empy" class="ru.javabegin.training.spring.impls.robot.ModelT1000">
@@ -34,7 +37,6 @@
     <constructor-arg ref="SonyHand" />
     <constructor-arg ref="SonyLeg"  />
     <constructor-arg ref="SonyHead"  />
-
     <constructor-arg value="Red" />
     <constructor-arg value="2000"  />
     <constructor-arg value="false"  />
