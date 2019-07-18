@@ -8,7 +8,6 @@
         <outputRelativeToContentRoot value="true" />
         <module name="hibernate" />
         <module name="Spring" />
-        <module name="spring" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

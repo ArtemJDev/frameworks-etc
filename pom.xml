@@ -16,7 +16,7 @@
 
   <modules>
     <module>hibernate</module>
-    <module>RobotSpring</module>
+    <module>Spring</module>
   </modules>
 
   <build>
