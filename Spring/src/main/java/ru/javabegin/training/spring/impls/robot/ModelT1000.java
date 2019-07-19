@@ -43,6 +43,7 @@ public class ModelT1000 extends BaseModel implements InitializingBean, Disposabl
 		System.out.println("color: " + color);
 		System.out.println("year: " + year);
 		System.out.println("can play sound: " + soundEnabled);
+		System.out.println("");
 	}
 
 	@Override

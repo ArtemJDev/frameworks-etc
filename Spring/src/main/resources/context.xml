@@ -11,4 +11,19 @@ default-lazy-init="true"
 		<lookup-method name="createRobot" bean="t1000"/>
 	</bean>
 
+	<bean id="t1000Pool" class="ru.javabegin.training.spring.impls.pool.T1000Pool">
+		<constructor-arg name="robotCollection">  <!--Передача значения по имени -->
+			<map>
+				<entry key="2005" value-ref="t1000"/>
+				<entry key="2006" value-ref="t1000"/> <!--Одинаковые KEY перезаписываются -->
+					<entry key="2007">
+						<bean class="ru.javabegin.training.spring.impls.robot.ModelT1000" parent="baseModel">
+							<constructor-arg value="gold"/>
+							<constructor-arg value="2207"/>
+							<constructor-arg value="true"/>
+						</bean>
+				</entry>
+			</map>
+		</constructor-arg>
+	</bean>
 </beans>

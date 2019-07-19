@@ -20,7 +20,7 @@
     <constructor-arg value="100" index="4" type="int"/>
     <constructor-arg value="true" index="5" type="boolean"/>
 
-    <replaced-method name="action" replacer="actionReplacer"></replaced-method>
+<!--    <replaced-method name="action" replacer="actionReplacer"></replaced-method>-->
   </bean>
 
   <bean id="baseModel" abstract="true">
