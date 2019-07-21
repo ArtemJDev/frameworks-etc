@@ -13,17 +13,26 @@ default-lazy-init="true"
 
 	<bean id="t1000Pool" class="ru.javabegin.training.spring.impls.pool.T1000Pool">
 		<constructor-arg name="robotCollection">  <!--Передача значения по имени -->
-			<map>
-				<entry key="2005" value-ref="t1000"/>
-				<entry key="2006" value-ref="t1000"/> <!--Одинаковые KEY перезаписываются -->
-					<entry key="2007">
-						<bean class="ru.javabegin.training.spring.impls.robot.ModelT1000" parent="baseModel">
-							<constructor-arg value="gold"/>
-							<constructor-arg value="2207"/>
-							<constructor-arg value="true"/>
-						</bean>
-				</entry>
-			</map>
+			<list>
+				<ref bean="t1000"/>
+				<bean class="ru.javabegin.training.spring.impls.robot.ModelT1000" parent="baseModel">
+					<constructor-arg value="gold"/>
+					<constructor-arg value="2007"/>
+					<constructor-arg value="true"/>
+				</bean>
+				<bean class="ru.javabegin.training.spring.impls.robot.ModelT1000" parent="baseModel">
+					<constructor-arg value="gold"/>
+					<constructor-arg value="2009"/>
+					<constructor-arg value="true"/>
+				</bean>
+			</list>
 		</constructor-arg>
 	</bean>
+
+	<bean id="t1000ColdenPool" class="ru.javabegin.training.spring.impls.pool.T1000Pool">
+		<constructor-arg name="robotCollection"
+			value="#{t1000Pool.robotCollection.?[color.toUpperCase() eq 'GOLD']}">
+		</constructor-arg>
+	</bean>
+
 </beans>

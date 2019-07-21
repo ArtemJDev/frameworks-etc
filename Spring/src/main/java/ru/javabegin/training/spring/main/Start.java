@@ -14,8 +14,11 @@ public class Start {
 //		ModelT1000 t1000 = (ModelT1000) context.getBean("t1000");
 //		System.out.println(t1000.getColor() + "  " + t1000.getHand());
 
-    T1000Pool t1000Pool = (T1000Pool) context.getBean("t1000Pool");
-    t1000Pool.action();
+		T1000Pool t1000GoldenPool = (T1000Pool) context.getBean("t1000ColdenPool");
+		t1000GoldenPool.beginShow();
+
+//    T1000Pool t1000Pool = (T1000Pool) context.getBean("t1000Pool");
+//    t1000Pool.action();
 
 
 //    RobotConveyor t1000Conveyor = (RobotConveyor) context.getBean("t1000Conveyor");

@@ -5,5 +5,5 @@ import java.util.Map;
 
 public interface RobotPool {
 
-  Map<String, Robot> getRobotPool();
+  Collection<Robot> getRobotCollection();
 }
