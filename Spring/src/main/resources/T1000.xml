@@ -14,8 +14,10 @@
   <bean id="actionReplacer" class="ru.javabegin.training.spring.impls.robot.ActionReplacer"></bean>
 
   <bean id="t1000" class="ru.javabegin.training.spring.impls.robot.ModelT1000"
-    parent="baseModel"  scope="prototype" autowire="byName">
-
+   scope="prototype" >
+<!--<constructor-arg ref="SonyHand"/>-->
+<!--<constructor-arg ref="SonyLeg"/>-->
+<!--<constructor-arg ref="SonyHead"/>-->
 <!--    <constructor-arg value="silver" index="3" type="java.lang.String"/>-->
 <!--    <constructor-arg value="100" index="4" type="int"/>-->
 <!--    <constructor-arg value="true" index="5" type="boolean"/>-->
