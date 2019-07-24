@@ -17,7 +17,6 @@
   <modules>
     <module>hibernate</module>
     <module>Spring</module>
-    <module>web</module>
   </modules>
 
   <build>

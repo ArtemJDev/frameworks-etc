@@ -8,18 +8,13 @@
         <outputRelativeToContentRoot value="true" />
         <module name="hibernate" />
         <module name="Spring" />
-        <module name="web" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="frameworks_etc" target="11" />
       <module name="hibernate" target="11" />
-      <module name="OOPCompare" target="1.5" />
-      <module name="OOPCompare (1)" target="1.5" />
-      <module name="OOPCompare (2)" target="1.5" />
-      <module name="spring" target="11" />
       <module name="Spring" target="11" />
-      <module name="web" target="11" />
+      <module name="web" target="8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
