@@ -5,7 +5,7 @@
          version="4.0">
 <servlet>
   <servlet-name>ServletTest</servlet-name>
-  <servlet-class>servlet.ServletTest</servlet-class>
+  <servlet-class>main.java.servlets.ServletTest</servlet-class>
 </servlet>
   <servlet-mapping>
     <servlet-name>ServletTest</servlet-name>

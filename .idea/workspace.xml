@@ -7,21 +7,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="51af441c-13f7-485b-9066-e5164ea9f418" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/web_glassfish_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/web_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/web_war_exploded2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/web_war_exploded3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/web_war_exploded4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/servlet/ServletTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/servlets/ServletTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web/images/ibm.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web/images/oracle.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/java/ru/jb/training/doc.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/java/ru/jb/training/java.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/java/ru/jb/training/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/servlet/ServletTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/web/WEB-INF/web.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/HibernateTest/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -64,24 +56,26 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/src/servlet/ServletTest.java">
+        <entry file="file://$PROJECT_DIR$/web/src/main/java/servlets/ServletTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="50" selection-start-line="22" selection-start-column="50" selection-end-line="22" selection-end-column="50" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="-93">
+              <caret line="32" column="34" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/web/WEB-INF/web.xml">
+        <entry file="file://$PROJECT_DIR$/web/web/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="30" lean-forward="true" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="30" />
+            <state relative-caret-position="408">
+              <caret line="89" selection-start-line="89" selection-end-line="89" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/web/images/ibm.jpg">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
     </leaf>
@@ -109,11 +103,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/spring/src/main/resources/ApplicationContext.xml" />
-        <option value="$PROJECT_DIR$/spring/src/main/java/ru/frameworks/spring/RobotSpring/src/main/resources/context.xml" />
-        <option value="$PROJECT_DIR$/spring/src/main/java/ru/frameworks/spring/RobotSpring/src/main/java/ru/javabegin/training/spring/impls/robot/ModelT1000.java" />
-        <option value="$PROJECT_DIR$/spring/src/main/java/ru/frameworks/spring/RobotSpring/src/main/java/ru/javabegin/training/spring/interfaces/Robot.java" />
-        <option value="$PROJECT_DIR$/spring/src/main/java/ru/frameworks/spring/RobotSpring/src/main/java/ru/javabegin/training/spring/main/Start.java" />
         <option value="$PROJECT_DIR$/springfr/src/main/resources/context.xml" />
         <option value="$PROJECT_DIR$/springfr/src/main/java/ru/javabegin/training/spring/main/Start.java" />
         <option value="$PROJECT_DIR$/springfr/src/main/java/ru/javabegin/training/spring/impls/sony/SonyLeg.java" />
@@ -160,6 +149,11 @@
         <option value="$PROJECT_DIR$/web/src/servlet/ServletSecond.java" />
         <option value="$PROJECT_DIR$/web/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/web/src/servlet/ServletTest.java" />
+        <option value="G:/downloadS/Java/Онлайн бибилотека на spring/создание библиотеки на Java/library/lessons/11-Servleti_(praktika)/11-Sevlet/11-ServletImage/src/java/servlets/ShowImage.java" />
+        <option value="$PROJECT_DIR$/web/src/main/java/servlet/ServletTest.java" />
+        <option value="G:/downloadS/Java/Онлайн бибилотека на spring/создание библиотеки на Java/library/lessons/11-Servleti_(praktika)/11-Sevlet/11-ServletCSS/src/java/servlets/ShowHtml.java" />
+        <option value="$PROJECT_DIR$/web/web/css/style.css" />
+        <option value="$PROJECT_DIR$/web/src/main/java/servlets/ServletTest.java" />
       </list>
     </option>
   </component>
@@ -179,12 +173,7 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="web" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-      </expand>
+      <expand />
       <select />
     </treeState>
   </component>
@@ -213,87 +202,6 @@
             <path>
               <item name="frameworks_etc" type="b2602c69:ProjectViewProjectNode" />
               <item name="frameworks_etc" type="462c0819:PsiDirectoryNode" />
-              <item name="Spring" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="frameworks_etc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="frameworks_etc" type="462c0819:PsiDirectoryNode" />
-              <item name="Spring" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="frameworks_etc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="frameworks_etc" type="462c0819:PsiDirectoryNode" />
-              <item name="Spring" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="frameworks_etc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="frameworks_etc" type="462c0819:PsiDirectoryNode" />
-              <item name="Spring" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="frameworks_etc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="frameworks_etc" type="462c0819:PsiDirectoryNode" />
-              <item name="Spring" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ru" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="frameworks_etc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="frameworks_etc" type="462c0819:PsiDirectoryNode" />
-              <item name="Spring" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ru" type="462c0819:PsiDirectoryNode" />
-              <item name="javabegin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="frameworks_etc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="frameworks_etc" type="462c0819:PsiDirectoryNode" />
-              <item name="Spring" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ru" type="462c0819:PsiDirectoryNode" />
-              <item name="javabegin" type="462c0819:PsiDirectoryNode" />
-              <item name="training" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="frameworks_etc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="frameworks_etc" type="462c0819:PsiDirectoryNode" />
-              <item name="Spring" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ru" type="462c0819:PsiDirectoryNode" />
-              <item name="javabegin" type="462c0819:PsiDirectoryNode" />
-              <item name="training" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="frameworks_etc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="frameworks_etc" type="462c0819:PsiDirectoryNode" />
-              <item name="Spring" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ru" type="462c0819:PsiDirectoryNode" />
-              <item name="javabegin" type="462c0819:PsiDirectoryNode" />
-              <item name="training" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="frameworks_etc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="frameworks_etc" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -307,13 +215,44 @@
               <item name="frameworks_etc" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="servlet" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="frameworks_etc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="frameworks_etc" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="frameworks_etc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="frameworks_etc" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="servlets" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="frameworks_etc" type="b2602c69:ProjectViewProjectNode" />
               <item name="frameworks_etc" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="frameworks_etc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="frameworks_etc" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="frameworks_etc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="frameworks_etc" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="frameworks_etc" type="b2602c69:ProjectViewProjectNode" />
@@ -385,7 +324,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8 (2)" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/web/css" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -398,22 +337,22 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\projects\frameworks_etc\web\web\images" />
+      <recent name="C:\projects\frameworks_etc\web\web\WEB-INF" />
+      <recent name="C:\projects\frameworks_etc\web\src\images" />
       <recent name="C:\projects\frameworks_etc\web_glassfish\src" />
       <recent name="C:\projects\frameworks_etc\web\src\main\java\ru\jb\training" />
-      <recent name="C:\projects\frameworks_etc\RobotSpring" />
-      <recent name="C:\projects\frameworks_etc\springfr" />
-      <recent name="C:\projects\frameworks_etc" />
     </key>
     <key name="ImportMappingsDialog.RecentPackages">
       <recent name="ru.frameworks.hibernateone.entity2" />
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\projects\frameworks_etc" />
-      <recent name="C:\projects\frameworks_etc\web_glassfish\src" />
-      <recent name="C:\projects\frameworks_etc\RobotSpring" />
-      <recent name="C:\projects\frameworks_etc\spring\src\main\resources" />
-      <recent name="C:\projects\frameworks_etc\springfr" />
+      <recent name="C:\projects\frameworks_etc\web\web\css" />
+      <recent name="C:\projects\frameworks_etc\web\web\images" />
+      <recent name="C:\projects\frameworks_etc\web\src\main" />
+      <recent name="C:\projects\frameworks_etc\web\web" />
+      <recent name="C:\projects\frameworks_etc\web\src\servlet" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -624,7 +563,7 @@
       <workItem from="1563865368523" duration="697000" />
       <workItem from="1563889963014" duration="9675000" />
       <workItem from="1563952981808" duration="589000" />
-      <workItem from="1563957465487" duration="7238000" />
+      <workItem from="1563957465487" duration="15484000" />
     </task>
     <task id="LOCAL-00001" summary="Delete hiber">
       <created>1562923293323</created>
@@ -794,11 +733,25 @@
       <option name="project" value="LOCAL" />
       <updated>1563897375792</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="ServletHelloWorld">
+      <created>1563976800803</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1563976800803</updated>
+    </task>
+    <task id="LOCAL-00026" summary="ServletHelloWorld">
+      <created>1563976850184</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1563976850184</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="124849000" />
+    <option name="totallyTimeSpent" value="133095000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -824,7 +777,7 @@
       <window_info anchor="bottom" id="SQL Generator" order="0" weight="0.32916668" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.32916668" />
-      <window_info anchor="bottom" id="Run" order="3" weight="0.36666667" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.39027777" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.3861111" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -845,9 +798,9 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Database" order="4" visible="true" weight="0.1844473" />
+      <window_info anchor="right" id="Database" order="4" weight="0.1844473" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Maven" order="6" weight="0.110539846" />
+      <window_info anchor="right" id="Maven" order="6" visible="true" weight="0.110539846" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
@@ -919,7 +872,8 @@
     <MESSAGE value="SpringAnnotation" />
     <MESSAGE value="Web" />
     <MESSAGE value="HTMLTemplate" />
-    <option name="LAST_COMMIT_MESSAGE" value="HTMLTemplate" />
+    <MESSAGE value="ServletHelloWorld" />
+    <option name="LAST_COMMIT_MESSAGE" value="ServletHelloWorld" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -973,110 +927,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.5.RELEASE/spring-beans-5.1.5.RELEASE.jar!/org/springframework/beans/factory/InitializingBean.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.5.RELEASE/spring-beans-5.1.5.RELEASE.jar!/org/springframework/beans/factory/DisposableBean.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.5.RELEASE/spring-beans-5.1.5.RELEASE.jar!/org/springframework/beans/factory/BeanFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://G:/downloadS/Java/Онлайн бибилотека на spring/02-spring_osnovy/13/RobotSpring7/src/main/java/ru/javabegin/training/spring/impls/robot/BaseModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="46" column="3" lean-forward="true" selection-start-line="9" selection-start-column="2" selection-end-line="46" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://G:/downloadS/Java/Онлайн бибилотека на spring/02-spring_osnovy/13/RobotSpring7/src/main/java/ru/javabegin/training/spring/impls/robot/ModelT1000.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-391">
-          <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.5.RELEASE/spring-context-5.1.5.RELEASE.jar!/org/springframework/context/support/AbstractApplicationContext.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8687">
-          <caret line="603" selection-start-line="603" selection-end-line="603" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.5.RELEASE/spring-beans-5.1.5.RELEASE.jar!/org/springframework/beans/factory/support/AbstractBeanFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="100" selection-start-line="100" selection-end-line="100" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.5.RELEASE/spring-context-5.1.5.RELEASE.jar!/org/springframework/context/support/AbstractRefreshableApplicationContext.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1360">
-          <caret line="89" selection-start-line="89" selection-end-line="89" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Spring/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Spring/src/main/java/ru/javabegin/training/spring/interfaces/Leg.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Spring/src/main/resources/db_context.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="24" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Spring/src/main/java/ru/javabegin/training/spring/impls/robot/ActionReplacer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Spring/src/main/java/ru/javabegin/training/spring/impls/conveyor/T1000Conveyor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/lang/Object.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="49" column="11" selection-start-line="49" selection-start-column="11" selection-end-line="49" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Spring/src/main/java/ru/javabegin/training/spring/interfaces/RobotConveyor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -1220,9 +1070,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/web/index.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/untitled3/out/artifacts/untitled_war_exploded/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -1246,9 +1093,6 @@
           <caret line="12" column="52" selection-start-line="12" selection-start-column="52" selection-end-line="12" selection-end-column="52" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/web.iml">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/web/src/servlet/ServletSecond.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1284,20 +1128,81 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/web/WEB-INF/web.xml">
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/images/oracle.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/images/ibm.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://G:/downloadS/Java/Онлайн бибилотека на spring/создание библиотеки на Java/library/lessons/11-Servleti_(praktika)/11-Sevlet/11-ServletImage/src/java/servlets/ShowImage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="30" lean-forward="true" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="30" />
+        <state relative-caret-position="306">
+          <caret line="41" column="36" selection-start-line="41" selection-start-column="36" selection-end-line="41" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/servlet/ServletTest.java">
+    <entry file="file://$PROJECT_DIR$/web/web/WEB-INF/ibm.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/web.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/images/ibm.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/web/images/unnamed.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://G:/downloadS/Java/Онлайн бибилотека на spring/создание библиотеки на Java/library/lessons/11-Servleti_(praktika)/11-Sevlet/11-ServletCSS/src/java/servlets/ShowHtml.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="50" selection-start-line="22" selection-start-column="50" selection-end-line="22" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="204">
+          <caret line="41" column="30" lean-forward="true" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="30" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/web/images/oracle.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/web/images/style.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/web/images/ibm.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/web/css/style.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/web/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="89" selection-start-line="89" selection-end-line="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/web/images/style.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/web/css/oracle.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/servlets/ServletTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-93">
+          <caret line="32" column="34" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
         </state>
       </provider>
     </entry>
@@ -1312,7 +1217,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
