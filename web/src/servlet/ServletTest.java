@@ -20,6 +20,6 @@ public class ServletTest extends HttpServlet {
       HttpServletResponse response)
       throws ServletException, IOException {
     PrintWriter out = response.getWriter();
-    out.print("<h1>Hello World  - from servletTest!</h1>");
+    out.print("<h1>Hello World  - from servletTest≈≈!</h1>");
   }
 }
