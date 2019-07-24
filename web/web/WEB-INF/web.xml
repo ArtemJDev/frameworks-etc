@@ -12,4 +12,8 @@
     <url-pattern>/ServletTesst</url-pattern>
   </servlet-mapping>
 
+  <context-param>
+    <param-name>message</param-name>
+    <param-value>Hello Servlet</param-value>
+  </context-param>
 </web-app>
