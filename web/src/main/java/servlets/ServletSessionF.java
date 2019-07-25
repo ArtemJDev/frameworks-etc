@@ -10,8 +10,8 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-@WebServlet(name = "ServletFirst", urlPatterns ={"/ServletFirst"})
-public class ServletFirst extends HttpServlet {
+@WebServlet(name = "ServletSessionF", urlPatterns ={"/ServletSessionF"})
+public class ServletSessionF extends HttpServlet {
 
   private int count;
 
@@ -32,7 +32,9 @@ public class ServletFirst extends HttpServlet {
       out.println("<body>");
       while (enumeration.hasMoreElements()) {
         String param = enumeration.nextElement().toString();
-        out.println("<h1>Pareme:" + param + " = " + request.getParameter(param)  +"</h1>");
+        String param1 = enumeration.nextElement().toString();
+        String param3 = enumeration.nextElement().toString();
+        out.println("<h1>Pareme:" + request.getParameter(param) +" "+ request.getParameter(param1)+request.getParameter(param3)   +"</h1>");
       }
       out.println("<h1>Count :" + count + "</h1>");
       out.println("<h1>Count :" + request.getSession().getAttribute("count") + "</h1>");
