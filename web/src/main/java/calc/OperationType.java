@@ -9,7 +9,7 @@ public enum OperationType {
     
     private String stringValue;
 
-    private OperationType(String stringValue) {
+     OperationType(String stringValue) {
         this.stringValue = stringValue;
     }
 

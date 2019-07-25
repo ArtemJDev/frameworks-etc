@@ -1,12 +1,7 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
 package main.java.servlets;
 
-import javax.servlet.annotation.WebServlet;
-import main.java.calc.CalcOperations;
-import main.java.calc.OperationType;
+import main.java.calc.CalcOperations ;
+import main.java.calc.OperationType ;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.ArrayList;
@@ -17,16 +12,10 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
 
-@WebServlet(name = "CalcServlet", urlPatterns ={"/CalcServlet"})
-public class CalcServlet extends HttpServlet {
-
-    private ArrayList<String> listOperations = new ArrayList<String>();
-
+public class CalcServletThreadS extends HttpServlet {
 
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-
-
         response.setContentType("text/html;charset=UTF-8");
         PrintWriter out = response.getWriter();
         out.println("<html>");
@@ -34,31 +23,36 @@ public class CalcServlet extends HttpServlet {
         out.println("<title>Servlet CalcServlet</title>");
         out.println("</head>");
         out.println("<body>");
-
+                
         try {
             // считывание параметров
             double one = Double.valueOf(request.getParameter("one"));
             double two = Double.valueOf(request.getParameter("two"));
-            String opearation = String.valueOf(request.getParameter("operation"));
+            String opearation = request.getParameter("operation");
             // определение или создание сессии
             HttpSession session = request.getSession(true);
             // получение типа операции
             OperationType operType = OperationType.valueOf(opearation.toUpperCase());
             // калькуляция
             double result = calcResult(operType, one, two);
+            ArrayList<String> listOperations;
             // для новой сессии создаем новый список
             if (session.isNew()) {
-                listOperations.clear();
+                listOperations = new ArrayList<String>();
             } 
-//            else { // иначе получаем список из атрибутов сессии
-//                listOperations = (ArrayList<String>) session.getAttribute("formula");
-//            }
+            else { // иначе получаем список из атрибутов сессии
+                listOperations = (ArrayList<String>) session.getAttribute("formula");
+            }
+
             // добавление новой операции в список и атрибут сессии
             listOperations.add(one + " " + operType.getStringValue() + " " + two + " = " + result);
             session.setAttribute("formula", listOperations);
+
             // вывод всех операций
             out.println("<h1>ID вашей сессии равен: " + session.getId() + "</h1>");
+         
             out.println("<h3>Список операций (всего:" + listOperations.size() + ") </h3>");
+
             for (String oper : listOperations) {
                 out.println("<h3>" + oper + "</h3>");
             }
@@ -78,21 +72,42 @@ public class CalcServlet extends HttpServlet {
         }
     }
 
-
+    // <editor-fold defaultstate="collapsed" desc="HttpServlet methods. Click on the + sign on the left to edit the code.">
+    /**
+     * Handles the HTTP
+     * <code>GET</code> method.
+     *
+     * @param request servlet request
+     * @param response servlet response
+     * @throws ServletException if a servlet-specific error occurs
+     * @throws IOException if an I/O error occurs
+     */
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         processRequest(request, response);
     }
 
-
+    /**
+     * Handles the HTTP
+     * <code>POST</code> method.
+     *
+     * @param request servlet request
+     * @param response servlet response
+     * @throws ServletException if a servlet-specific error occurs
+     * @throws IOException if an I/O error occurs
+     */
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         processRequest(request, response);
     }
 
-
+    /**
+     * Returns a short description of the servlet.
+     *
+     * @return a String containing servlet description
+     */
     @Override
     public String getServletInfo() {
         return "Сервлет - калькулятор";
