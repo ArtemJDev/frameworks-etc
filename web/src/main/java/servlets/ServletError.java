@@ -14,6 +14,7 @@ public class ServletError extends HttpServlet {
       throws ServletException, IOException {
 
     response.sendError(400);
+
   }
 
   protected void doPost(HttpServletRequest request,
