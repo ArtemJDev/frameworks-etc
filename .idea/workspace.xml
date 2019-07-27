@@ -7,12 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="51af441c-13f7-485b-9066-e5164ea9f418" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/web/src/main/java/servlets/CalcServletVerTwo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web/pages/main.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/java/servlets/CalcServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/servlets/CalcServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/java/servlets/CalcServletThreadS.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/servlets/CalcServletThreadS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/java/servlets/ServletError.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/servlets/ServletError.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/web/index.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/HibernateTest/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -55,25 +52,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/src/main/java/servlets/CalcServlet.java">
+        <entry file="file://$PROJECT_DIR$/web/web/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" selection-start-line="15" selection-end-line="15" selection-end-column="64" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="119">
+              <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/web/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="20" column="32" lean-forward="true" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/src/main/java/servlets/CalcServletVerTwo.java">
+        <entry file="file://$PROJECT_DIR$/web/web/pages/main.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="31" selection-start-line="31" selection-end-line="31" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="272">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
@@ -88,6 +88,7 @@
         <option value="CSS File" />
         <option value="Class" />
         <option value="HTML File" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -103,8 +104,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/RobotSpring/pom.xml" />
-        <option value="$PROJECT_DIR$/RobotSpring/src/main/java/ru/javabegin/training/spring/impls/robot/ModelT1000.java" />
         <option value="$PROJECT_DIR$/RobotSpring/src/main/java/ru/javabegin/training/spring/interfaces/Robot.java" />
         <option value="$PROJECT_DIR$/RobotSpring/src/main/java/ru/javabegin/training/spring/main/Start.java" />
         <option value="$PROJECT_DIR$/RobotSpring/src/main/resources/context.xml" />
@@ -154,6 +153,8 @@
         <option value="$PROJECT_DIR$/web/src/main/java/servlets/CalcServlet.java" />
         <option value="$PROJECT_DIR$/web/src/main/java/servlets/CalcServletThreadS.java" />
         <option value="$PROJECT_DIR$/web/src/main/java/servlets/CalcServletVerTwo.java" />
+        <option value="$PROJECT_DIR$/web/web/index.jsp" />
+        <option value="$PROJECT_DIR$/web/web/pages/main.jsp" />
       </list>
     </option>
   </component>
@@ -192,6 +193,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -229,24 +231,6 @@
               <item name="frameworks_etc" type="b2602c69:ProjectViewProjectNode" />
               <item name="frameworks_etc" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="calc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="frameworks_etc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="frameworks_etc" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="servlets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="frameworks_etc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="frameworks_etc" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -254,7 +238,7 @@
               <item name="frameworks_etc" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="error" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="frameworks_etc" type="b2602c69:ProjectViewProjectNode" />
@@ -332,7 +316,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -361,7 +344,8 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -423,7 +407,7 @@
       </method>
     </configuration>
     <configuration name="GlassFish 5.0.1" type="GlassfishConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="GlassFish 5.0.1" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8 (2)">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/web_war_exploded4/ServletTesst" />
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/web_war_exploded4" />
       <option name="BROWSER_ID" value="b1b2ec2c-20bd-4ee2-89c4-616db004bcd4" />
       <deployment>
         <artifact name="web:war exploded4">
@@ -592,7 +576,9 @@
       <workItem from="1563889963014" duration="9675000" />
       <workItem from="1563952981808" duration="589000" />
       <workItem from="1563957465487" duration="22511000" />
-      <workItem from="1564042456515" duration="15694000" />
+      <workItem from="1564042456515" duration="16639000" />
+      <workItem from="1564076182228" duration="259000" />
+      <workItem from="1564215051347" duration="12447000" />
     </task>
     <task id="LOCAL-00001" summary="Delete hiber">
       <created>1562923293323</created>
@@ -804,11 +790,18 @@
       <option name="project" value="LOCAL" />
       <updated>1564062517058</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="ServletContext">
+      <created>1564072898386</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1564072898386</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="155816000" />
+    <option name="totallyTimeSpent" value="169467000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -821,9 +814,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1432" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6560284" visible="true" weight="0.30526993" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.651341" visible="true" weight="0.312982" />
       <window_info id="Structure" order="1" sideWeight="0.34396356" side_tool="true" weight="0.3014139" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -831,17 +823,17 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" sideWeight="0.34285715" side_tool="true" weight="0.3014139" />
       <window_info id="Persistence" order="7" sideWeight="0.34285715" side_tool="true" weight="0.3014139" />
-      <window_info id="Web" order="8" sideWeight="0.34397164" side_tool="true" visible="true" weight="0.30526993" />
+      <window_info id="Web" order="8" sideWeight="0.348659" side_tool="true" visible="true" weight="0.312982" />
       <window_info anchor="bottom" id="SQL Generator" order="0" weight="0.32916668" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.19027779" />
-      <window_info anchor="bottom" id="Run" order="3" visible="true" weight="0.21666667" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.35972223" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.3861111" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" weight="0.32916668" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.275" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="9" visible="true" weight="0.275" />
       <window_info anchor="bottom" id="Database Changes" order="10" weight="0.32916668" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.32916668" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
@@ -851,6 +843,7 @@
       <window_info anchor="bottom" id="Tail" order="16" />
       <window_info anchor="bottom" id="Spring" order="17" weight="0.32916668" />
       <window_info anchor="bottom" id="Application Servers" order="18" weight="0.32916668" />
+      <window_info anchor="bottom" id="TunnelliJ" order="19" weight="0.32916668" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -907,7 +900,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Log4j" />
     <MESSAGE value="HibernateUpdate" />
     <MESSAGE value="HibernateSelect" />
     <MESSAGE value="HibernateAutoGeneration" />
@@ -932,7 +924,8 @@
     <MESSAGE value="ServletParam" />
     <MESSAGE value="ServletCalc" />
     <MESSAGE value="ServletError" />
-    <option name="LAST_COMMIT_MESSAGE" value="ServletError" />
+    <MESSAGE value="ServletContext" />
+    <option name="LAST_COMMIT_MESSAGE" value="ServletContext" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -992,7 +985,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web_glassfish/src/main/java/ru/jb/training/doc.html" />
     <entry file="file://$PROJECT_DIR$/web/src/main/java/ru/jb/training/style.css" />
     <entry file="file://$PROJECT_DIR$/web/src/main/java/ru/jb/training/doc.html" />
     <entry file="file://$PROJECT_DIR$/web/pom.xml" />
@@ -1045,9 +1037,6 @@
     <entry file="file://$PROJECT_DIR$/web/src/main/java/images/ibm.jpg" />
     <entry file="file://$PROJECT_DIR$/web/web/WEB-INF/ibm.jpg" />
     <entry file="file://$PROJECT_DIR$/web/src/main/images/ibm.jpg" />
-    <entry file="file://$PROJECT_DIR$/web/web/index.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/web/images/unnamed.jpg" />
     <entry file="file://G:/downloadS/Java/Онлайн бибилотека на spring/создание библиотеки на Java/library/lessons/11-Servleti_(praktika)/11-Sevlet/11-ServletCSS/src/java/servlets/ShowHtml.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1097,13 +1086,7 @@
     <entry file="file://$PROJECT_DIR$/web/web/images/ibm.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/servlets/ServletCalc.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/servlets/ServletCalc.java" />
     <entry file="jar://$PROJECT_DIR$/../java_ee_sdk-8u1/glassfish5/glassfish/modules/javax.servlet-api.jar!/javax/servlet/http/HttpServletRequest.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
@@ -1187,13 +1170,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="32" lean-forward="true" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/src/main/java/servlets/ServletError.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -1203,18 +1179,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/src/main/java/servlets/CalcServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
+        <state relative-caret-position="85">
           <caret line="15" selection-start-line="15" selection-end-line="15" selection-end-column="64" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/servlets/CalcServletThreadS.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1139">
-          <caret line="79" column="13" lean-forward="true" selection-start-line="79" selection-start-column="13" selection-end-line="79" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1223,11 +1189,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/src/main/java/servlets/CalcServletVerTwo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        <state relative-caret-position="293">
+          <caret line="86" selection-start-line="86" selection-end-line="86" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/servlets/CalcServletThreadS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="402">
+          <caret line="79" column="13" selection-start-line="79" selection-start-column="13" selection-end-line="79" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="32" lean-forward="true" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/web/pages/main.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>

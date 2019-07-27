@@ -1,16 +1,19 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: Artem
-  Date: 24.07.2019
-  Time: 14:27
-  To change this template use File | Settings | File Templates.
---%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
-  <head>
-    <title>$Title$</title>
-  </head>
-  <body>
-  $END$
-  </body>
+<head>
+    <meta charset="UTF-8"/>
+    <title>First JSP App</title>
+</head>
+<body>
+<%--post in, get out--%>
+<form name="username" method="get" action="pages/main.jsp">
+    <input type="text"  name="username"size="30">
+    <input type="text" name="secondname"size="30">
+    <input type="text" name="password"size="30">
+    <input type="submit" value="Enter" >
+
+</form>
+
+</body>
 </html>
+
