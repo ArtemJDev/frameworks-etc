@@ -7,12 +7,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="51af441c-13f7-485b-9066-e5164ea9f418" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/web/src/main/java/testjdbc/TestConnection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/Artem.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/beans/Author.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/beans/AuthorList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/db/Database.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web/images/search.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/java/calc/CalcOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/calc/CalcOperations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/web/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/web/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/java/testjdbc/TestConnection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/web/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/web/pages/main.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/web/pages/main.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/HibernateTest/target/" />
@@ -71,14 +73,78 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/src/main/java/testjdbc/TestConnection.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/web/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="18" column="65" lean-forward="true" selection-start-line="18" selection-start-column="65" selection-end-line="18" selection-end-column="65" />
+            <state relative-caret-position="238">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/web/images/search.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/src/main/java/beans/Author.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="24" lean-forward="true" selection-start-column="24" selection-end-column="24" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#129#130#0" expanded="true" />
+                <element signature="e#155#156#0" expanded="true" />
+                <element signature="e#184#185#0" expanded="true" />
+                <element signature="e#205#206#0" expanded="true" />
+                <element signature="e#243#244#0" expanded="true" />
+                <element signature="e#269#270#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/src/main/java/beans/AuthorList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/src/main/java/db/Database.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/web/css/lib_style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/web/pages/main.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="199">
+              <caret line="33" column="12" lean-forward="true" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/web/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
@@ -109,7 +175,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Spring/src/main/java/ru/javabegin/training/spring/main/MyBeanPostProcessor.java" />
         <option value="$PROJECT_DIR$/Spring/src/main/resources/db_context.xml" />
         <option value="$PROJECT_DIR$/Spring/src/main/java/ru/javabegin/training/spring/impls/Database.java" />
         <option value="$PROJECT_DIR$/Spring/pom.xml" />
@@ -138,7 +203,6 @@
         <option value="G:/downloadS/Java/Онлайн бибилотека на spring/создание библиотеки на Java/library/lessons/11-Servleti_(praktika)/11-Sevlet/11-ServletImage/src/java/servlets/ShowImage.java" />
         <option value="$PROJECT_DIR$/web/src/main/java/servlet/ServletTest.java" />
         <option value="G:/downloadS/Java/Онлайн бибилотека на spring/создание библиотеки на Java/library/lessons/11-Servleti_(praktika)/11-Sevlet/11-ServletCSS/src/java/servlets/ShowHtml.java" />
-        <option value="$PROJECT_DIR$/web/web/css/style.css" />
         <option value="$PROJECT_DIR$/web/src/main/java/servlets/ServletTest.java" />
         <option value="$PROJECT_DIR$/web/src/main/java/servlets/ServletParam.java" />
         <option value="$PROJECT_DIR$/web/src/main/java/servlets/ServletFirst.java" />
@@ -155,19 +219,21 @@
         <option value="$PROJECT_DIR$/web/src/main/java/servlets/CalcServletThreadS.java" />
         <option value="$PROJECT_DIR$/web/src/main/java/servlets/CalcServletVerTwo.java" />
         <option value="$PROJECT_DIR$/web/web/css/lib_style.css" />
-        <option value="$PROJECT_DIR$/web/web/index.jsp" />
         <option value="$PROJECT_DIR$/web/src/main/java/calc/CalcOperations.java" />
-        <option value="$PROJECT_DIR$/web/web/pages/main.jsp" />
         <option value="$PROJECT_DIR$/web/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/web/src/main/java/testjdbc/TestConnection.java" />
+        <option value="$PROJECT_DIR$/web/web/index.jsp" />
+        <option value="$PROJECT_DIR$/web/web/css/style.css" />
+        <option value="$PROJECT_DIR$/web/web/pages/main.jsp" />
+        <option value="$PROJECT_DIR$/web/src/main/java/beans/Author.java" />
       </list>
     </option>
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
     <option name="FILTER_WARNINGS" value="false" />
-    <option name="FILTER_INFO" value="true" />
-    <option name="FILTER_DEBUG" value="true" />
+    <option name="FILTER_INFO" value="false" />
+    <option name="FILTER_DEBUG" value="false" />
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="MavenImportPreferences">
@@ -238,13 +304,29 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="testjdbc" type="462c0819:PsiDirectoryNode" />
+              <item name="beans" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="frameworks_etc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="frameworks_etc" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="db" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="frameworks_etc" type="b2602c69:ProjectViewProjectNode" />
               <item name="frameworks_etc" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="frameworks_etc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="frameworks_etc" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="frameworks_etc" type="b2602c69:ProjectViewProjectNode" />
@@ -397,7 +479,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8 (2)" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/web/css" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/web/images" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -410,23 +492,23 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\projects\frameworks_etc\web\web\images" />
+      <recent name="C:\projects\frameworks_etc\web\web\css" />
+      <recent name="C:\projects\frameworks_etc\web\src\main" />
+      <recent name="C:\projects\frameworks_etc\web\web" />
+      <recent name="C:\projects\frameworks_etc\web\src\servlet" />
+    </key>
+    <key name="ImportMappingsDialog.RecentPackages">
+      <recent name="ru.frameworks.hibernateone.entity2" />
+      <recent name="" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\projects\frameworks_etc\web\web\images" />
       <recent name="C:\projects\frameworks_etc\web\web\css" />
       <recent name="C:\projects\frameworks_etc\web\web\error" />
       <recent name="C:\projects\frameworks_etc\web\src\main\java\servlets" />
       <recent name="C:\projects\frameworks_etc\web\src\main\java\calc" />
-    </key>
-    <key name="ImportMappingsDialog.RecentPackages">
-      <recent name="ru.frameworks.hibernateone.entity2" />
-      <recent name="" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\projects\frameworks_etc\web\web\css" />
-      <recent name="C:\projects\frameworks_etc\web\web\images" />
-      <recent name="C:\projects\frameworks_etc\web\src\main" />
-      <recent name="C:\projects\frameworks_etc\web\web" />
-      <recent name="C:\projects\frameworks_etc\web\src\servlet" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -642,7 +724,7 @@
       <workItem from="1564076182228" duration="259000" />
       <workItem from="1564215051347" duration="14136000" />
       <workItem from="1564294051823" duration="4142000" />
-      <workItem from="1564306021827" duration="16097000" />
+      <workItem from="1564306021827" duration="20085000" />
     </task>
     <task id="LOCAL-00001" summary="Delete hiber">
       <created>1562923293323</created>
@@ -875,11 +957,18 @@
       <option name="project" value="LOCAL" />
       <updated>1564298812583</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="JDBSTestConnection">
+      <created>1564333511785</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1564333511785</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="191395000" />
+    <option name="totallyTimeSpent" value="195383000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -894,7 +983,7 @@
     <frame x="1432" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7383592" visible="true" weight="0.23714653" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7383592" visible="true" weight="0.23714653" />
       <window_info id="Structure" order="1" sideWeight="0.34396356" side_tool="true" weight="0.3014139" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -906,7 +995,7 @@
       <window_info anchor="bottom" id="SQL Generator" order="0" weight="0.32916668" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.19027779" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.37361112" />
+      <window_info anchor="bottom" id="Run" order="3" visible="true" weight="0.37361112" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.3861111" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -979,7 +1068,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="HibernateAutoGeneration" />
     <MESSAGE value="HibernateFin" />
     <MESSAGE value="SpringStart" />
     <MESSAGE value="SpringStartUpdate" />
@@ -1004,7 +1092,8 @@
     <MESSAGE value="ServletContext" />
     <MESSAGE value="JSPTestInput" />
     <MESSAGE value="JSPFirstPage" />
-    <option name="LAST_COMMIT_MESSAGE" value="JSPFirstPage" />
+    <MESSAGE value="JDBSTestConnection" />
+    <option name="LAST_COMMIT_MESSAGE" value="JDBSTestConnection" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1064,18 +1153,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/web/images/unnamed.jpg" />
-    <entry file="file://G:/downloadS/Java/Онлайн бибилотека на spring/создание библиотеки на Java/library/lessons/11-Servleti_(praktika)/11-Sevlet/11-ServletCSS/src/java/servlets/ShowHtml.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="41" column="30" lean-forward="true" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/web/images/oracle.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/web/images/style.txt" />
     <entry file="file://$PROJECT_DIR$/web/web/css/style.txt" />
     <entry file="file://$PROJECT_DIR$/web/web/images/style.css" />
     <entry file="file://$PROJECT_DIR$/web/web/css/oracle.jpg" />
@@ -1100,13 +1177,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="35" column="12" selection-start-line="35" selection-start-column="12" selection-end-line="45" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/web/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1513">
-          <caret line="89" selection-start-line="89" selection-end-line="89" />
         </state>
       </provider>
     </entry>
@@ -1228,13 +1298,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../HTMLCSS/bootstrap-grid.min.css" />
-    <entry file="file://$PROJECT_DIR$/web/web/css/lib_style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://G:/downloadS/Java/Онлайн бибилотека на spring/создание библиотеки на Java/library/lessons/22-Peredacha_parametrov_iz_formi/Library_2/Library_2/web/pages/index.jsp">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1349,27 +1412,73 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/web/pages/main.jsp">
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/testjdbc/TestConnection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="27" lean-forward="true" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+        <state relative-caret-position="349">
+          <caret line="21" column="32" lean-forward="true" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/db/Database.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/web/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="19" column="40" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
+        <state relative-caret-position="238">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/testjdbc/TestConnection.java">
+    <entry file="file://$PROJECT_DIR$/web/web/images/search.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/web/css/lib_style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="18" column="65" lean-forward="true" selection-start-line="18" selection-start-column="65" selection-end-line="18" selection-end-column="65" />
+        <state relative-caret-position="357">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/web/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/beans/Author.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="24" lean-forward="true" selection-start-column="24" selection-end-column="24" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#129#130#0" expanded="true" />
+            <element signature="e#155#156#0" expanded="true" />
+            <element signature="e#184#185#0" expanded="true" />
+            <element signature="e#205#206#0" expanded="true" />
+            <element signature="e#243#244#0" expanded="true" />
+            <element signature="e#269#270#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/web/pages/main.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="33" column="12" lean-forward="true" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/beans/AuthorList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
         </state>
       </provider>
     </entry>
