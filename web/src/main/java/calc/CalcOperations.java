@@ -1,4 +1,5 @@
 package main.java.calc;
+import java.sql.*;
 
 public class CalcOperations {
 
@@ -17,8 +18,8 @@ public class CalcOperations {
     public static double divide(double a, double b) {
         return a/b;
     }
-    
-    
-    
-    
+
+    public static void main(String[] args) throws ClassNotFoundException {
+    }
+
 }
