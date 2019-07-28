@@ -7,9 +7,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="51af441c-13f7-485b-9066-e5164ea9f418" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/web/web/pages/main.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web/css/bootstrap-gridmin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web/css/lib_style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web/images/migration-1.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/web/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web/pages/main.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/web/pages/main.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/HibernateTest/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -54,8 +57,31 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/web/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="24" />
+            <state relative-caret-position="294">
+              <caret line="24" column="41" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/web/images/migration-1.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/web/css/bootstrap-gridmin.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="42" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/web/css/lib_style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -64,7 +90,7 @@
         <entry file="file://$PROJECT_DIR$/web/web/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="340">
-              <caret line="20" column="32" lean-forward="true" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
+              <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -72,8 +98,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/web/pages/main.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="170">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
@@ -85,10 +111,10 @@
       <list>
         <option value="spring-beans.schema" />
         <option value="Interface" />
-        <option value="CSS File" />
         <option value="Class" />
         <option value="HTML File" />
         <option value="Jsp File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -104,7 +130,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/RobotSpring/src/main/java/ru/javabegin/training/spring/interfaces/Robot.java" />
         <option value="$PROJECT_DIR$/RobotSpring/src/main/java/ru/javabegin/training/spring/main/Start.java" />
         <option value="$PROJECT_DIR$/RobotSpring/src/main/resources/context.xml" />
         <option value="$PROJECT_DIR$/Spring/src/main/java/ru/javabegin/training/spring/main/MyBeanPostProcessor.java" />
@@ -153,6 +178,7 @@
         <option value="$PROJECT_DIR$/web/src/main/java/servlets/CalcServlet.java" />
         <option value="$PROJECT_DIR$/web/src/main/java/servlets/CalcServletThreadS.java" />
         <option value="$PROJECT_DIR$/web/src/main/java/servlets/CalcServletVerTwo.java" />
+        <option value="$PROJECT_DIR$/web/web/css/lib_style.css" />
         <option value="$PROJECT_DIR$/web/web/index.jsp" />
         <option value="$PROJECT_DIR$/web/web/pages/main.jsp" />
       </list>
@@ -193,7 +219,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -210,28 +235,21 @@
               <item name="frameworks_etc" type="b2602c69:ProjectViewProjectNode" />
               <item name="frameworks_etc" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="frameworks_etc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="frameworks_etc" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="frameworks_etc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="frameworks_etc" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="frameworks_etc" type="b2602c69:ProjectViewProjectNode" />
               <item name="frameworks_etc" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="frameworks_etc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="frameworks_etc" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="frameworks_etc" type="b2602c69:ProjectViewProjectNode" />
@@ -240,82 +258,11 @@
               <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="frameworks_etc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="frameworks_etc" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="frameworks_etc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="frameworks_etc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 (2) &gt;" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="frameworks_etc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 (2) &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="frameworks_etc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 (2) &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="frameworks_etc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 (2) &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="frameworks_etc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="GlassFish 5.0.1" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="frameworks_etc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="GlassFish 5.0.1" type="70bed36:NamedLibraryElementNode" />
-              <item name="javax.servlet-api.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="frameworks_etc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="GlassFish 5.0.1" type="70bed36:NamedLibraryElementNode" />
-              <item name="javax.servlet-api.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="javax" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="frameworks_etc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="GlassFish 5.0.1" type="70bed36:NamedLibraryElementNode" />
-              <item name="javax.servlet-api.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="javax" type="462c0819:PsiDirectoryNode" />
-              <item name="servlet" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="frameworks_etc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="GlassFish 5.0.1" type="70bed36:NamedLibraryElementNode" />
-              <item name="javax.servlet-api.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="javax" type="462c0819:PsiDirectoryNode" />
-              <item name="servlet" type="462c0819:PsiDirectoryNode" />
-              <item name="http" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -348,23 +295,23 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\projects\frameworks_etc\web\web\images" />
+      <recent name="C:\projects\frameworks_etc\web\web\css" />
+      <recent name="C:\projects\frameworks_etc\web\web\error" />
+      <recent name="C:\projects\frameworks_etc\web\src\main\java\servlets" />
+      <recent name="C:\projects\frameworks_etc\web\src\main\java\calc" />
+    </key>
+    <key name="ImportMappingsDialog.RecentPackages">
+      <recent name="ru.frameworks.hibernateone.entity2" />
+      <recent name="" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\projects\frameworks_etc\web\web\css" />
       <recent name="C:\projects\frameworks_etc\web\web\images" />
       <recent name="C:\projects\frameworks_etc\web\src\main" />
       <recent name="C:\projects\frameworks_etc\web\web" />
       <recent name="C:\projects\frameworks_etc\web\src\servlet" />
-    </key>
-    <key name="ImportMappingsDialog.RecentPackages">
-      <recent name="ru.frameworks.hibernateone.entity2" />
-      <recent name="" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\projects\frameworks_etc\web\web\error" />
-      <recent name="C:\projects\frameworks_etc\web\src\main\java\servlets" />
-      <recent name="C:\projects\frameworks_etc\web\src\main\java\calc" />
-      <recent name="C:\projects\frameworks_etc\web\web\images" />
-      <recent name="C:\projects\frameworks_etc\web\web\WEB-INF" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -578,7 +525,8 @@
       <workItem from="1563957465487" duration="22511000" />
       <workItem from="1564042456515" duration="16639000" />
       <workItem from="1564076182228" duration="259000" />
-      <workItem from="1564215051347" duration="12447000" />
+      <workItem from="1564215051347" duration="14136000" />
+      <workItem from="1564294051823" duration="3444000" />
     </task>
     <task id="LOCAL-00001" summary="Delete hiber">
       <created>1562923293323</created>
@@ -797,11 +745,18 @@
       <option name="project" value="LOCAL" />
       <updated>1564072898386</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="JSPTestInput">
+      <created>1564245187850</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1564245187850</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="169467000" />
+    <option name="totallyTimeSpent" value="174600000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -815,7 +770,7 @@
   <component name="ToolWindowManager">
     <frame x="1432" y="-8" width="1616" height="876" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.651341" visible="true" weight="0.312982" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.697318" visible="true" weight="0.31683806" />
       <window_info id="Structure" order="1" sideWeight="0.34396356" side_tool="true" weight="0.3014139" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -823,7 +778,7 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" sideWeight="0.34285715" side_tool="true" weight="0.3014139" />
       <window_info id="Persistence" order="7" sideWeight="0.34285715" side_tool="true" weight="0.3014139" />
-      <window_info id="Web" order="8" sideWeight="0.348659" side_tool="true" visible="true" weight="0.312982" />
+      <window_info id="Web" order="8" sideWeight="0.30268198" side_tool="true" visible="true" weight="0.31683806" />
       <window_info anchor="bottom" id="SQL Generator" order="0" weight="0.32916668" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.19027779" />
@@ -900,7 +855,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="HibernateUpdate" />
     <MESSAGE value="HibernateSelect" />
     <MESSAGE value="HibernateAutoGeneration" />
     <MESSAGE value="HibernateFin" />
@@ -925,7 +879,8 @@
     <MESSAGE value="ServletCalc" />
     <MESSAGE value="ServletError" />
     <MESSAGE value="ServletContext" />
-    <option name="LAST_COMMIT_MESSAGE" value="ServletContext" />
+    <MESSAGE value="JSPTestInput" />
+    <option name="LAST_COMMIT_MESSAGE" value="JSPTestInput" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -985,10 +940,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/ru/jb/training/style.css" />
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/ru/jb/training/doc.html" />
-    <entry file="file://$PROJECT_DIR$/web/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/web_glassfish/src/main/java/ru/jb/HelloWorld.java" />
     <entry file="file://$PROJECT_DIR$/web_glassfish/src/main/java/ru/jb/MyApplication.java" />
     <entry file="file://$PROJECT_DIR$/web_glassfish/web/WEB-INF/web.xml" />
     <entry file="file://$PROJECT_DIR$/web/web/index.xhtml" />
@@ -1210,21 +1161,45 @@
     <entry file="file://$PROJECT_DIR$/web/web/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
-          <caret line="20" column="32" lean-forward="true" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
+          <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../HTMLCSS/bootstrap-grid.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="6" column="45" lean-forward="true" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/web/css/bootstrap-gridmin.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="42" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/web/images/migration-1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/web/css/lib_style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/web/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="24" />
+        <state relative-caret-position="294">
+          <caret line="24" column="41" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="41" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/web/pages/main.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>

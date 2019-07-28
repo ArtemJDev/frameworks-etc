@@ -4,16 +4,9 @@
     <title>JSP Page-main</title>
 </head>
 <body>
-    <%
-        request.setCharacterEncoding("UTF-8");
-    %>
+    <%request.setCharacterEncoding("UTF-8");%>
     <h3>
-        Привет -  <%=request.getParameter("username")%> <br>
-        Ваша фамилия : <%=request.getParameter("secondname")%><br>
-        Ваш пароль : <%=request.getParameter("password")%>
-        ${param["password"]} <%--EL--%>
+        Привет -  ${param["username"]} <br>
     </h3>
-
-
 </body>
 </html>

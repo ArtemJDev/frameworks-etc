@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f2f2f2;
+}
+
+.test {
+  min-height: 300px;
+  width: 600px;
+  margin: 100px auto;
+  border: 1px solid green;
+  background-color: white;
+  text-align: center;
+}
+
+.test img {
+  width: 100px;
+}
+
+h1, p {
+  margin: 20px;
+}
+
+.test form {
+  margin-top: 20px;
+}
+
+.test form input {
+  margin: 10px 0 10px 10px;
+  padding: 5px;
+
+}
+
+.test_button {
+  background-color: green;
+  color: white;
+  padding: 5px;
+  border: none;
+}
