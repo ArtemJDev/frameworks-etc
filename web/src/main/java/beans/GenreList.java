@@ -7,22 +7,21 @@ import java.sql.Statement;
 import java.util.ArrayList;
 import main.java.db.Database;
 
-public class AuthorList {
-
-  private ArrayList<Author> authorList = new ArrayList<>();
+public class GenreList {
+  private ArrayList<Genre> genreList = new ArrayList<>();
   Statement statement;
   ResultSet resultSet;
   Connection connection;
 
-  public ArrayList<Author> getAuthors() {
+  public ArrayList<Genre> getGenre() {
     try {
       Connection connection = Database.getConnection();// соединнение с БД
       statement = connection.createStatement();
-      resultSet = statement.executeQuery("select * from author order by fio");
+      resultSet = statement.executeQuery("select * from genre order by name");
       while(resultSet.next()) {
-        Author author = new Author();
-        author.setName(resultSet.getString("fio"));
-        authorList.add(author);
+        Genre genre = new Genre();
+        genre.setName(resultSet.getString("name"));
+        genreList.add(genre);
       }
     } catch (SQLException e) {
       e.printStackTrace();
@@ -35,14 +34,14 @@ public class AuthorList {
         e.printStackTrace();
       }
     }
-    return authorList;
+    return genreList;
   }
 
-  public ArrayList<Author> getAuthorList() {
-    if(!authorList.isEmpty()) {
-      return  authorList;
+  public ArrayList<Genre> getGenreList() {
+    if(!genreList.isEmpty()) {
+      return genreList;
     } else {
-      return getAuthors();
+      return getGenre();
     }
   }
 }

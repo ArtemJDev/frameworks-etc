@@ -1,3 +1,4 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ page import="main.java.beans.Author" %>
 <%@ page import="main.java.beans.AuthorList" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
@@ -32,12 +33,16 @@
     <div class="factory">
         <h4>Заводы</h4>
         <ul>
-            <%
-                AuthorList authorList = new AuthorList();
-                for(Author author : authorList.getAuthorList()) {
-            %>
-            <li><a href="#"><%= author.getName()%></a></li>
-            <%}%>
+            <jsp:useBean id="authorList" class="main.java.beans.AuthorList" scope="application"/>
+            <c:forEach var="author" items="${authorList.getAuthorList()}">
+                <li><a href="#">${author.name}</a></li>
+            </c:forEach>
+<%--            <%--%>
+<%--                AuthorList authorList = new AuthorList();--%>
+<%--                for(Author author : authorList.getAuthorList()) {--%>
+<%--            %>--%>
+<%--            <li><a href="#"><%= author.getName()%></a></li>--%>
+<%--            <%}%>--%>
         </ul>
     </div>
     <div class="detail">детали</div>

@@ -7,22 +7,27 @@ import java.sql.Statement;
 import java.util.ArrayList;
 import main.java.db.Database;
 
-public class AuthorList {
+public class BookList {
 
-  private ArrayList<Author> authorList = new ArrayList<>();
+  private ArrayList<Book> bookList = new ArrayList<>();
   Statement statement;
   ResultSet resultSet;
   Connection connection;
 
-  public ArrayList<Author> getAuthors() {
+  public ArrayList<Book> getBooks() {
     try {
       Connection connection = Database.getConnection();// соединнение с БД
       statement = connection.createStatement();
-      resultSet = statement.executeQuery("select * from author order by fio");
+      resultSet = statement.executeQuery("select * from book");
       while(resultSet.next()) {
-        Author author = new Author();
-        author.setName(resultSet.getString("fio"));
-        authorList.add(author);
+        Book book = new Book();
+        book.setName(resultSet.getString("name"));
+        book.setGenre(resultSet.getString("genre"));
+        book.setIsbn(resultSet.getString("isbn"));
+        book.setPageCount(resultSet.getInt("page_count"));
+        book.setPublishDate(resultSet.getDate("publish_date"));
+        book.setPublisher(resultSet.getString("publisher"));
+        bookList.add(book);
       }
     } catch (SQLException e) {
       e.printStackTrace();
@@ -35,14 +40,17 @@ public class AuthorList {
         e.printStackTrace();
       }
     }
-    return authorList;
+    return bookList;
   }
 
-  public ArrayList<Author> getAuthorList() {
-    if(!authorList.isEmpty()) {
-      return  authorList;
+  public ArrayList<Book> getBookList() {
+    if(!bookList.isEmpty()) {
+      return  bookList;
     } else {
-      return getAuthors();
+      return getBooks();
     }
   }
 }
+
+
+
