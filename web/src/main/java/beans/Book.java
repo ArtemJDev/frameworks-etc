@@ -1,9 +1,10 @@
 package main.java.beans;
 
 import java.awt.Image;
+import java.io.Serializable;
 import java.util.Date;
 
-public class Book {
+public class Book implements Serializable {
 
   public Book() {
   }

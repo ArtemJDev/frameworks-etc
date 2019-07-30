@@ -1,4 +1,3 @@
-<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ page import="main.java.beans.Author" %>
 <%@ page import="main.java.beans.AuthorList" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
@@ -17,7 +16,9 @@
 <body>
 <%request.setCharacterEncoding("UTF-8");%>
 <div class="one">
-    <div class="two">шапка</div>
+    <div class="two">
+        <img class="two_img" src="../images/migration-1.png" alt="123">
+    </div>
     <div class="search">
         <form class="search_name" name="search_form" action="post">
             <img class="search_img" src="../images/search.png" alt="поиск">
@@ -31,21 +32,20 @@
 
     </div>
     <div class="factory">
-        <h4>Заводы</h4>
+        <p>Список заводов</p>
         <ul>
-            <jsp:useBean id="authorList" class="main.java.beans.AuthorList" scope="application"/>
-            <c:forEach var="author" items="${authorList.getAuthorList()}">
-                <li><a href="#">${author.name}</a></li>
-            </c:forEach>
-<%--            <%--%>
-<%--                AuthorList authorList = new AuthorList();--%>
-<%--                for(Author author : authorList.getAuthorList()) {--%>
-<%--            %>--%>
-<%--            <li><a href="#"><%= author.getName()%></a></li>--%>
-<%--            <%}%>--%>
+
+            <%
+                AuthorList authorList = new AuthorList();
+                for(Author author : authorList.getAuthorList()) {
+            %>
+            <li><a href="#"><%= author.getName()%></a></li>
+            <%}%>
         </ul>
     </div>
-    <div class="detail">детали</div>
+    <div class="detail">
+        <p>Список деталей</p><br>
+    </div>
     <div class="footer">футер</div>
 </div>
 </body>
