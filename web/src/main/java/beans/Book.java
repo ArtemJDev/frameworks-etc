@@ -4,11 +4,9 @@ import java.awt.Image;
 import java.io.Serializable;
 import java.util.Date;
 
-public class Book implements Serializable {
+public class Book implements Serializable{
 
-  public Book() {
-  }
-
+  private long id;
   private String name;
   private byte[] content;
   private int pageCount;
@@ -17,6 +15,23 @@ public class Book implements Serializable {
   private String author;
   private Date publishDate;
   private String publisher;
+  private Image image;
+
+  public long getId() {
+    return id;
+  }
+
+  public void setId(long id) {
+    this.id = id;
+  }
+
+  public String getName() {
+    return name;
+  }
+
+  public void setName(String name) {
+    this.name = name;
+  }
 
   public byte[] getContent() {
     return content;
@@ -82,18 +97,7 @@ public class Book implements Serializable {
     this.image = image;
   }
 
-  private Image image;
 
-  public Book(String name) {
-    this.name = name;
-  }
 
-  public String getName() {
-    return name;
-  }
-
-  public void setName(String name) {
-    this.name = name;
-  }
 
 }

@@ -26,6 +26,10 @@ body {
 
 }
 
+table,tr,td {
+    border: 1px solid black;
+}
+
 .two img{
     width: 100px;
 }

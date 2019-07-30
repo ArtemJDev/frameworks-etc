@@ -44,5 +44,6 @@
     <orderEntry type="library" name="Maven: org.ow2.asm:asm:6.0_ALPHA" level="project" />
     <orderEntry type="library" name="Maven: org.apache.ant:ant:1.9.6" level="project" />
     <orderEntry type="library" name="Maven: org.apache.ant:ant-launcher:1.9.6" level="project" />
+    <orderEntry type="library" name="Maven: javax.servlet:jstl:unknown" level="project" />
   </component>
 </module>

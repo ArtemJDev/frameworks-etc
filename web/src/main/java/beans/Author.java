@@ -2,13 +2,23 @@ package main.java.beans;
 
 public class Author {
 
+  private String name;
+  private long id;
+
   public Author() {
   }
 
-  private String name;
-
-  public Author(String name) {
+  public Author(String name, long id) {
     this.name = name;
+    this.id = id;
+  }
+
+  public long getId() {
+    return id;
+  }
+
+  public void setId(long id) {
+    this.id = id;
   }
 
   public String getName() {
@@ -18,4 +28,7 @@ public class Author {
   public void setName(String name) {
     this.name = name;
   }
+
+
+
 }

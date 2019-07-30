@@ -7,8 +7,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="51af441c-13f7-485b-9066-e5164ea9f418" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jstl_unknown.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web/WEB-INF/jspf/footer.jspf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web/WEB-INF/jspf/header.jspf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web/WEB-INF/jspf/left_menu.jspf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web/pages/books.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/frameworks_etc.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/frameworks_etc.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/java/beans/Author.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/beans/Author.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/java/beans/AuthorList.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/beans/AuthorList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/src/main/java/beans/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/beans/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/java/beans/BookList.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/beans/BookList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/java/beans/Genre.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/beans/Genre.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/java/beans/GenreList.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/beans/GenreList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/java/db/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/db/Database.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/web/WEB-INF/web.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/web/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/web/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/web/pages/main.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/web/pages/main.jsp" afterDir="false" />
     </list>
@@ -53,6 +67,20 @@
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="lib_web: schema" type="76f4a085:MysqlImplModel$Schema" />
       </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="lib_web@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="lib_web: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="genre: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="lib_web@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="lib_web: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="publisher: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
     </expand>
     <select />
   </component>
@@ -68,83 +96,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/web/pages/books.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+              <folding>
+                <element signature="n#style#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/web/pages/main.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="34" column="29" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/web/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/web/index.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="291">
-              <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="66" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/src/main/java/db/Database.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/src/main/java/beans/Author.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/src/main/java/beans/AuthorList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="34" column="28" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/src/main/java/beans/Book.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/web/WEB-INF/web.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="31" selection-start-line="31" selection-end-line="31" />
+        <entry file="das://f6592356-e162-47ed-8d7a-16335765b531/schema/lib_web/table/book">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state projectRestartId="231be1f6-dd84-4b56-8c83-5ecd2e97ebef">
+              <filtering>
+                <filter text="" />
+              </filtering>
             </state>
           </provider>
         </entry>
@@ -157,9 +127,9 @@
         <option value="spring-beans.schema" />
         <option value="Interface" />
         <option value="HTML File" />
-        <option value="Jsp File" />
         <option value="CSS File" />
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -175,19 +145,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Spring/src/main/java/ru/javabegin/training/spring/interfaces/RobotPool.java" />
-        <option value="$PROJECT_DIR$/Spring/src/main/java/ru/javabegin/training/spring/impls/pool/T1000Pool.java" />
-        <option value="$PROJECT_DIR$/Spring/src/main/java/ru/javabegin/training/spring/main/Start.java" />
-        <option value="$PROJECT_DIR$/Spring/src/main/resources/context.xml" />
-        <option value="$PROJECT_DIR$/Spring/src/main/resources/T1000.xml" />
-        <option value="$PROJECT_DIR$/Spring/src/main/resources/sony_context.xml" />
         <option value="$PROJECT_DIR$/Spring/src/main/java/ru/javabegin/training/spring/impls/robot/ModelT1000.java" />
         <option value="$PROJECT_DIR$/Spring/src/main/java/ru/javabegin/training/spring/impls/toshiba/ToshibaHand.java" />
         <option value="$PROJECT_DIR$/Spring/src/main/java/ru/javabegin/training/spring/impls/robot/BaseModel.java" />
         <option value="$PROJECT_DIR$/Spring/src/main/resources/toshiba_context.xml" />
         <option value="$PROJECT_DIR$/web/src/main/java/ru/jb/training/123.html" />
         <option value="$PROJECT_DIR$/web/src/main/java/ru/jb/training/546.css" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/web_glassfish/src/main/java/ru/HelloWorld.java" />
         <option value="$PROJECT_DIR$/web_glassfish/src/main/java/ru/jb/training/HelloWorld.java" />
         <option value="$PROJECT_DIR$/web_glassfish/src/main/java/ru/jb/HelloWorld.java" />
@@ -214,18 +177,25 @@
         <option value="$PROJECT_DIR$/web/src/main/java/servlets/CalcServletVerTwo.java" />
         <option value="$PROJECT_DIR$/web/web/css/lib_style.css" />
         <option value="$PROJECT_DIR$/web/src/main/java/calc/CalcOperations.java" />
-        <option value="$PROJECT_DIR$/web/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/web/src/main/java/testjdbc/TestConnection.java" />
         <option value="$PROJECT_DIR$/web/web/index.jsp" />
+        <option value="$PROJECT_DIR$/web/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/web/src/main/java/beans/Author.java" />
-        <option value="$PROJECT_DIR$/web/src/main/java/db/Database.java" />
-        <option value="$PROJECT_DIR$/web/src/main/java/beans/Genre.java" />
-        <option value="$PROJECT_DIR$/web/src/main/java/beans/AuthorList.java" />
-        <option value="$PROJECT_DIR$/web/src/main/java/beans/GenreList.java" />
-        <option value="$PROJECT_DIR$/web/src/main/java/beans/BookList.java" />
         <option value="$PROJECT_DIR$/web/src/main/java/beans/Book.java" />
+        <option value="$PROJECT_DIR$/web/src/main/java/beans/BookList.java" />
+        <option value="$PROJECT_DIR$/web/src/main/java/beans/GenreList.java" />
+        <option value="$PROJECT_DIR$/web/src/main/java/beans/Genre.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/web/web/WEB-INF/jspf/footer.jspf" />
+        <option value="$PROJECT_DIR$/web/web/WEB-INF/jspf/header.jspf" />
         <option value="$PROJECT_DIR$/web/web/pages/main.jsp" />
+        <option value="$PROJECT_DIR$/web/src/main/java/beans/AuthorList.java" />
+        <option value="G:/downloadS/Java/Онлайн бибилотека на spring/создание библиотеки на Java/library/lessons/27-Vivod_spiska_knig/Library_5/Library_5/src/java/ru/javabegin/training/web/db/Database.java" />
+        <option value="$PROJECT_DIR$/web/src/main/java/db/Database.java" />
+        <option value="$PROJECT_DIR$/web/web/WEB-INF/jspf/left_menu.jspf" />
         <option value="$PROJECT_DIR$/web/web/css/style.css" />
+        <option value="$PROJECT_DIR$/web/web/pages/books.jsp" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
       </list>
     </option>
   </component>
@@ -332,13 +302,6 @@
               <item name="frameworks_etc" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="error" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="frameworks_etc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="frameworks_etc" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -354,6 +317,14 @@
               <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="frameworks_etc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="frameworks_etc" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="jspf" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="frameworks_etc" type="b2602c69:ProjectViewProjectNode" />
@@ -384,60 +355,6 @@
               <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
               <item name="javax" type="462c0819:PsiDirectoryNode" />
               <item name="naming" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="frameworks_etc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: mysql:mysql-connector-java:6.0.6" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="frameworks_etc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: mysql:mysql-connector-java:6.0.6" type="70bed36:NamedLibraryElementNode" />
-              <item name="mysql-connector-java-6.0.6.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="frameworks_etc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: mysql:mysql-connector-java:6.0.6" type="70bed36:NamedLibraryElementNode" />
-              <item name="mysql-connector-java-6.0.6.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="frameworks_etc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: mysql:mysql-connector-java:6.0.6" type="70bed36:NamedLibraryElementNode" />
-              <item name="mysql-connector-java-6.0.6.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="mysql" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="frameworks_etc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: mysql:mysql-connector-java:6.0.6" type="70bed36:NamedLibraryElementNode" />
-              <item name="mysql-connector-java-6.0.6.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="mysql" type="462c0819:PsiDirectoryNode" />
-              <item name="cj" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="frameworks_etc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: mysql:mysql-connector-java:6.0.6" type="70bed36:NamedLibraryElementNode" />
-              <item name="mysql-connector-java-6.0.6.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="mysql" type="462c0819:PsiDirectoryNode" />
-              <item name="cj" type="462c0819:PsiDirectoryNode" />
-              <item name="jdbc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="frameworks_etc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: mysql:mysql-connector-java:6.0.6" type="70bed36:NamedLibraryElementNode" />
-              <item name="mysql-connector-java-6.0.6.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="mysql" type="462c0819:PsiDirectoryNode" />
-              <item name="jdbc" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="frameworks_etc" type="b2602c69:ProjectViewProjectNode" />
@@ -479,7 +396,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8 (2)" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/web/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/web/WEB-INF/jspf" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -492,23 +409,23 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\projects\frameworks_etc\web\web\pages" />
       <recent name="C:\projects\frameworks_etc\web\web\images" />
       <recent name="C:\projects\frameworks_etc\web\web\css" />
-      <recent name="C:\projects\frameworks_etc\web\src\main" />
-      <recent name="C:\projects\frameworks_etc\web\web" />
-      <recent name="C:\projects\frameworks_etc\web\src\servlet" />
+      <recent name="C:\projects\frameworks_etc\web\web\error" />
+      <recent name="C:\projects\frameworks_etc\web\src\main\java\servlets" />
     </key>
     <key name="ImportMappingsDialog.RecentPackages">
       <recent name="ru.frameworks.hibernateone.entity2" />
       <recent name="" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\projects\frameworks_etc\web\web\WEB-INF\jspf" />
       <recent name="C:\projects\frameworks_etc\web\web\images" />
       <recent name="C:\projects\frameworks_etc\web\web\css" />
-      <recent name="C:\projects\frameworks_etc\web\web\error" />
-      <recent name="C:\projects\frameworks_etc\web\src\main\java\servlets" />
-      <recent name="C:\projects\frameworks_etc\web\src\main\java\calc" />
+      <recent name="C:\projects\frameworks_etc\web\src\main" />
+      <recent name="C:\projects\frameworks_etc\web\web" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -984,7 +901,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="205654000" />
+    <option name="totallyTimeSpent" value="210256000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -999,7 +916,7 @@
     <frame x="1432" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7339246" visible="true" weight="0.24357326" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.84540117" visible="true" weight="0.24357326" />
       <window_info id="Structure" order="1" sideWeight="0.34396356" side_tool="true" weight="0.3014139" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -1007,11 +924,11 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" sideWeight="0.34285715" side_tool="true" weight="0.3014139" />
       <window_info id="Persistence" order="7" sideWeight="0.34285715" side_tool="true" weight="0.3014139" />
-      <window_info id="Web" order="8" sideWeight="0.2660754" side_tool="true" visible="true" weight="0.24357326" />
+      <window_info id="Web" order="8" sideWeight="0.15459883" side_tool="true" weight="0.24357326" />
       <window_info anchor="bottom" id="SQL Generator" order="0" weight="0.32916668" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.3986111" />
-      <window_info anchor="bottom" id="Run" order="3" visible="true" weight="0.37361112" />
+      <window_info anchor="bottom" id="Run" order="3" visible="true" weight="0.35" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.3861111" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -1169,155 +1086,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/web.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/servlets/ServletSessionF.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="12" selection-start-line="12" selection-end-line="12" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../java_ee_sdk-8u1/glassfish5/glassfish/modules/javax.servlet-api.jar!/javax/servlet/http/HttpServletResponse.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="90" column="27" lean-forward="true" selection-start-line="90" selection-start-column="27" selection-end-line="90" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_221/src.zip!/java/util/Map.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="128" column="17" selection-start-line="128" selection-start-column="17" selection-end-line="128" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/servlets/CheckOperationsServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://G:/downloadS/Java/Онлайн бибилотека на spring/создание библиотеки на Java/library/lessons/17-Atributi_i_parametri/17-ServletAttr/src/java/servlets/CalcServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2550">
-          <caret line="202" lean-forward="true" selection-start-line="26" selection-start-column="3" selection-end-line="202" />
-          <folding>
-            <element signature="e#0#6149#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/servlets/ServletError.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="9" column="63" lean-forward="true" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/servlets/CalcServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="15" selection-start-line="15" selection-end-line="15" selection-end-column="64" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/servlets/CalcServletVerTwo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="86" selection-start-line="86" selection-end-line="86" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/servlets/CalcServletThreadS.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
-          <caret line="79" column="13" selection-start-line="79" selection-start-column="13" selection-end-line="79" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../HTMLCSS/bootstrap-grid.min.css" />
-    <entry file="file://G:/downloadS/Java/Онлайн бибилотека на spring/создание библиотеки на Java/library/lessons/22-Peredacha_parametrov_iz_formi/Library_2/Library_2/web/pages/index.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/f6592356-e162-47ed-8d7a-16335765b531/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="das://f6592356-e162-47ed-8d7a-16335765b531/schema/lib_web/table/genre">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state projectRestartId="9e9ef854-2b26-4ede-bb4d-3f59f0d442ac">
-          <filtering>
-            <filter text="" />
-          </filtering>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://f6592356-e162-47ed-8d7a-16335765b531/schema/lib_web/table/publisher">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state projectRestartId="9e9ef854-2b26-4ede-bb4d-3f59f0d442ac">
-          <filtering>
-            <filter text="" />
-          </filtering>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/web/css/bootstrap-gridmin.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="42" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/6.0.6/mysql-connector-java-6.0.6.jar!/com/mysql/jdbc/Driver.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/6.0.6/mysql-connector-java-6.0.6.jar!/com/mysql/cj/jdbc/Driver.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/6.0.6/mysql-connector-java-6.0.6.jar!/com/mysql/cj/jdbc/MysqlConnectionPoolDataSource.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-51">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/6.0.6/mysql-connector-java-6.0.6.jar!/com/mysql/cj/jdbc/MysqlDataSource.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/src/main/java/calc/CalcOperations.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-85">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
@@ -1334,38 +1106,13 @@
     <entry file="file://$PROJECT_DIR$/hibernate/src/main/resources/log4j.properties">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/web/images/migration-1.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/src/main/java/testjdbc/TestConnection.java" />
-    <entry file="file://$PROJECT_DIR$/web/web/images/search.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="das://f6592356-e162-47ed-8d7a-16335765b531/schema/lib_web/table/author">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state projectRestartId="57c2381e-03f1-4f52-a2a4-db91d20ba365">
           <filtering>
             <filter text="" />
           </filtering>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://f6592356-e162-47ed-8d7a-16335765b531/schema/lib_web/table/book">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state projectRestartId="57c2381e-03f1-4f52-a2a4-db91d20ba365">
-          <filtering>
-            <filter text="" />
-          </filtering>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/beans/GenreList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="34" lean-forward="true" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1380,23 +1127,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="127">
           <caret line="23" column="69" selection-start-line="23" selection-start-column="56" selection-end-line="23" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/beans/Genre.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/beans/BookList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="30" column="7" lean-forward="true" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1441,50 +1171,6 @@
     <entry file="file://G:/downloadS/Java/Онлайн бибилотека на spring/создание библиотеки на Java/library/lessons/26-Dizayn_glavnoy_stranizi/Library_4/src/java/ru/javabegin/training/web/beans/Genre.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/db/Database.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/beans/Author.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/beans/AuthorList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="34" column="28" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/beans/Book.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/web/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="291">
@@ -1492,24 +1178,260 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://G:/downloadS/Java/Онлайн бибилотека на spring/создание библиотеки на Java/library/lessons/27-Vivod_spiska_knig/Library_5/Library_5/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="18" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://G:/downloadS/Java/Онлайн бибилотека на spring/создание библиотеки на Java/library/lessons/27-Vivod_spiska_knig/Library_5/Library_5/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="3" column="6" lean-forward="true" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://G:/downloadS/Java/Онлайн бибилотека на spring/создание библиотеки на Java/library/lessons/27-Vivod_spiska_knig/Library_5/Library_5/web/pages/books.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="45" column="13" lean-forward="true" selection-end-line="51" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/web/web/css/lib_style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
+        <state relative-caret-position="153">
           <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/beans/Author.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="18" lean-forward="true" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://G:/downloadS/Java/Онлайн бибилотека на spring/создание библиотеки на Java/library/lessons/27-Vivod_spiska_knig/Library_5/Library_5/src/java/ru/javabegin/training/web/beans/Author.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="21" lean-forward="true" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://G:/downloadS/Java/Онлайн бибилотека на spring/создание библиотеки на Java/library/lessons/27-Vivod_spiska_knig/Library_5/Library_5/src/java/ru/javabegin/training/web/beans/AuthorList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="14" lean-forward="true" selection-end-line="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/beans/Book.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://G:/downloadS/Java/Онлайн бибилотека на spring/создание библиотеки на Java/library/lessons/27-Vivod_spiska_knig/Library_5/Library_5/src/java/ru/javabegin/training/web/beans/Book.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="103" selection-start-line="6" selection-end-line="103" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://G:/downloadS/Java/Онлайн бибилотека на spring/создание библиотеки на Java/library/lessons/27-Vivod_spiska_knig/Library_5/Library_5/src/java/ru/javabegin/training/web/beans/BookList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="82" selection-start-line="13" selection-end-line="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/beans/BookList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1377">
+          <caret line="81" selection-start-line="81" selection-end-line="81" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#339#345#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://G:/downloadS/Java/Онлайн бибилотека на spring/создание библиотеки на Java/library/lessons/27-Vivod_spiska_knig/Library_5/Library_5/src/java/ru/javabegin/training/web/beans/Genre.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="36" selection-start-line="2" selection-end-line="36" />
+          <folding>
+            <element signature="e#263#264#0" expanded="true" />
+            <element signature="e#288#289#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://G:/downloadS/Java/Онлайн бибилотека на spring/создание библиотеки на Java/library/lessons/27-Vivod_spiska_knig/Library_5/Library_5/src/java/ru/javabegin/training/web/beans/GenreList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/beans/Genre.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+          <folding>
+            <element signature="e#221#222#0" expanded="true" />
+            <element signature="e#246#247#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/beans/GenreList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/web/images/migration-1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/web/images/ibm.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/web/images/oracle.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/web/images/search.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="114" column="17" selection-start-line="114" selection-start-column="17" selection-end-line="114" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/web/WEB-INF/jspf/footer.jspf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="29" column="17" lean-forward="true" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/web/WEB-INF/jspf/header.jspf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/beans/AuthorList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="29" column="7" lean-forward="true" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://G:/downloadS/Java/Онлайн бибилотека на spring/создание библиотеки на Java/library/lessons/27-Vivod_spiska_knig/Library_5/Library_5/web/pages/main.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="8" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://G:/downloadS/Java/Онлайн бибилотека на spring/создание библиотеки на Java/library/lessons/27-Vivod_spiska_knig/Library_5/Library_5/src/java/ru/javabegin/training/web/db/Database.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="10" selection-start-line="10" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/db/Database.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/web/pages/main.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="das://f6592356-e162-47ed-8d7a-16335765b531/schema/lib_web/table/genre">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="231be1f6-dd84-4b56-8c83-5ecd2e97ebef">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/web/WEB-INF/jspf/left_menu.jspf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/web/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+        <state relative-caret-position="493">
+          <caret line="29" column="28" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/web/pages/main.jsp">
+    <entry file="das://f6592356-e162-47ed-8d7a-16335765b531/schema/lib_web/table/publisher">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="231be1f6-dd84-4b56-8c83-5ecd2e97ebef">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/web/pages/books.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="34" column="29" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
+        <state relative-caret-position="170">
+          <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+          <folding>
+            <element signature="n#style#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://f6592356-e162-47ed-8d7a-16335765b531/schema/lib_web/table/book">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="231be1f6-dd84-4b56-8c83-5ecd2e97ebef">
+          <filtering>
+            <filter text="" />
+          </filtering>
         </state>
       </provider>
     </entry>

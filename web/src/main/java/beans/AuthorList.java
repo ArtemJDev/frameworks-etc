@@ -5,42 +5,48 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.ArrayList;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 import main.java.db.Database;
 
 public class AuthorList {
 
-  private ArrayList<Author> authorList = new ArrayList<>();
-  Statement statement;
-  ResultSet resultSet;
-  Connection connection;
+  private ArrayList<Author> authorList = new ArrayList<Author>();
 
-  public ArrayList<Author> getAuthors() {
+  private ArrayList<Author> getAuthors() {
+    Statement stmt = null;
+    ResultSet rs = null;
+    Connection conn = null;
     try {
-      Connection connection = Database.getConnection();// соединнение с БД
-      statement = connection.createStatement();
-      resultSet = statement.executeQuery("select * from author order by fio");
-      while(resultSet.next()) {
+      conn = Database.getConnection();
+
+      stmt = conn.createStatement();
+      rs = stmt.executeQuery("select * from author order by fio");
+      while (rs.next()) {
         Author author = new Author();
-        author.setName(resultSet.getString("fio"));
+        author.setId(rs.getLong("id"));
+        author.setName(rs.getString("fio"));
         authorList.add(author);
       }
-    } catch (SQLException e) {
-      e.printStackTrace();
+
+    } catch (SQLException ex) {
+      Logger.getLogger(AuthorList.class.getName()).log(Level.SEVERE, null, ex);
     } finally {
       try {
-        if(statement!=null)statement.close();
-        if(connection!=null) connection.close();
-        if(resultSet!=null)resultSet.close();
-      } catch (SQLException e) {
-        e.printStackTrace();
+        if (stmt!=null) stmt.close();
+        if (rs!=null)rs.close();
+        if (conn!=null)conn.close();
+      } catch (SQLException ex) {
+        Logger.getLogger(AuthorList.class.getName()).log(Level.SEVERE, null, ex);
       }
     }
+
     return authorList;
   }
 
   public ArrayList<Author> getAuthorList() {
-    if(!authorList.isEmpty()) {
-      return  authorList;
+    if (!authorList.isEmpty()) {
+      return authorList;
     } else {
       return getAuthors();
     }
