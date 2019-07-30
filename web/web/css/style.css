@@ -4,6 +4,9 @@
     box-sizing: border-box;
     list-style-type: none;
     padding-inline-start: 0;
+    padding: 0 5px 0 5px;
+    margin: 0;
+
 }
 
 body {
@@ -20,14 +23,13 @@ body {
 }
 
 .two {
-    border: 1px solid green;
     min-height: 80px;
     text-align: center;
-
 }
 
-table,tr,td {
+tr,td {
     border: 1px solid black;
+
 }
 
 .two img{
@@ -35,6 +37,8 @@ table,tr,td {
 }
 
 .search {
+    border-bottom: 1px solid grey;
+    border-top: 1px solid grey;
     text-align: center;
     padding-bottom: 10px;
     padding-top: 5px;
@@ -44,12 +48,12 @@ table,tr,td {
     width: 30px;
 }
 
-.search, .factory, .detail {
-    border: 1px solid green;
+.search, .factory, .grey {
     min-height: 40px;
-
 }
-
+.factory {
+    border-right: 1px solid grey;
+}
 
 
 .factory, .detail {

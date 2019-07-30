@@ -13,8 +13,9 @@
 <body>
     <%request.setCharacterEncoding("UTF-8");%>
 <div class="one">
-    <div class="two">
+    <div class="two" style="margin-bottom: 10px;">
         <img class="two_img" src="../images/migration-1.png" alt="123">
+        <h1>Ваш онлайн склад version 0.0</h1>
     </div>
     <div class="search">
         <form class="search_name" name="search_form" action="post">

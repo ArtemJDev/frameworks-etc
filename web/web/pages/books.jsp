@@ -1,4 +1,5 @@
 <%@page import="main.java.beans.Book"%>
+<%@ page import="java.util.ArrayList" %>
 <!DOCTYPE html>
 
 <%@include file="../WEB-INF/jspf/left_menu.jspf" %>
@@ -20,13 +21,14 @@
 
 
 <div class="detail">
-    <div style="text-align: center;"><h3>${param.name}</h3></div>
+    <div style="text-align: center; margin-bottom: 5px;"><h3>${param.name}</h3></div>
 
     <table cellpadding="30" style="font-size: 12px;">
 
         <%
-
-            for (Book book : bookList.getBooksByGenre(genreId)) {
+            ArrayList<Book> list = bookList.getBooksByGenre(genreId);
+            session.setAttribute("currentBookList", list);
+            for (Book book : list) {
 
         %>
         <tr >
@@ -38,10 +40,11 @@
                 <br><strong>Вес:</strong> <%=book.getPageCount() %> г.
                 <br><strong>Дата производства:</strong> <%=book.getPublishDate() %>
                 <br><strong>Завод:</strong> <%=book.getAuthor() %>
-                <p style="margin:10px;"> <a href="#">Читать</a></p>
+                <p style="margin:10px;"> <a href="#">Информация</a></p>
             </td>
             <td style="width:150px;height: 100px;">
                 <br><strong>Картинка</strong>
+                <img src="<%= request.getContextPath()%>/ShowImage?index=<%=list.indexOf(book)%>" width="50px">
                 <%=book.getImage()%>
             </td>
         </tr>
