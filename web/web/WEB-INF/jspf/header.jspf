@@ -3,10 +3,8 @@
 <!doctype html>
 <html lang="ru">
 <head>
-    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!--  CSS -->
     <link rel="stylesheet" href="../css/style.css">
     <title>Онлайн склад</title>
 </head>
@@ -15,16 +13,17 @@
 <div class="one">
     <div class="two" style="margin-bottom: 10px;">
         <img class="two_img" src="../images/migration-1.png" alt="123">
+        <h5>Добро пожаловать, <%=request.getParameter("username") %> !</h5>
         <h1>Ваш онлайн склад version 0.0</h1>
     </div>
     <div class="search">
-        <form class="search_name" name="search_form" action="post">
+        <form class="search_name" name="search_form"   method="GET" action="books.jsp">
             <img class="search_img" src="../images/search.png" alt="поиск">
             <input type="text" name="search_string" size="30">
             <input type="submit" name="search_button" value="Поиск">
             <select name="search_option" >
                 <option>Название</option>
-                <option>Автор</option>
+                <option>Завод</option>
             </select>
         </form>
 
