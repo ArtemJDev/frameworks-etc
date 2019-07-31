@@ -1,5 +1,4 @@
 <%@page import="main.java.beans.Genre"%>
-<%@ page import="main.java.beans.Author" %>
 <%@ page pageEncoding="UTF-8" %>
 <div class="factory">
     <h4>Детали:</h4>

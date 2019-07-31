@@ -43,9 +43,7 @@
                 <p style="margin:10px;"> <a href="#">Информация</a></p>
             </td>
             <td style="width:150px;height: 100px;">
-                <br><strong>Картинка</strong>
-                <img src="<%= request.getContextPath()%>/ShowImage?index=<%=list.indexOf(book)%>" width="50px">
-                <%=book.getImage()%>
+                <img src="<%= request.getContextPath()%>/ShowImage?index=<%=list.indexOf(book)%>" width="100px">
             </td>
         </tr>
         <%}%>

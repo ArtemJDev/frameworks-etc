@@ -10,7 +10,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import main.java.beans.Book;
 
-@WebServlet(name = "ShowImage")
+@WebServlet(name = "ShowImage", urlPatterns ={"/ShowImage"})
 public class ShowImage extends HttpServlet {
 
   int i = 0;
