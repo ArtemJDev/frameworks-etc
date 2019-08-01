@@ -6,6 +6,19 @@
     padding: 0;
     margin: 0;
 }
+h6 a{
+    margin: 5px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    color: green;
+    font-weight: bold;
+    text-decoration: underline  ;
+}
+
 
 body {
     background-color: #f2f2f2;

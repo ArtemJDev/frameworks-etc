@@ -31,6 +31,7 @@
         }
     %>
     <h5 style="text-align: left; margin-top:20px;">Найдено деталей: <%=list.size() %> </h5>
+    <div style="text-align: center; margin-bottom: 5px;"><h3>${param.name}</h3></div>
     <%
         session.setAttribute("currentBookList", list);
         for (Book book : list) {
@@ -38,7 +39,7 @@
 
 
 
-    <div style="text-align: center; margin-bottom: 5px;"><h3>${param.name}</h3></div>
+
 
     <table cellpadding="30" style="font-size: 12px;">
 
