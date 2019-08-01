@@ -7,12 +7,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="51af441c-13f7-485b-9066-e5164ea9f418" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/filters/CheckSessionFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/listeners/ContextListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/listeners/SessionListener.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/web/WEB-INF/jspf/header.jspf" beforeDir="false" afterPath="$PROJECT_DIR$/web/web/WEB-INF/jspf/header.jspf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/web/WEB-INF/jspf/left_menu.jspf" beforeDir="false" afterPath="$PROJECT_DIR$/web/web/WEB-INF/jspf/left_menu.jspf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/web/WEB-INF/jspf/letters.jspf" beforeDir="false" afterPath="$PROJECT_DIR$/web/web/WEB-INF/jspf/letters.jspf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/web/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/web/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/web/pages/books.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/web/pages/books.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/web/WEB-INF/web.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/HibernateTest/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -100,7 +99,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/web/WEB-INF/jspf/header.jspf">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="374">
@@ -108,6 +107,54 @@
               <folding>
                 <element signature="n#style#0;n#h6#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/src/main/java/filters/CheckSessionFilter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="45" column="29" selection-start-line="45" selection-start-column="29" selection-end-line="45" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://G:/downloadS/Java/Онлайн бибилотека на spring/создание библиотеки на Java/library/lessons/29-Chtenie_knigi/Library_10/Library_10/web/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="549">
+              <caret line="38" column="21" lean-forward="true" selection-start-line="2" selection-start-column="4" selection-end-line="38" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/web/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="24" column="8" lean-forward="true" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/src/main/java/listeners/ContextListener.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/src/main/java/listeners/SessionListener.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret line="3" column="3" lean-forward="true" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -131,8 +178,8 @@
         <option value="HTML File" />
         <option value="CSS File" />
         <option value="Jsp File" />
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -148,8 +195,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/web/src/main/java/ru/jb/training/546.css" />
-        <option value="$PROJECT_DIR$/web_glassfish/src/main/java/ru/HelloWorld.java" />
         <option value="$PROJECT_DIR$/web_glassfish/src/main/java/ru/jb/training/HelloWorld.java" />
         <option value="$PROJECT_DIR$/web_glassfish/src/main/java/ru/jb/HelloWorld.java" />
         <option value="$PROJECT_DIR$/web_glassfish/src/main/java/ru/jb/MyApplication.java" />
@@ -186,7 +231,6 @@
         <option value="$PROJECT_DIR$/web/src/main/java/db/Database.java" />
         <option value="$PROJECT_DIR$/web/src/main/java/beans/Book.java" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
-        <option value="$PROJECT_DIR$/web/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/web/web/WEB-INF/jspf/footer.jspf" />
         <option value="$PROJECT_DIR$/web/src/main/java/enums/SearchType.java" />
         <option value="$PROJECT_DIR$/web/web/pages/main.jsp" />
@@ -199,6 +243,9 @@
         <option value="$PROJECT_DIR$/web/web/WEB-INF/jspf/letters.jspf" />
         <option value="$PROJECT_DIR$/web/web/css/style.css" />
         <option value="$PROJECT_DIR$/web/web/WEB-INF/jspf/header.jspf" />
+        <option value="$PROJECT_DIR$/web/src/main/java/filters/CheckSessionFilter.java" />
+        <option value="$PROJECT_DIR$/web/src/main/java/listeners/ContextListener.java" />
+        <option value="$PROJECT_DIR$/web/web/WEB-INF/web.xml" />
       </list>
     </option>
   </component>
@@ -277,7 +324,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="beans" type="462c0819:PsiDirectoryNode" />
+              <item name="enums" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="frameworks_etc" type="b2602c69:ProjectViewProjectNode" />
@@ -286,7 +333,16 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="enums" type="462c0819:PsiDirectoryNode" />
+              <item name="filters" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="frameworks_etc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="frameworks_etc" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="listeners" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="frameworks_etc" type="b2602c69:ProjectViewProjectNode" />
@@ -469,7 +525,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8 (2)" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/src/main/java/beans" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/src/main/java" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -482,23 +538,23 @@
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\projects\frameworks_etc\web\src\main\java\beans" />
-      <recent name="C:\projects\frameworks_etc\web\web\WEB-INF\jspf" />
-      <recent name="C:\projects\frameworks_etc\web\web\images" />
-      <recent name="C:\projects\frameworks_etc\web\web\css" />
-      <recent name="C:\projects\frameworks_etc\web\src\main" />
-    </key>
-    <key name="ImportMappingsDialog.RecentPackages">
-      <recent name="ru.frameworks.hibernateone.entity2" />
-      <recent name="" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\projects\frameworks_etc\web\web\css" />
       <recent name="C:\projects\frameworks_etc\web\web\pages" />
       <recent name="C:\projects\frameworks_etc\web\web\images" />
       <recent name="C:\projects\frameworks_etc\web\web\error" />
       <recent name="C:\projects\frameworks_etc\web\src\main\java\servlets" />
+    </key>
+    <key name="ImportMappingsDialog.RecentPackages">
+      <recent name="ru.frameworks.hibernateone.entity2" />
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\projects\frameworks_etc\web\src\main\java" />
+      <recent name="C:\projects\frameworks_etc\web\src\main\java\filters" />
+      <recent name="C:\projects\frameworks_etc\web\src\main\java\beans" />
+      <recent name="C:\projects\frameworks_etc\web\web\WEB-INF\jspf" />
+      <recent name="C:\projects\frameworks_etc\web\web\images" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -720,7 +776,7 @@
       <workItem from="1564566463566" duration="1885000" />
       <workItem from="1564575245205" duration="14429000" />
       <workItem from="1564644579490" duration="1239000" />
-      <workItem from="1564648306577" duration="7206000" />
+      <workItem from="1564648306577" duration="9215000" />
     </task>
     <task id="LOCAL-00001" summary="Delete hiber">
       <created>1562923293323</created>
@@ -1002,11 +1058,18 @@
       <option name="project" value="LOCAL" />
       <updated>1564603989715</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="JSpFilterMain2">
+      <created>1564657317008</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1564657317009</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="238312000" />
+    <option name="totallyTimeSpent" value="240321000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1019,9 +1082,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1432" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.832244" visible="true" weight="0.1503856" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.83241254" visible="true" weight="0.1503856" />
       <window_info id="Structure" order="1" sideWeight="0.34396356" side_tool="true" weight="0.3014139" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -1029,17 +1091,17 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" sideWeight="0.34285715" side_tool="true" weight="0.3014139" />
       <window_info id="Persistence" order="7" sideWeight="0.34285715" side_tool="true" weight="0.3014139" />
-      <window_info id="Web" order="8" sideWeight="0.16775599" side_tool="true" visible="true" weight="0.1503856" />
+      <window_info id="Web" order="8" sideWeight="0.16758747" side_tool="true" visible="true" weight="0.1503856" />
       <window_info anchor="bottom" id="SQL Generator" order="0" weight="0.32916668" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.29166666" />
-      <window_info anchor="bottom" id="Run" order="3" weight="0.22083333" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.30555555" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.3861111" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" weight="0.32916668" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="9" visible="true" weight="0.3625" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="9" visible="true" weight="0.24583334" />
       <window_info anchor="bottom" id="Database Changes" order="10" weight="0.32916668" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.32916668" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
@@ -1191,18 +1253,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/db/Database.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://f6592356-e162-47ed-8d7a-16335765b531/schema/lib_web/table/genre" />
-    <entry file="das://f6592356-e162-47ed-8d7a-16335765b531/schema/lib_web/table/publisher" />
     <entry file="file://$PROJECT_DIR$/web/src/main/java/servlets/ServletTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -1221,13 +1271,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="30" column="1" selection-start-line="12" selection-start-column="2" selection-end-line="30" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
         </state>
       </provider>
     </entry>
@@ -1254,13 +1297,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../java_ee_sdk-8u1/glassfish5/glassfish/modules/javax.servlet-api.jar!/javax/servlet/http/HttpServletRequest.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="88" column="14" selection-start-line="88" selection-start-column="14" selection-end-line="88" selection-end-column="14" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://G:/downloadS/Java/Онлайн бибилотека на spring/создание библиотеки на Java/library/lessons/28-Poisk_i_alfavitniy_ukazatel'/Library_7/web/WEB-INF/jspf/letters.jspf">
       <provider selected="true" editor-type-id="text-editor" />
@@ -1503,12 +1539,64 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/CheckSessionFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="31" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/web/web/WEB-INF/jspf/header.jspf">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="28" column="70" lean-forward="true" selection-start-line="28" selection-start-column="70" selection-end-line="28" selection-end-column="70" />
           <folding>
             <element signature="n#style#0;n#h6#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../java_ee_sdk-8u1/glassfish5/glassfish/modules/javax.servlet-api.jar!/javax/servlet/http/HttpServletRequest.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://G:/downloadS/Java/Онлайн бибилотека на spring/создание библиотеки на Java/library/lessons/29-Chtenie_knigi/Library_10/Library_10/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="549">
+          <caret line="38" column="21" lean-forward="true" selection-start-line="2" selection-start-column="4" selection-end-line="38" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/listeners/SessionListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="3" column="3" lean-forward="true" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="24" column="8" lean-forward="true" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/listeners/ContextListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/filters/CheckSessionFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="45" column="29" selection-start-line="45" selection-start-column="29" selection-end-line="45" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
