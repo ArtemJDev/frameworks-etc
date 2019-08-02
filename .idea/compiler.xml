@@ -9,9 +9,11 @@
         <outputRelativeToContentRoot value="true" />
         <module name="hibernate" />
         <module name="Spring" />
+        <module name="firstjsfApp" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="firstjsfApp" target="1.7" />
       <module name="frameworks_etc" target="11" />
       <module name="hibernate" target="11" />
       <module name="Spring" target="11" />
