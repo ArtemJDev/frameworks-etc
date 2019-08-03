@@ -2,7 +2,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:h="http://java.sun.com/jsf/html"
-      xmlns:a="http://xmlns.jcp.org/jsf/passthrough">
+      xmlns:a="http://xmlns.jcp.org/jsf/passthrough" xmlns:f="http://java.sun.com/jsf/core">
 <h:head>
   <title>Ваш склад онлайн</title>
 
@@ -20,10 +20,26 @@
       <p>Для авторизации введите свое имя</p>
     </div>
     <div class="form">
+      <h:message for="email" style="color:red" />
       <h:form styleClass="test_input_usern">
-        <h:inputText id="username" value="#{user.username}"/>
+        <h:inputText id="username" value="#{user.username}" >
+        </h:inputText>
+        <h:inputText id="email" value="#{user.email}"
+                     size="20" required="true" label="Email">
+          <f:validator validatorId="emailValidator" />
+        </h:inputText>
         <h:commandButton value="Submit" action="response"/>
       </h:form>
+
+      <h:form>
+        <h:message for="username1" style="color:red" />
+        <h:inputText id="username1" value="#{user.username}"
+                     size="20" required="true" label="Пользователь">
+          <f:validateLength minimum="5" maximum="10" />
+        </h:inputText>
+        <h:commandButton value="Submit" action="response"/>
+      </h:form>
+
     </div>
   </div>
 
