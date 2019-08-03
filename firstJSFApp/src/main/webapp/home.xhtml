@@ -1,10 +1,38 @@
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-  <title>JSF Tutorial</title>
-</head>
-<body>
-#{helloWorld.message}
-</body>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:a="http://xmlns.jcp.org/jsf/passthrough">
+<h:head>
+  <title>Ваш склад онлайн</title>
+
+  <h:outputStylesheet library="css" name="style_index.css"  />
+</h:head>
+
+<h:body>
+
+  <div class="test">
+    <div class="content">
+      <h:graphicImage library="images" name="migration1.png"/>
+      <h1>Ваш склад онлайн: version 0.0</h1>
+      <p>Добро пожаловать на склад, вы можете посмотреть запасы любого товара и заказать его.
+        Воспользуйтесь поиском и просмотром.</p>
+      <p>Для авторизации введите свое имя</p>
+    </div>
+    <div class="form">
+      <h:form styleClass="test_input_usern">
+        <h:inputText id="username" value="#{user.username}"/>
+        <h:commandButton value="Submit" action="response"/>
+      </h:form>
+    </div>
+  </div>
+
+
+
+
+</h:body>
+
+
+
+
 </html>

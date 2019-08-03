@@ -49,7 +49,6 @@
           <element id="library" level="project" name="Maven: org.ow2.asm:asm:6.0_ALPHA" />
           <element id="library" level="project" name="Maven: org.apache.ant:ant:1.9.6" />
           <element id="library" level="project" name="Maven: org.apache.ant:ant-launcher:1.9.6" />
-          <element id="library" level="project" name="Maven: javax.servlet:jstl:unknown" />
         </element>
       </element>
       <element id="directory" name="META-INF">
