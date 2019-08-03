@@ -12,4 +12,14 @@
     </resource-bundle>
   </application>
 
+  <navigation-rule>
+    <from-view-id>/home.xhtml</from-view-id>
+    <navigation-case>
+      <description>Success autorization</description>
+      <from-outcome>books</from-outcome>
+      <to-view-id>../pages/response.xhtml</to-view-id>
+      <redirect/>
+    </navigation-case>
+  </navigation-rule>
+
 </faces-config>

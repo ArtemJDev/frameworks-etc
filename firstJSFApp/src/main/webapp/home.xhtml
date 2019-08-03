@@ -24,8 +24,10 @@
 
       <h:form styleClass="test_input_usern">
         <h:inputText id="username" value="#{user.username}" >
+          <f:validator validatorId="userNameValidator" />
         </h:inputText>
-        <h:commandButton value="Submit" action="pages/response?faces-redirect=true"/>
+
+        <h:commandButton   value="Submit" action="pages/response?faces-redirect=true"/>
       </h:form>
 
     </div>
