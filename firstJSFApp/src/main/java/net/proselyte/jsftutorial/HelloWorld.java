@@ -11,14 +11,12 @@ public class HelloWorld {
 
   @ManagedProperty(value = "#{message}")
   private Message messageBean;
-
   private String message;
 
   public HelloWorld() {
     System.out.println("Starting HelloWorld...");
 
   }
-
   public String getMessage() {
     if (messageBean != null) {
       message = messageBean.getMessage();

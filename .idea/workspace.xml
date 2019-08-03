@@ -7,10 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="51af441c-13f7-485b-9066-e5164ea9f418" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/firstJSFApp/src/main/java/net/proselyte/jsftutorial/HelloWorld.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/firstJSFApp/src/main/java/net/proselyte/jsftutorial/Message.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstJSFApp/src/main/java/net/proselyte/firstjsfapp/HelloWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/firstJSFApp/src/main/java/net/proselyte/firstjsfapp/HelloWorld.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstJSFApp/src/main/java/net/proselyte/jsftutorial/HelloWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/firstJSFApp/src/main/java/net/proselyte/jsftutorial/HelloWorld.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/HibernateTest/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -38,44 +37,7 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="lib_web@localhost" type="feb32156:DbDataSourceImpl" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="lib_web@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="lib_web@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="lib_web: schema" type="76f4a085:MysqlImplModel$Schema" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="lib_web@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="lib_web: schema" type="76f4a085:MysqlImplModel$Schema" />
-        <item name="book: table" type="285a2a93:MysqlImplModel$Table" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="lib_web@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="lib_web: schema" type="76f4a085:MysqlImplModel$Schema" />
-        <item name="genre: table" type="285a2a93:MysqlImplModel$Table" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="lib_web@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="lib_web: schema" type="76f4a085:MysqlImplModel$Schema" />
-        <item name="publisher: table" type="285a2a93:MysqlImplModel$Table" />
-      </path>
-    </expand>
+    <expand />
     <select />
   </component>
   <component name="DefaultGradleProjectSettings">
@@ -91,67 +53,37 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/web/WEB-INF/web.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/web/index.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/firstjsfApp/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" column="16" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
+            <state relative-caret-position="112">
+              <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="36" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/firstjsfApp/src/main/java/net/proselyte/firstjsfapp/HelloWorld.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-              <folding>
-                <element signature="e#263#264#0" expanded="true" />
-                <element signature="e#314#315#0" expanded="true" />
-                <element signature="e#346#347#0" expanded="true" />
-                <element signature="e#377#378#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="342">
+              <caret line="116" selection-start-line="116" selection-end-line="116" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/firstjsfApp/src/main/webapp/WEB-INF/faces-config.xml">
-          <provider editor-type-id="com.intellij.jsf.yfilesGraph.editor.FacesNavigationFileEditorProvider" />
           <provider selected="true" editor-type-id="text-editor" />
+          <provider editor-type-id="com.intellij.jsf.yfilesGraph.editor.FacesNavigationFileEditorProvider" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/firstjsfApp/src/main/webapp/home.xhtml">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/firstjsfApp/src/main/java/net/proselyte/jsftutorial/HelloWorld.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+            <state relative-caret-position="204">
+              <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -159,29 +91,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/firstjsfApp/src/main/java/net/proselyte/jsftutorial/Message.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="3" lean-forward="true" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
+            <state relative-caret-position="136">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#433#434#0" expanded="true" />
-                <element signature="e#457#458#0" expanded="true" />
-                <element signature="e#501#502#0" expanded="true" />
-                <element signature="e#533#534#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/firstjsfApp/src/main/java/net/proselyte/jsftutorial/HelloWorld.java">
+        <entry file="file://$PROJECT_DIR$/firstjsfApp/src/main/webapp/home.xhtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="11" column="37" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#728#729#0" expanded="true" />
-                <element signature="e#768#769#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="153">
+              <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -189,8 +112,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/firstjsfApp/src/main/webapp/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="38" column="10" lean-forward="true" selection-start-line="38" selection-start-column="10" selection-end-line="38" selection-end-column="10" />
+            <state relative-caret-position="221">
+              <caret line="13" column="46" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -272,13 +195,13 @@
         <option value="$PROJECT_DIR$/web/src/main/java/listeners/ContextListener.java" />
         <option value="$PROJECT_DIR$/web/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/firstjsfApp/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/firstjsfApp/pom.xml" />
         <option value="$PROJECT_DIR$/firstjsfApp/src/main/webapp/WEB-INF/home.xhtml" />
-        <option value="$PROJECT_DIR$/firstjsfApp/src/main/java/net/proselyte/firstjsfapp/HelloWorld.java" />
         <option value="$PROJECT_DIR$/firstjsfApp/src/main/webapp/home.xhtml" />
         <option value="$PROJECT_DIR$/firstjsfApp/src/main/java/net/proselyte/jsftutorial/Message.java" />
+        <option value="$PROJECT_DIR$/firstjsfApp/src/main/java/net/proselyte/firstjsfapp/HelloWorld.java" />
         <option value="$PROJECT_DIR$/firstjsfApp/src/main/java/net/proselyte/jsftutorial/HelloWorld.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -299,6 +222,10 @@
   <component name="MavenProjectNavigator">
     <treeState>
       <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="middle" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="Spring" type="9519ce18:MavenProjectsStructure$ProjectNode" />
@@ -326,6 +253,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -409,106 +337,6 @@
             </path>
             <path>
               <item name="frameworks_etc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="frameworks_etc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 (2) &gt;" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="frameworks_etc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 (2) &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="frameworks_etc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 (2) &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="frameworks_etc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 (2) &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="io" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="frameworks_etc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="GlassFish 5.0.1" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="frameworks_etc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="GlassFish 5.0.1" type="70bed36:NamedLibraryElementNode" />
-              <item name="javax.servlet-api.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="frameworks_etc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="GlassFish 5.0.1" type="70bed36:NamedLibraryElementNode" />
-              <item name="javax.servlet-api.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="javax" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="frameworks_etc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="GlassFish 5.0.1" type="70bed36:NamedLibraryElementNode" />
-              <item name="javax.servlet-api.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="javax" type="462c0819:PsiDirectoryNode" />
-              <item name="servlet" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="frameworks_etc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="GlassFish 5.0.1" type="70bed36:NamedLibraryElementNode" />
-              <item name="javax.servlet-api.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="javax" type="462c0819:PsiDirectoryNode" />
-              <item name="servlet" type="462c0819:PsiDirectoryNode" />
-              <item name="http" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="frameworks_etc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: com.sun.faces:jsf-api:2.1.7" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="frameworks_etc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: com.sun.faces:jsf-api:2.1.7" type="70bed36:NamedLibraryElementNode" />
-              <item name="jsf-api-2.1.7.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="frameworks_etc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: com.sun.faces:jsf-api:2.1.7" type="70bed36:NamedLibraryElementNode" />
-              <item name="jsf-api-2.1.7.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="javax" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="frameworks_etc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: com.sun.faces:jsf-api:2.1.7" type="70bed36:NamedLibraryElementNode" />
-              <item name="jsf-api-2.1.7.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="javax" type="462c0819:PsiDirectoryNode" />
-              <item name="faces" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="frameworks_etc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: com.sun.faces:jsf-api:2.1.7" type="70bed36:NamedLibraryElementNode" />
-              <item name="jsf-api-2.1.7.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="javax" type="462c0819:PsiDirectoryNode" />
-              <item name="faces" type="462c0819:PsiDirectoryNode" />
-              <item name="bean" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="frameworks_etc" type="b2602c69:ProjectViewProjectNode" />
               <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
             </path>
             <path>
@@ -526,7 +354,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -546,7 +373,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8 (2)" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/src/main/java" />
+    <property name="last_opened_file_path" value="G:/downloadS/Java/Онлайн бибилотека на spring/создание библиотеки на Java/library/lessons/30-Java_Server_Faces/Library_1_jsf/Library_1_jsf" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -874,7 +701,9 @@
       <workItem from="1564575245205" duration="14429000" />
       <workItem from="1564644579490" duration="1239000" />
       <workItem from="1564648306577" duration="9215000" />
-      <workItem from="1564773412292" duration="1638000" />
+      <workItem from="1564773412292" duration="1993000" />
+      <workItem from="1564815231523" duration="1886000" />
+      <workItem from="1564838538321" duration="1877000" />
     </task>
     <task id="LOCAL-00001" summary="Delete hiber">
       <created>1562923293323</created>
@@ -1170,11 +999,18 @@
       <option name="project" value="LOCAL" />
       <updated>1564766164654</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="ManagedBeanJSF">
+      <created>1564775364583</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1564775364583</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="242696000" />
+    <option name="totallyTimeSpent" value="246814000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1187,9 +1023,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1432" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.818" visible="true" weight="0.25128534" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.8139963" visible="true" weight="0.25449872" />
       <window_info id="Structure" order="1" sideWeight="0.34396356" side_tool="true" weight="0.3014139" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -1197,17 +1032,17 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" sideWeight="0.34285715" side_tool="true" weight="0.3014139" />
       <window_info id="Persistence" order="7" sideWeight="0.34285715" side_tool="true" weight="0.3014139" />
-      <window_info id="Web" order="8" sideWeight="0.182" side_tool="true" visible="true" weight="0.25128534" />
+      <window_info id="Web" order="8" sideWeight="0.18600368" side_tool="true" visible="true" weight="0.25449872" />
       <window_info anchor="bottom" id="SQL Generator" order="0" weight="0.32916668" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.29166666" />
-      <window_info anchor="bottom" id="Run" order="3" visible="true" weight="0.30555555" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.30555555" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.3861111" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" weight="0.32916668" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.24583334" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="9" visible="true" weight="0.24583334" />
       <window_info anchor="bottom" id="Database Changes" order="10" weight="0.32916668" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.32916668" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
@@ -1222,9 +1057,9 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Database" order="4" visible="true" weight="0.1844473" />
+      <window_info anchor="right" id="Database" order="4" weight="0.1844473" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Maven" order="6" weight="0.110539846" />
+      <window_info anchor="right" id="Maven" order="6" visible="true" weight="0.23393317" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="JSF" order="9" />
@@ -1274,7 +1109,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="SpringInherBeans" />
     <MESSAGE value="SpringCGLIB" />
     <MESSAGE value="SpringCollections" />
     <MESSAGE value="SpringSpEL" />
@@ -1299,7 +1133,8 @@
     <MESSAGE value="JSpFilterMain" />
     <MESSAGE value="JSpFilterMain2" />
     <MESSAGE value="JSFHello" />
-    <option name="LAST_COMMIT_MESSAGE" value="JSFHello" />
+    <MESSAGE value="ManagedBeanJSF" />
+    <option name="LAST_COMMIT_MESSAGE" value="ManagedBeanJSF" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1359,30 +1194,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://G:/downloadS/Java/Онлайн бибилотека на spring/создание библиотеки на Java/library/lessons/28-Poisk_i_alfavitniy_ukazatel'/Library_7/web/WEB-INF/jspf/left_menu.jspf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://G:/downloadS/Java/Онлайн бибилотека на spring/создание библиотеки на Java/library/lessons/28-Poisk_i_alfavitniy_ukazatel'/Library_7/web/pages/main.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="49" lean-forward="true" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="2642" column="18" selection-start-line="2642" selection-start-column="18" selection-end-line="2642" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://G:/downloadS/Java/Онлайн бибилотека на spring/создание библиотеки на Java/library/lessons/28-Poisk_i_alfavitniy_ukazatel'/Library_7/src/java/ru/javabegin/training/web/servlets/ShowImage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
@@ -1640,17 +1451,17 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/firstjsfApp/src/main/webapp/index.jsp" />
-    <entry file="file://$PROJECT_DIR$/web/web/WEB-INF/web.xml">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/sun/faces/jsf-api/2.1.7/jsf-api-2.1.7.jar!/javax/faces/bean/ManagedBean.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+        <state relative-caret-position="204">
+          <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/web/web/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+        <state relative-caret-position="102">
+          <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -1661,74 +1472,76 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/firstjsfApp/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="16" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/sun/faces/jsf-api/2.1.7/jsf-api-2.1.7.jar!/javax/faces/bean/ManagedBean.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/firstjsfApp/src/main/java/net/proselyte/firstjsfapp/HelloWorld.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="136">
+          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://G:/downloadS/Java/Онлайн бибилотека на spring/создание библиотеки на Java/library/lessons/30-Java_Server_Faces/Library_1_jsf/Library_1_jsf/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://G:/downloadS/Java/Онлайн бибилотека на spring/создание библиотеки на Java/library/lessons/30-Java_Server_Faces/Library_1_jsf/Library_1_jsf/build.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="55" lean-forward="true" selection-start-line="8" selection-start-column="55" selection-end-line="8" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://G:/downloadS/Java/Онлайн бибилотека на spring/создание библиотеки на Java/library/lessons/30-Java_Server_Faces/Library_1_jsf/Library_1_jsf/web/WEB-INF/faces-config.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="com.intellij.jsf.yfilesGraph.editor.FacesNavigationFileEditorProvider" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/firstjsfApp/src/main/java/net/proselyte/jsftutorial/HelloWorld.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
           <folding>
-            <element signature="e#263#264#0" expanded="true" />
-            <element signature="e#314#315#0" expanded="true" />
-            <element signature="e#346#347#0" expanded="true" />
-            <element signature="e#377#378#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/firstjsfApp/src/main/java/net/proselyte/jsftutorial/Message.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/firstjsfApp/src/main/webapp/WEB-INF/faces-config.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="com.intellij.jsf.yfilesGraph.editor.FacesNavigationFileEditorProvider" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/firstjsfApp/src/main/webapp/home.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/firstjsfApp/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="38" column="10" lean-forward="true" selection-start-line="38" selection-start-column="10" selection-end-line="38" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/firstjsfApp/src/main/webapp/WEB-INF/faces-config.xml">
-      <provider editor-type-id="com.intellij.jsf.yfilesGraph.editor.FacesNavigationFileEditorProvider" />
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/firstjsfApp/src/main/java/net/proselyte/jsftutorial/Message.java">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
-          <caret line="13" column="3" lean-forward="true" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#433#434#0" expanded="true" />
-            <element signature="e#457#458#0" expanded="true" />
-            <element signature="e#501#502#0" expanded="true" />
-            <element signature="e#533#534#0" expanded="true" />
-          </folding>
+          <caret line="13" column="46" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/firstjsfApp/src/main/java/net/proselyte/jsftutorial/HelloWorld.java">
+    <entry file="file://$PROJECT_DIR$/firstjsfApp/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="11" column="37" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#728#729#0" expanded="true" />
-            <element signature="e#768#769#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="112">
+          <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="36" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/firstjsfApp/src/main/webapp/home.xhtml">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        <state relative-caret-position="342">
+          <caret line="116" selection-start-line="116" selection-end-line="116" />
         </state>
       </provider>
     </entry>

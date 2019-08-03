@@ -114,10 +114,6 @@
       <artifactId>cglib</artifactId>
       <version>3.2.5</version>
     </dependency>
-    <dependency>
-      <groupId>javax.servlet</groupId>
-      <artifactId>jstl</artifactId>
-    </dependency>
 
   </dependencies>
 
