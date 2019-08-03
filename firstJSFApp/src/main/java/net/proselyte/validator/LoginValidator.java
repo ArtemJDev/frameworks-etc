@@ -17,13 +17,10 @@ public class LoginValidator implements Validator {
       "^[_A-Za-z0-9-]+(\\." +
           "[_A-Za-z0-9-]+)*@[A-Za-z0-9]+(\\.[A-Za-z0-9]+)*" +
           "(\\.[A-Za-z]{2,})$";
-
   private Pattern pattern;
-
   public LoginValidator() {
     pattern = Pattern.compile(EMAIL_PATTERN);
   }
-
   @Override
   public void validate(FacesContext context, UIComponent component,
       Object value) throws ValidatorException {

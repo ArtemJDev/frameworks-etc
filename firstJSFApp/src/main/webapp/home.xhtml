@@ -20,24 +20,12 @@
       <p>Для авторизации введите свое имя</p>
     </div>
     <div class="form">
-      <h:message for="email" style="color:red" />
+      <h:message for="username" style="color:red" /><!--вывод сообщений-->
+
       <h:form styleClass="test_input_usern">
         <h:inputText id="username" value="#{user.username}" >
         </h:inputText>
-        <h:inputText id="email" value="#{user.email}"
-                     size="20" required="true" label="Email">
-          <f:validator validatorId="emailValidator" />
-        </h:inputText>
-        <h:commandButton value="Submit" action="response"/>
-      </h:form>
-
-      <h:form>
-        <h:message for="username1" style="color:red" />
-        <h:inputText id="username1" value="#{user.username}"
-                     size="20" required="true" label="Пользователь">
-          <f:validateLength minimum="5" maximum="10" />
-        </h:inputText>
-        <h:commandButton value="Submit" action="response"/>
+        <h:commandButton value="Submit" action="pages/response?faces-redirect=true"/>
       </h:form>
 
     </div>
