@@ -11,14 +11,14 @@ import javax.faces.validator.Validator;
 import javax.faces.validator.ValidatorException;
 
 @FacesValidator("emailValidator")
-public class LoginValidator implements Validator {
+public class EmailValidator implements Validator {
 
   private static final String EMAIL_PATTERN =
       "^[_A-Za-z0-9-]+(\\." +
           "[_A-Za-z0-9-]+)*@[A-Za-z0-9]+(\\.[A-Za-z0-9]+)*" +
           "(\\.[A-Za-z]{2,})$";
   private Pattern pattern;
-  public LoginValidator() {
+  public EmailValidator() {
     pattern = Pattern.compile(EMAIL_PATTERN);
   }
   @Override
