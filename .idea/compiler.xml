@@ -19,6 +19,8 @@
       <module name="hibernate" target="11" />
       <module name="Spring" target="11" />
       <module name="springbootapp" target="11" />
+      <module name="springeng.main" target="1.8" />
+      <module name="springeng.test" target="1.8" />
       <module name="web" target="8" />
     </bytecodeTargetLevel>
   </component>
