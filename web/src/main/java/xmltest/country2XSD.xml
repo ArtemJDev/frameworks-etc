@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!--ссылаемся на наш xsd, xml фал будет являться экземпляром определенной схемы-->
+<root xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation ="countryXSD.xsd"
+>
+  <country contryCode="ua">
+    <name>Ukraine</name>
+    <capital>Kiev</capital>
+    <description>Ukraine is..</description>
+  </country>
+  
+  <country contryCode="ru">
+    <name>Russia</name>
+    <capital>Moscow</capital>
+    <description>Russia is..</description>
+  </country>
+
+</root>
+

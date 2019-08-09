@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--nameSpaces пример, с разных источников-->
+<root>
+<h:table xmlns:h = "http://www.w3.org/TR/html5">
+    <h:tr>
+      <h:td>Apples</h:td>
+      <h:td>Bananas</h:td>
+    </h:tr>
+</h:table>
+
+
+  <f:table xmlns:f = "http://www.link.co.rs/furniture">
+    <name>Affrican Coffe</name>
+    <width>120</width>
+    <length>80</length>
+  </f:table>
+
+</root>

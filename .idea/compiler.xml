@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="hibernate" />
         <module name="Spring" />
+        <module name="springboot" />
         <module name="firstjsfApp" />
       </profile>
     </annotationProcessing>
@@ -17,12 +18,14 @@
       <module name="frameworks_etc" target="11" />
       <module name="hibernate" target="11" />
       <module name="Spring" target="11" />
+      <module name="springbootapp" target="11" />
       <module name="web" target="8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="hibernate" options="" />
+      <module name="springbootapp" options="" />
     </option>
   </component>
 </project>
