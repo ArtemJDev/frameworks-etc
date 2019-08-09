@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<root>
+  <country contryCode="ua">
+    <name>Ukraine</name>
+    <capital>Kiev</capital>
+    <description>Ukraine is..</description>
+  </country>
+
+  <country contryCode="ru">
+    <name>Russia</name>
+    <capital>Moscow</capital>
+    <description>Russia is..</description>
+  </country>
+
+</root>
