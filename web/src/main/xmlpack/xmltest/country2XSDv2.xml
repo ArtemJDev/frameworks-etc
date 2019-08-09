@@ -15,7 +15,7 @@ xsi:noNamespaceSchemaLocation ="countryXSDv2.xsd"
     <name>Russia</name>
     <capital>Moscow</capital>
     <description>Russia is..</description>
-    <visa_cost >555</visa_cost>
+    <visa_cost>555</visa_cost>
   </country>
 
 </root>
