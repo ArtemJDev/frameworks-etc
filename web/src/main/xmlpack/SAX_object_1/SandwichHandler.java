@@ -15,6 +15,9 @@ public class SandwichHandler extends DefaultHandler {
   public SandwichHandler() {
     sandwich = new Sandwich();
   }
+  public Sandwich getSandwich() {
+    return sandwich;
+  }
  //можем взять имя тега
   @Override
   public void startElement(String uri, String localName, String qName, Attributes attributes)
@@ -23,17 +26,11 @@ public class SandwichHandler extends DefaultHandler {
     currentQname = qName;
     countIngridients = (attributes.getLength() > 0) ? Integer.parseInt(attributes.getValue(0)) : 1;
   }
-
-  public Sandwich getSandwich() {
-    return sandwich;
-  }
-
   @Override
   public void endElement(String uri, String localName, String qName) throws SAXException {
     System.out.println("End Element " + qName);
     currentQname = "";
   }
-
   //можем взять имя строкового элемента
   @Override
   public void characters(char[] ch, int start, int length) throws SAXException {
@@ -48,6 +45,7 @@ public class SandwichHandler extends DefaultHandler {
         for (int i = 0; i < countIngridients; i++) {
           sandwich.addIngridient(new Ingridient(value)); //добавляем по количеству значений
         }
+        break;
     }
   }
 }

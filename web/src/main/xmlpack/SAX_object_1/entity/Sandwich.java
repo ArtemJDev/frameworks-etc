@@ -26,6 +26,4 @@ public class Sandwich {
   public List<Ingridient> getIngridients() {
     return ingridients;
   }
-
-
 }

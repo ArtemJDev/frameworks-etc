@@ -32,7 +32,6 @@ public class Main {
       for(Ingridient ingridient : ingridients) {
         System.out.println(ingridient.getTitle());
       }
-
     }
   }
 }
