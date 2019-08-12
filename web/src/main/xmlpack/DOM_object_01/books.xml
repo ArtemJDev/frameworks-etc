@@ -13,5 +13,8 @@
     <title>Coves of street</title>
     <author>Isaac</author>
   </book>
-
+  <book id="04" isbn="10000">
+    <title>Lukomorie</title>
+    <author>Pushkin</author>
+  </book>
 </books>
