@@ -14,6 +14,8 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="com.englishapp.springeng.main" target="1.8" />
+      <module name="com.englishapp.springeng.test" target="1.8" />
       <module name="firstjsfApp" target="1.7" />
       <module name="frameworks_etc" target="11" />
       <module name="hibernate" target="11" />
