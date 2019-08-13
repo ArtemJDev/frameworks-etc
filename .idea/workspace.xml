@@ -6,12 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="51af441c-13f7-485b-9066-e5164ea9f418" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/web/src/main/xmlpack/STAX/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/xmlpack/STAX/books.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/xmlpack/DOM_create/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/xmlpack/DOM_create/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="51af441c-13f7-485b-9066-e5164ea9f418" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/HibernateTest/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/hibernate/target/" />
@@ -131,7 +126,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/src/main/xmlpack/STAX/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
+            <state relative-caret-position="655">
               <caret line="43" column="92" selection-start-line="43" selection-start-column="92" selection-end-line="43" selection-end-column="92" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -344,15 +339,6 @@
             </path>
             <path>
               <item name="frameworks_etc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="frameworks_etc" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="xmlpack" type="462c0819:PsiDirectoryNode" />
-              <item name="STAX" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="frameworks_etc" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
             <path>
@@ -544,7 +530,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8 (2)" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/src/main/xmlpack/STAX" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/src/main/xmlpack/STAX_create" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -947,14 +933,7 @@
       <workItem from="1565588941696" duration="2249000" />
       <workItem from="1565604598310" duration="8780000" />
       <workItem from="1565639691613" duration="2705000" />
-      <workItem from="1565689455105" duration="4934000" />
-    </task>
-    <task id="LOCAL-00011" summary="SpringStart">
-      <created>1563293794062</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1563293794062</updated>
+      <workItem from="1565689455105" duration="5293000" />
     </task>
     <task id="LOCAL-00012" summary="SpringStartUpdate">
       <created>1563299923824</created>
@@ -1292,11 +1271,18 @@
       <option name="project" value="LOCAL" />
       <updated>1565694022774</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="STAXParser">
+      <created>1565697753674</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1565697753674</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="316862000" />
+    <option name="totallyTimeSpent" value="317221000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1309,9 +1295,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7889126" visible="true" weight="0.19023137" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7889126" visible="true" weight="0.19023137" />
       <window_info id="Structure" order="1" sideWeight="0.34396356" side_tool="true" weight="0.3014139" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -1323,13 +1308,13 @@
       <window_info anchor="bottom" id="SQL Generator" order="0" weight="0.32916668" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.29166666" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.43194443" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.43194443" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.32777777" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" weight="0.32916668" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.05138889" />
+      <window_info anchor="bottom" id="Version Control" order="9" visible="true" weight="0.12222222" />
       <window_info anchor="bottom" id="Database Changes" order="10" weight="0.32916668" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.32916668" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
@@ -1400,7 +1385,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="JDBSMainPageConnection" />
     <MESSAGE value="JDBCBeans+List" />
     <MESSAGE value="MainPageOut" />
     <MESSAGE value="MainImages" />
@@ -1425,7 +1409,8 @@
     <MESSAGE value="DOMParser Common" />
     <MESSAGE value="DOMParser object" />
     <MESSAGE value="DOMCreate" />
-    <option name="LAST_COMMIT_MESSAGE" value="DOMCreate" />
+    <MESSAGE value="STAXParser" />
+    <option name="LAST_COMMIT_MESSAGE" value="STAXParser" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1922,7 +1907,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/src/main/xmlpack/STAX/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
+        <state relative-caret-position="655">
           <caret line="43" column="92" selection-start-line="43" selection-start-column="92" selection-end-line="43" selection-end-column="92" />
           <folding>
             <element signature="imports" expanded="true" />
