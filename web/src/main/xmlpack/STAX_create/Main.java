@@ -4,9 +4,7 @@ package main.xmlpack.STAX_create;
 import javax.xml.stream.*;
 import java.io.*;
 
-/**
- * Created by Asus on 03.12.2017.
- */
+
 public class Main {
 
     public static void main(String[] args) throws IOException, XMLStreamException {
