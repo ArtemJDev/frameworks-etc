@@ -1,41 +1,43 @@
 package main.xmlpack.DOM_object_01;
 
 import java.io.IOException;
+import java.util.List;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
+import javax.xml.transform.TransformerException;
+import main.xmlpack.DOM_object_01.entity.Book;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
 
+/**
+ * Created by Asus on 03.12.2017.
+ */
 public class Main {
 
-  public static void main(String[] args)
-      throws ParserConfigurationException, IOException, SAXException {
-    DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
-    dbf.setIgnoringElementContentWhitespace(true);
+  public static void main(String[] args) throws ParserConfigurationException, IOException, SAXException, TransformerException {
+    BookHelper bh = new BookHelper();
 
-    DocumentBuilder  db = dbf.newDocumentBuilder();
-    Document document =  db.parse("C:\\projects\\frameworks_etc\\web\\src\\main\\xmlpack\\DOM\\books.xml");
+//    Book book = new Book();
+//    book.setId("05");
+//    book.setIsdn(777);
+//    book.setAuthor("Taras Shevchenko");
+//    book.setTitle("Zapovit");
+//
+//    bh.addBook(book);
 
-    Element root = document.getDocumentElement();
+    System.out.println("------------");
 
-    System.out.println(root.getNodeName()); //root tag
-    System.out.println(root.getNodeType()); //
+    List<Book> books = bh.getAll();
 
-    NodeList list = root.getElementsByTagName("book");
-
-    for (int i = 0; i < list.getLength(); i++) {
-      Node node = list.item(i);
-
-      System.out.println("Book Name :" + root.getElementsByTagName("title").item(i).getFirstChild().getTextContent());
-      System.out.println("Author Name :" + root.getElementsByTagName("author").item(i).getFirstChild().getTextContent());
-      System.out.println("ID :" + node.getAttributes().item(0).getNodeValue());
-      System.out.println("ISBN :" + node.getAttributes().item(1).getNodeValue());
-
+    for (Book b : books)  {
+      System.out.println(b.getId() +  " " + b.getIsdn()
+          + " " + b.getAuthor() + " " + b.getTitle());
     }
+
   }
 
 }

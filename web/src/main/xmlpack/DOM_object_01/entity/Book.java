@@ -2,7 +2,7 @@ package main.xmlpack.DOM_object_01.entity;
 
 public class Book {
   private String id;
-  private Long isbn;
+  private Long Isdn;
   private String title;
   private String author;
 
@@ -14,12 +14,12 @@ public class Book {
     this.id = id;
   }
 
-  public Long getIsbn() {
-    return isbn;
+  public Long getIsdn() {
+    return Isdn;
   }
 
-  public void setIsbn(Long isbn) {
-    this.isbn = isbn;
+  public void setIsdn(Long isbn) {
+    this.Isdn = isbn;
   }
 
   public String getTitle() {
