@@ -6,15 +6,11 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="51af441c-13f7-485b-9066-e5164ea9f418" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/web/src/main/xmlpack/marshaling_unmarshaling/MainMarshlling.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/xmlpack/marshaling_unmarshaling/MainUnmarshalling.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/xmlpack/marshaling_unmarshaling/country.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/xmlpack/marshaling_unmarshaling/country.xsd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/xmlpack/marshaling_unmarshaling/country/CountryType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/xmlpack/marshaling_unmarshaling/country/ObjectFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/xmlpack/marshaling_unmarshaling/country/RootType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="51af441c-13f7-485b-9066-e5164ea9f418" name="Default Changelist" comment="JA">
+      <change afterPath="$PROJECT_DIR$/web/src/main/xmlpack/JAXB/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/xmlpack/JAXB/Catalog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/xmlpack/JAXB/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/xmlpack/JAXB/output.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/HibernateTest/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -217,11 +213,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/src/main/xmlpack/marshaling_unmarshaling/country/CountryType.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
               <caret line="42" column="13" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/src/main/xmlpack/JAXB/Book.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -281,7 +286,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/springbootapp/src/main/resource/templates/greeting.html" />
         <option value="$PROJECT_DIR$/springbootapp/src/main/resource/static/index.html" />
         <option value="$PROJECT_DIR$/springbootapp/src/main/java/englishapp/core/CoreApplication.java" />
         <option value="$PROJECT_DIR$/springbootapp/pom.xml" />
@@ -332,6 +336,7 @@
         <option value="$PROJECT_DIR$/web/src/main/xmlpack/marshaling_unmarshaling/country/RootType.java" />
         <option value="$PROJECT_DIR$/web/src/main/xmlpack/marshaling_unmarshaling/MainUnmarshalling.java" />
         <option value="$PROJECT_DIR$/web/src/main/xmlpack/marshaling_unmarshaling/MainMarshlling.java" />
+        <option value="$PROJECT_DIR$/web/src/main/xmlpack/JAXB/Book.java" />
       </list>
     </option>
   </component>
@@ -409,17 +414,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="xmlpack" type="462c0819:PsiDirectoryNode" />
-              <item name="marshaling_unmarshaling" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="frameworks_etc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="frameworks_etc" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="xmlpack" type="462c0819:PsiDirectoryNode" />
-              <item name="marshaling_unmarshaling" type="462c0819:PsiDirectoryNode" />
-              <item name="country" type="462c0819:PsiDirectoryNode" />
+              <item name="JAXB" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="frameworks_etc" type="b2602c69:ProjectViewProjectNode" />
@@ -623,7 +618,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8 (2)" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/src/main/xmlpack/marshaling_unmarshaling" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/src/main/xmlpack/JAXB" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -644,11 +639,11 @@
       <recent name="C:\projects\frameworks_etc\firstjsfApp\src\main\webapp" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\projects\frameworks_etc\web\src\main\xmlpack\JAXB" />
       <recent name="C:\projects\frameworks_etc\web\src\main\xmlpack\marshaling_unmarshaling" />
       <recent name="C:\projects\frameworks_etc\web\src\main\xmlpack\xslt" />
       <recent name="C:\projects\frameworks_etc\web\src\main\xmlpack\X_Path" />
       <recent name="C:\projects\frameworks_etc\web\src\main\xmlpack\STAX_create" />
-      <recent name="C:\projects\frameworks_etc\web\src\main\xmlpack\STAX" />
     </key>
     <key name="ImportMappingsDialog.RecentPackages">
       <recent name="ru.frameworks.hibernateone.entity2" />
@@ -1033,14 +1028,7 @@
       <workItem from="1565588941696" duration="2249000" />
       <workItem from="1565604598310" duration="8780000" />
       <workItem from="1565639691613" duration="2705000" />
-      <workItem from="1565689455105" duration="9861000" />
-    </task>
-    <task id="LOCAL-00016" summary="SpringBeanPost">
-      <created>1563468066052</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1563468066053</updated>
+      <workItem from="1565689455105" duration="10614000" />
     </task>
     <task id="LOCAL-00017" summary="SpringSepXml">
       <created>1563470938775</created>
@@ -1378,11 +1366,18 @@
       <option name="project" value="LOCAL" />
       <updated>1565703170505</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="Marshaling_Unmarshaling">
+      <created>1565704064351</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1565704064352</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="321789000" />
+    <option name="totallyTimeSpent" value="322542000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1395,6 +1390,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7889126" visible="true" weight="0.19023137" />
       <window_info id="Structure" order="1" sideWeight="0.34396356" side_tool="true" weight="0.3014139" />
@@ -1485,7 +1481,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="MainImagesServlet" />
     <MESSAGE value="JSpFilterMain" />
     <MESSAGE value="JSpFilterMain2" />
     <MESSAGE value="JSFHello" />
@@ -1510,7 +1505,8 @@
     <MESSAGE value="STAXCreate" />
     <MESSAGE value="X_Path" />
     <MESSAGE value="xslt" />
-    <option name="LAST_COMMIT_MESSAGE" value="xslt" />
+    <MESSAGE value="Marshaling_Unmarshaling" />
+    <option name="LAST_COMMIT_MESSAGE" value="Marshaling_Unmarshaling" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1588,13 +1584,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/src/main/xmlpack/xmltest/country2XSDv2.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/src/main/xmlpack/SAX_object_1/entity/Sandwich.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -1991,6 +1980,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="42" column="13" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/xmlpack/JAXB/Book.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
