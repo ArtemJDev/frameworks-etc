@@ -40,7 +40,7 @@ public class Main {
     book.appendChild(author);
 
     root.appendChild(book);
-    document.appendChild(root);
+    document.appendChild(root); //только при создании нового доумента
 
     DOMSource source = new DOMSource(document);
     String outputURL = "C:\\projects\\frameworks_etc\\web\\src\\main\\xmlpack\\DOM_create\\books_edit.xml";

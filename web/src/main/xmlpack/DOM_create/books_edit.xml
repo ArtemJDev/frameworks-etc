@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<books>
+    <book id="04" isbn="333555">
+      <title>Lukomore</title>
+       <author>Alexandr Pushkin</author>
+  </book>
+</books>
