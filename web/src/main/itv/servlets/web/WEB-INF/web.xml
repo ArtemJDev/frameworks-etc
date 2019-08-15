@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+		  http://java.sun.com/xml/ns/javaee/web-app_4_0.xsd"
+           version="4.0">
+
+  <servlet>
+    <servlet-name>First-servlet</servlet-name>
+    <servlet-class>servlets.simpleServlet.SimpleServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>First-servlet</servlet-name>
+    <url-pattern>/myservlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>Second</servlet-name>
+    <servlet-class>servlets.servletSecond.SecondServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Second</servlet-name>
+    <url-pattern>/second</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>Param</servlet-name>
+    <servlet-class>servlets.servletParam.ServletThird</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Param</servlet-name>
+    <url-pattern>/params</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>ParamEnum</servlet-name>
+    <servlet-class>servlets.params2.FourthServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ParamEnum</servlet-name>
+    <url-pattern>/params_enum</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>Arif</servlet-name>
+    <servlet-class>servlets.arifmetic.ArifmeticServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Arif</servlet-name>
+    <url-pattern>/arifmetic</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>Thread</servlet-name>
+    <servlet-class>servlets.thread.ThreadServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Thread</servlet-name>
+    <url-pattern>/arifmetic_mult</url-pattern>
+  </servlet-mapping>
+
+  <error-page>
+    <error-code>404</error-code>
+    <location>/Error.html</location>
+  </error-page>
+
+  <error-page>
+    <error-code>400</error-code>
+    <location>/Error.html</location>
+  </error-page>
+</web-app>
