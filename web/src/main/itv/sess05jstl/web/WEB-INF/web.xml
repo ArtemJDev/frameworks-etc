@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+
+    <servlet>
+        <servlet-name>NoSession</servlet-name>
+        <servlet-class>ex_001_no_session.SimpleServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>NoSession</servlet-name>
+        <url-pattern>/no_session</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Session</servlet-name>
+        <servlet-class>ex_002_session.SimpleServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Session</servlet-name>
+        <url-pattern>/session</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Context</servlet-name>
+        <servlet-class>ex_003_servlet_context.SimpleServlet</servlet-class>
+        <init-param>
+            <param-name>name</param-name>
+            <param-value>Petya</param-value>
+        </init-param>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Context</servlet-name>
+        <url-pattern>/context</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ContextResult</servlet-name>
+        <servlet-class>ex_003_servlet_context.AnotherServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ContextResult</servlet-name>
+        <url-pattern>/context_result</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>FormRequest</servlet-name>
+        <servlet-class>ex_006_jstl_form.FormRequestServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>FormRequest</servlet-name>
+        <url-pattern>/form_request</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>DAOServlet</servlet-name>
+        <servlet-class>ex_007_jstl_dao.DAOServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DAOServlet</servlet-name>
+        <url-pattern>/cars</url-pattern>
+    </servlet-mapping>
+
+</web-app>
