@@ -1,8 +1,6 @@
 package main.itv.task.flowers.src.main.java.dao;
 
-/**
- * Created by Asus on 06.02.2018.
- */
+
 public class DAOFactory {
 
     private static DAOFactory factory;

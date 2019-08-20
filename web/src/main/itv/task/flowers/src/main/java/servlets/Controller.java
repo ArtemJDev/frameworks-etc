@@ -10,9 +10,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-/**
- * Created by Asus on 06.02.2018.
- */
+
 public class Controller extends HttpServlet {
 
     @Override

@@ -8,9 +8,7 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
-/**
- * Created by Asus on 06.02.2018.
- */
+
 public class UserDAO extends AbstractDAO {
 
     private static UserDAO instance;

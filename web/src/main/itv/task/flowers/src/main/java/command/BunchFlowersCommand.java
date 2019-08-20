@@ -9,9 +9,7 @@ import entitiy.User;
 import javax.servlet.http.HttpServletRequest;
 import java.util.List;
 
-/**
- * Created by Asus on 06.02.2018.
- */
+
 public class BunchFlowersCommand implements Command {
 
     public String execute(HttpServletRequest request) {

@@ -9,9 +9,7 @@ import javax.servlet.http.HttpSession;
 import java.util.List;
 import java.util.Set;
 
-/**
- * Created by Asus on 06.02.2018.
- */
+
 public class RegisterCommand implements Command {
 
     public String execute(HttpServletRequest request) {

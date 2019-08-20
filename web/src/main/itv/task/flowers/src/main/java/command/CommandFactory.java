@@ -6,9 +6,7 @@ import javax.servlet.http.HttpServletRequest;
 import java.util.HashMap;
 import java.util.Map;
 
-/**
- * Created by Asus on 06.02.2018.
- */
+
 public class CommandFactory {
 
     private static CommandFactory factory = new CommandFactory();

@@ -6,9 +6,7 @@ import entitiy.User;
 
 import javax.servlet.http.HttpServletRequest;
 
-/**
- * Created by Asus on 06.02.2018.
- */
+
 public class LoginCommand implements Command {
 
     public String execute(HttpServletRequest request) {

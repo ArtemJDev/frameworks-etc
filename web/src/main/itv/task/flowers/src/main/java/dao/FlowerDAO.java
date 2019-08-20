@@ -6,9 +6,7 @@ import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by Asus on 06.02.2018.
- */
+
 public class FlowerDAO extends AbstractDAO {
 
     private static FlowerDAO instance;

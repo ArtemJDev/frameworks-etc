@@ -3,9 +3,7 @@ package main.itv.task.flowers.src.main.java.entitiy;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by Asus on 06.02.2018.
- */
+
 public class User {
 
     private int id;
