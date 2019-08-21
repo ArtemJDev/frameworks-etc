@@ -184,7 +184,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/src/main/itv/task/flowers/src/test/java/TestCommand.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
+            <state relative-caret-position="34">
               <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
             </state>
           </provider>
@@ -455,38 +455,6 @@
             </path>
             <path>
               <item name="frameworks_etc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="frameworks_etc" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="frameworks_etc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="frameworks_etc" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="frameworks_etc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="frameworks_etc" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="frameworks_etc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="frameworks_etc" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="itv" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="frameworks_etc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="frameworks_etc" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="frameworks_etc" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
             <path>
@@ -574,7 +542,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8 (2)" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/src/main/itv/testfilter" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/src/main/itv/jsftest" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -587,26 +555,26 @@
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="main.xmlpack.classtest" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\projects\frameworks_etc\web\src\main\itv\task\flowers\src" />
-      <recent name="C:\projects\frameworks_etc\web\src\main\itv\task\flowers\web" />
-      <recent name="C:\projects\frameworks_etc\web\src\main\itv\task\flowers\src\main\java" />
-      <recent name="C:\projects\frameworks_etc\web\src\main\itv\task\flowers\src\main\resources" />
-      <recent name="C:\projects\frameworks_etc\web\src\main\itv\task\flowers\web\WEB-INF" />
-    </key>
-    <key name="ImportMappingsDialog.RecentPackages">
-      <recent name="ru.frameworks.hibernateone.entity2" />
-      <recent name="" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\projects\frameworks_etc\web\src\main\itv\task\flowers\web" />
       <recent name="C:\projects\frameworks_etc\springeng" />
       <recent name="C:\projects\frameworks_etc\web\src\main\xmlpack\SAX_object_1" />
       <recent name="C:\projects\frameworks_etc\springbootapp" />
       <recent name="C:\projects\frameworks_etc\firstjsfApp\src\main\webapp\pages" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\projects\frameworks_etc\web\src\main\itv\testfilter" />
+      <recent name="C:\projects\frameworks_etc\web\src\main\itv\task\flowers\src" />
+      <recent name="C:\projects\frameworks_etc\web\src\main\itv\task\flowers\web" />
+      <recent name="C:\projects\frameworks_etc\web\src\main\itv\task\flowers\src\main\java" />
+      <recent name="C:\projects\frameworks_etc\web\src\main\itv\task\flowers\src\main\resources" />
+    </key>
+    <key name="ImportMappingsDialog.RecentPackages">
+      <recent name="ru.frameworks.hibernateone.entity2" />
+      <recent name="" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="main.xmlpack.classtest" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -992,14 +960,7 @@
       <workItem from="1566137426697" duration="263000" />
       <workItem from="1566237622149" duration="2723000" />
       <workItem from="1566332071826" duration="243000" />
-      <workItem from="1566391614988" duration="614000" />
-    </task>
-    <task id="LOCAL-00026" summary="ServletHelloWorld">
-      <created>1563976850184</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1563976850184</updated>
+      <workItem from="1566391614988" duration="721000" />
     </task>
     <task id="LOCAL-00027" summary="ServletHelloWorldTest">
       <created>1563985406131</created>
@@ -1337,11 +1298,18 @@
       <option name="project" value="LOCAL" />
       <updated>1566332322449</updated>
     </task>
-    <option name="localTasksCounter" value="75" />
+    <task id="LOCAL-00075" summary="JSP test filters">
+      <created>1566393240216</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1566393240218</updated>
+    </task>
+    <option name="localTasksCounter" value="76" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="333370000" />
+    <option name="totallyTimeSpent" value="333477000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1444,7 +1412,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="ConvValidJSF" />
     <MESSAGE value="XMLXSD" />
     <MESSAGE value="ChangeLoc" />
     <MESSAGE value="SAX+SAXParseObject" />
@@ -1469,7 +1436,8 @@
     <MESSAGE value="Project Flowers - commands - servlets" />
     <MESSAGE value="Project Flowers - allJsp" />
     <MESSAGE value="Project Flowers - test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Project Flowers - test" />
+    <MESSAGE value="JSP test filters" />
+    <option name="LAST_COMMIT_MESSAGE" value="JSP test filters" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1833,7 +1801,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/src/main/itv/task/flowers/src/test/java/TestCommand.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
+        <state relative-caret-position="34">
           <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
         </state>
       </provider>
