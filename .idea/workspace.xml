@@ -105,33 +105,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/src/main/itv/task/flowers/src/main/java/dao/UserDAO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/src/main/itv/task/flowers/src/main/java/entitiy/Bunch.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/src/main/itv/task/flowers/src/main/java/entitiy/Flower.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/src/main/itv/task/flowers/src/main/java/entitiy/User.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
@@ -181,11 +154,38 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/src/main/itv/task/flowers/src/test/java/TestCommand.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
+            <state relative-caret-position="85">
               <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/src/main/itv/jsftest/main/java/ex_002_bean/ExampleBean.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="16" column="11" lean-forward="true" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/firstjsfApp/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="56" column="16" lean-forward="true" selection-start-line="56" selection-start-column="16" selection-end-line="56" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -358,7 +358,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/web/src/main/xmlpack/DOM_object_01/BookHelper.java" />
         <option value="$PROJECT_DIR$/web/src/main/xmlpack/DOM_create/Main.java" />
         <option value="$PROJECT_DIR$/web/src/main/xmlpack/STAX_create/Main.java" />
         <option value="$PROJECT_DIR$/web/src/main/xmlpack/STAX/Main.java" />
@@ -409,6 +408,7 @@
         <option value="$PROJECT_DIR$/web/src/main/itv/task/flowers/src/main/java/entitiy/Flower.java" />
         <option value="$PROJECT_DIR$/web/src/main/itv/task/flowers/src/main/java/entitiy/User.java" />
         <option value="$PROJECT_DIR$/web/src/main/itv/task/flowers/src/main/java/servlets/Controller.java" />
+        <option value="$PROJECT_DIR$/web/src/main/itv/jsftest/main/java/ex_002_bean/ExampleBean.java" />
       </list>
     </option>
   </component>
@@ -433,10 +433,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
-    <option name="width" value="1620" />
-    <option name="height" value="920" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1456" />
+    <option name="height" value="876" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -446,12 +446,87 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="frameworks_etc" type="b2602c69:ProjectViewProjectNode" />
               <item name="frameworks_etc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="frameworks_etc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="frameworks_etc" type="462c0819:PsiDirectoryNode" />
+              <item name="firstjsfApp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="frameworks_etc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="frameworks_etc" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="frameworks_etc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="frameworks_etc" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="frameworks_etc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="frameworks_etc" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="frameworks_etc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="frameworks_etc" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="itv" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="frameworks_etc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="frameworks_etc" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="itv" type="462c0819:PsiDirectoryNode" />
+              <item name="jsftest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="frameworks_etc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="frameworks_etc" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="itv" type="462c0819:PsiDirectoryNode" />
+              <item name="jsftest" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="frameworks_etc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="frameworks_etc" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="itv" type="462c0819:PsiDirectoryNode" />
+              <item name="jsftest" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="frameworks_etc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="frameworks_etc" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="itv" type="462c0819:PsiDirectoryNode" />
+              <item name="jsftest" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ex_002_bean" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="frameworks_etc" type="b2602c69:ProjectViewProjectNode" />
@@ -517,8 +592,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -542,7 +615,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8 (2)" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/src/main/itv/jsftest" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/src/main/shopdb" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -555,26 +628,26 @@
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="main.xmlpack.classtest" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\projects\frameworks_etc\web\src\main\itv\jsftest" />
+      <recent name="C:\projects\frameworks_etc\web\src\main\itv\testfilter" />
+      <recent name="C:\projects\frameworks_etc\web\src\main\itv\task\flowers\src" />
+      <recent name="C:\projects\frameworks_etc\web\src\main\itv\task\flowers\web" />
+      <recent name="C:\projects\frameworks_etc\web\src\main\itv\task\flowers\src\main\java" />
+    </key>
+    <key name="ImportMappingsDialog.RecentPackages">
+      <recent name="ru.frameworks.hibernateone.entity2" />
+      <recent name="" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\projects\frameworks_etc\web\src\main\itv\task\flowers\web" />
       <recent name="C:\projects\frameworks_etc\springeng" />
       <recent name="C:\projects\frameworks_etc\web\src\main\xmlpack\SAX_object_1" />
       <recent name="C:\projects\frameworks_etc\springbootapp" />
       <recent name="C:\projects\frameworks_etc\firstjsfApp\src\main\webapp\pages" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\projects\frameworks_etc\web\src\main\itv\testfilter" />
-      <recent name="C:\projects\frameworks_etc\web\src\main\itv\task\flowers\src" />
-      <recent name="C:\projects\frameworks_etc\web\src\main\itv\task\flowers\web" />
-      <recent name="C:\projects\frameworks_etc\web\src\main\itv\task\flowers\src\main\java" />
-      <recent name="C:\projects\frameworks_etc\web\src\main\itv\task\flowers\src\main\resources" />
-    </key>
-    <key name="ImportMappingsDialog.RecentPackages">
-      <recent name="ru.frameworks.hibernateone.entity2" />
-      <recent name="" />
-    </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="main.xmlpack.classtest" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -961,13 +1034,8 @@
       <workItem from="1566237622149" duration="2723000" />
       <workItem from="1566332071826" duration="243000" />
       <workItem from="1566391614988" duration="721000" />
-    </task>
-    <task id="LOCAL-00027" summary="ServletHelloWorldTest">
-      <created>1563985406131</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1563985406131</updated>
+      <workItem from="1566395949079" duration="249000" />
+      <workItem from="1566737541353" duration="770000" />
     </task>
     <task id="LOCAL-00028" summary="ServletParam">
       <created>1563996028835</created>
@@ -1305,11 +1373,18 @@
       <option name="project" value="LOCAL" />
       <updated>1566393240218</updated>
     </task>
-    <option name="localTasksCounter" value="76" />
+    <task id="LOCAL-00076" summary="JSF test">
+      <created>1566396044732</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1566396044732</updated>
+    </task>
+    <option name="localTasksCounter" value="77" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="333477000" />
+    <option name="totallyTimeSpent" value="334496000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1321,9 +1396,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7889126" visible="true" weight="0.1992288" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7889126" visible="true" weight="0.20487106" />
       <window_info id="Structure" order="1" sideWeight="0.34396356" side_tool="true" weight="0.3014139" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -1360,7 +1436,7 @@
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Database" order="4" weight="0.1844473" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Maven" order="6" visible="true" weight="0.21079692" />
+      <window_info anchor="right" id="Maven" order="6" visible="true" weight="0.21060172" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="JSF" order="9" />
@@ -1412,7 +1488,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="XMLXSD" />
     <MESSAGE value="ChangeLoc" />
     <MESSAGE value="SAX+SAXParseObject" />
     <MESSAGE value="SpringEngConfig" />
@@ -1437,7 +1512,8 @@
     <MESSAGE value="Project Flowers - allJsp" />
     <MESSAGE value="Project Flowers - test" />
     <MESSAGE value="JSP test filters" />
-    <option name="LAST_COMMIT_MESSAGE" value="JSP test filters" />
+    <MESSAGE value="JSF test" />
+    <option name="LAST_COMMIT_MESSAGE" value="JSF test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1515,17 +1591,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/web/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-204" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/web/pages/main.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/web/pages/books.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/src/main/itv/sess05jstl/src/ex_006_jstl_form/FormRequestServlet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -1694,6 +1759,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/itv/task/flowers/src/test/java/TestCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/web/src/main/itv/task/flowers/src/main/java/servlets/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -1799,10 +1871,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/itv/task/flowers/src/test/java/TestCommand.java">
+    <entry file="file://$PROJECT_DIR$/web/src/main/itv/jsftest/main/java/ex_002_bean/ExampleBean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        <state relative-caret-position="153">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="16" column="11" lean-forward="true" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/firstjsfApp/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="56" column="16" lean-forward="true" selection-start-line="56" selection-start-column="16" selection-end-line="56" selection-end-column="16" />
         </state>
       </provider>
     </entry>
