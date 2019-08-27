@@ -11,11 +11,11 @@ public class Main {
 
   public static void main(String[] args) {
     //Author author = new Author("тест");
-    new AuthorHelper().setAuthor();
+//    new AuthorHelper().setAuthor();
 
     //new AuthorHelper().getAuthor(1l);
 
-//    Session session = HibernateUtil.getSessionfactory().openSession();
+    Session session = HibernateUtil.getSessionfactory().openSession();
 //    session.beginTransaction();
 //    for (int i = 0; i < 10; i++) {
 //      Author a = new Author("name " + i);
@@ -26,7 +26,7 @@ public class Main {
 //      session.save(a);
 //    }
 //    session.getTransaction().commit();
-//    session.close();
+    session.close();
 //    for (Book book : new BookHelper().getBookList()) {
 //      System.out.println("book = " + book.getName());
 //    }
