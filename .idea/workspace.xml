@@ -7,20 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="51af441c-13f7-485b-9066-e5164ea9f418" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/hibernate/alhiber/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hibernate/alhiber/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hibernate/alhiber/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hibernate/alhiber/.idea/dataSources/f02a31aa-a0f4-463e-ab2b-07368d6fc03d.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hibernate/alhiber/.idea/libraries/mysql_connector_java_8_0_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hibernate/alhiber/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hibernate/alhiber/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hibernate/alhiber/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hibernate/alhiber/src/main/java/HibernateUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hibernate/alhiber/src/main/java/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hibernate/alhiber/src/main/java/helloWorld.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hibernate/alhiber/src/main/resources/hibernate.cfg.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hibernate/src/main/java/ru/frameworks/hibernateone/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/hibernate/src/main/java/ru/frameworks/hibernateone/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/HibernateTest/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -177,7 +164,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hibernate/src/main/java/ru/frameworks/hibernateone/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
+            <state relative-caret-position="408">
               <caret line="28" selection-start-line="28" selection-end-line="29" />
             </state>
           </provider>
@@ -186,7 +173,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hibernate/src/main/java/ru/frameworks/hibernateone/HibernateUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
+            <state relative-caret-position="221">
               <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -442,6 +429,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -465,6 +453,13 @@
               <item name="frameworks_etc" type="462c0819:PsiDirectoryNode" />
               <item name="hibernate" type="462c0819:PsiDirectoryNode" />
               <item name="alhiber" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="frameworks_etc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="frameworks_etc" type="462c0819:PsiDirectoryNode" />
+              <item name="hibernate" type="462c0819:PsiDirectoryNode" />
+              <item name="alhiber" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -475,7 +470,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -500,7 +494,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8 (2)" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/hibernate/alhiber" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/src/main/jsftest" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -513,26 +507,26 @@
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="main.xmlpack.classtest" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\projects\frameworks_etc\web\src\main\jsftest" />
-      <recent name="C:\projects\frameworks_etc\web\src\main\shopdb" />
-      <recent name="C:\projects\frameworks_etc\web\src\main\itv\jsftest" />
-      <recent name="C:\projects\frameworks_etc\web\src\main\itv\testfilter" />
-      <recent name="C:\projects\frameworks_etc\web\src\main\itv\task\flowers\src" />
-    </key>
-    <key name="ImportMappingsDialog.RecentPackages">
-      <recent name="ru.frameworks.hibernateone.entity2" />
-      <recent name="" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\projects\frameworks_etc\web\src\main\shopdb\view\src\main\webapp\WEB-INF" />
       <recent name="C:\projects\frameworks_etc\web\src\main\itv\task\flowers\web" />
       <recent name="C:\projects\frameworks_etc\springeng" />
       <recent name="C:\projects\frameworks_etc\web\src\main\xmlpack\SAX_object_1" />
       <recent name="C:\projects\frameworks_etc\springbootapp" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\projects\frameworks_etc\hibernate\alhiber" />
+      <recent name="C:\projects\frameworks_etc\web\src\main\jsftest" />
+      <recent name="C:\projects\frameworks_etc\web\src\main\shopdb" />
+      <recent name="C:\projects\frameworks_etc\web\src\main\itv\jsftest" />
+      <recent name="C:\projects\frameworks_etc\web\src\main\itv\testfilter" />
+    </key>
+    <key name="ImportMappingsDialog.RecentPackages">
+      <recent name="ru.frameworks.hibernateone.entity2" />
+      <recent name="" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="main.xmlpack.classtest" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -831,11 +825,11 @@
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.Main (4)" />
       <item itemvalue="Application.Main (5)" />
+      <item itemvalue="Application.Main (1)" />
       <item itemvalue="GlassFish Server.GlassFish 5.0.1" />
       <item itemvalue="Spring Boot.CoreApplication" />
       <item itemvalue="Tomcat Server.Tomcat 9.0.221" />
       <item itemvalue="XSLT.books.xsl" />
-      <item itemvalue="Application.Main (1)" />
     </list>
     <recent_temporary>
       <list>
@@ -924,14 +918,8 @@
       <workItem from="1566760764974" duration="247000" />
       <workItem from="1566923762922" duration="491000" />
       <workItem from="1566926972478" duration="6000" />
-      <workItem from="1566930479079" duration="1227000" />
-    </task>
-    <task id="LOCAL-00030" summary="ServletError">
-      <created>1564062517058</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1564062517058</updated>
+      <workItem from="1566930479079" duration="1315000" />
+      <workItem from="1566987653733" duration="12000" />
     </task>
     <task id="LOCAL-00031" summary="ServletContext">
       <created>1564072898386</created>
@@ -1269,11 +1257,18 @@
       <option name="project" value="LOCAL" />
       <updated>1566924037022</updated>
     </task>
-    <option name="localTasksCounter" value="79" />
+    <task id="LOCAL-00079" summary="Hibernate - Al 1">
+      <created>1566931749041</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1566931749043</updated>
+    </task>
+    <option name="localTasksCounter" value="80" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="336467000" />
+    <option name="totallyTimeSpent" value="336567000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1286,8 +1281,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7889126" visible="true" weight="0.21346705" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7889126" visible="true" weight="0.21633238" />
       <window_info id="Structure" order="1" sideWeight="0.34396356" side_tool="true" weight="0.3014139" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -1376,7 +1372,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="SpringEngConfig" />
     <MESSAGE value="SAXCountryParser" />
     <MESSAGE value="bdspringeng" />
     <MESSAGE value="Application architecture" />
@@ -1401,7 +1396,8 @@
     <MESSAGE value="JSF test" />
     <MESSAGE value="ShopTestBd - 1 JSF EJB PostgreSQL" />
     <MESSAGE value="FSF WEB - 1 JSF CDI  easyTest" />
-    <option name="LAST_COMMIT_MESSAGE" value="FSF WEB - 1 JSF CDI  easyTest" />
+    <MESSAGE value="Hibernate - Al 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Hibernate - Al 1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1613,6 +1609,59 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/jsftest/.idea/misc.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hibernate/hibernate.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hibernate/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hibernate/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hibernate/src/main/resources/hibernate.cfg.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="11" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hibernate/src/main/resources/18_Dump.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hibernate/src/main/java/ru/frameworks/hibernateone/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="28" selection-start-line="28" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hibernate/src/main/java/ru/frameworks/hibernateone/HibernateUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/web/src/main/itv/task/flowers/src/main/java/command/BunchFlowersCommand.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -1710,59 +1759,6 @@
           <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/jsftest/.idea/misc.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hibernate/hibernate.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hibernate/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hibernate/src/main/java/ru/frameworks/hibernateone/HibernateUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hibernate/src/main/java/ru/frameworks/hibernateone/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="28" selection-start-line="28" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hibernate/src/main/resources/18_Dump.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hibernate/src/main/resources/hibernate.cfg.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="11" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hibernate/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" selection-start-line="4" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/hibernate/alhiber/.idea/misc.xml">
       <provider selected="true" editor-type-id="text-editor" />
