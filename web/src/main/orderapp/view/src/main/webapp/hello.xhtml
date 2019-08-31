@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:f="http://xmlns.jcp.org/jsf/core" xmlns:p="http://primefaces.org/ui">
+<h:head>
+  <title>
+    Heyy
+  </title>
+</h:head>
+<h:body>
+  <h1>Добавление товара</h1>
+  <h:form>
+    <p:panelGrid >
+      <h:outputText value="Идентификатор"/>
+      <h:inputText value="#{productListBean.newProduct.id}"/>
+
+      <h:outputText value="Наименование"/>
+      <h:inputText value="#{productListBean.newProduct.name}"/>
+
+      <h:outputText value="Цена"/>
+      <h:inputText value="#{productListBean.newProduct.price}"/>
+
+      <p:commandButton value="Создать"  action="#{productListBean.createNewOrder()}" update="products_table"/>
+      <!--    по нажатию на кнопку разложатся данные в newProduct со всех форм и после этого сработает action-->
+    </p:panelGrid>
+  </h:form>
+  <h1>работа через dataTable</h1>
+  <p:dataTable value="#{productListBean.products}" var="product" id="products_table">
+    <p:column>
+      <h:outputText value="#{product.name}"/>
+    </p:column>
+    <p:column>
+      <h:outputText value="#{product.price}"/>
+    </p:column>
+  </p:dataTable>
+
+
+</h:body>
+</html>
