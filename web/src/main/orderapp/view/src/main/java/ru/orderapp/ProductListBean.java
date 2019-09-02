@@ -15,20 +15,15 @@ import ru.orderapp.entity.ProductEntity;
 @SessionScoped
 public class ProductListBean implements Serializable {
   private Product newProduct = new Product();
+  private long idForDelete;
+  private Product editingProduct;
+
 
   @EJB
   private ProductsManagerBean productsManagerBean;
 
-
   public List<Product> getProducts() {
-    List<Product> result = new ArrayList<Product>();
-    List<ProductEntity> entities = productsManagerBean.readList(0,100);
-
-    for(ProductEntity productEntity : entities) {
-      result.add(productEntity.toDto());
-    }
-    return result;
-
+    return  productsManagerBean.readList(0,100);
   }
 
   public Product getNewProduct() {
@@ -36,9 +31,33 @@ public class ProductListBean implements Serializable {
   }
 
   public void createNewOrder() {
-    ProductEntity productEntity = new ProductEntity();
-    productEntity.fromDTO(newProduct);
-    productsManagerBean.create(productEntity);
+
+    productsManagerBean.create(newProduct);
     newProduct = new Product();
+  }
+
+  public Product getEditingProduct() {
+    return editingProduct;
+  }
+
+  public void setEditingProduct(Product editingProduct) {
+    this.editingProduct = editingProduct;
+  }
+
+  //удаляем тот идентификатор, который заполнили
+  public  void deleteProduct( ) {
+    productsManagerBean.delete(idForDelete);
+  }
+
+  public long getIdForDelete() {
+    return idForDelete;
+  }
+
+  public void setIdForDelete(long idForDelete) {
+    this.idForDelete = idForDelete;
+  }
+
+  public void saveProduct() {
+    productsManagerBean.update(editingProduct);
   }
 }

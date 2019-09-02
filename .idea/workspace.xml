@@ -8,33 +8,7 @@
   <component name="ChangeListManager">
     <list default="true" id="51af441c-13f7-485b-9066-e5164ea9f418" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/jsftest/.idea/artifacts/shop_war.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/jsftest/.idea/artifacts/unnamed.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/jsftest/.idea/artifacts/view_war_exploded.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/jsftest/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/jsftest/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/jsftest/.idea/libraries/Maven__javax_faces_jsf_api_2_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/jsftest/.idea/libraries/Maven__javax_faces_jsf_impl_1_2_20.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/jsftest/.idea/libraries/Maven__javax_javaee_web_api_6_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/jsftest/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/jsftest/.idea/libraries/Maven__org_primefaces_primefaces_5_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/jsftest/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/jsftest/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/jsftest/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/jsftest/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/jsftest/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/jsftest/src/main/java/ru/jsfweb/ExampleBean.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/jsftest/src/main/java/ru/jsfweb/products/Product.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/jsftest/src/main/java/ru/jsfweb/products/ProductListBean.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/jsftest/src/main/webapp/WEB-INF/beans.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/jsftest/src/main/webapp/WEB-INF/footer.xhtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/jsftest/src/main/webapp/WEB-INF/header.xhtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/jsftest/src/main/webapp/WEB-INF/template.xhtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/jsftest/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/jsftest/src/main/webapp/index.xhtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/jsftest/src/main/webapp/index_template.xhtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/jsftest/src/main/webapp/main.xhtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/jsftest/src/main/webapp/products.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/jsftest/.idea/artifacts/shop_war_exploded.xml" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/HibernateTest/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -132,25 +106,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hibernate/hibernate.iml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hibernate/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" selection-start-line="4" selection-end-line="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hibernate/src/main/resources/log4j.properties">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
@@ -164,8 +119,28 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hibernate/alhiber/.idea/misc.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/src/main/orderapp/view/pom.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/src/main/orderapp/pom.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/src/main/orderapp/logic/pom.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/src/main/orderapp/ear/pom.xml">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
@@ -452,7 +427,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -480,12 +454,58 @@
             </path>
             <path>
               <item name="frameworks_etc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="frameworks_etc" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="orderapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="frameworks_etc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="frameworks_etc" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="orderapp" type="462c0819:PsiDirectoryNode" />
+              <item name="ear" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="frameworks_etc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="frameworks_etc" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="orderapp" type="462c0819:PsiDirectoryNode" />
+              <item name="logic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="frameworks_etc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="frameworks_etc" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="orderapp" type="462c0819:PsiDirectoryNode" />
+              <item name="logic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="frameworks_etc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="frameworks_etc" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="orderapp" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="frameworks_etc" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -509,7 +529,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8 (2)" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/src/main/orderapp/logic" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/src/main/orderapp" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -526,11 +546,11 @@
       <recent name="main.xmlpack.classtest" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\projects\frameworks_etc\web\src\main\orderapp\logic" />
       <recent name="C:\projects\frameworks_etc\web\src\main\orderapp" />
+      <recent name="C:\projects\frameworks_etc\web\src\main\orderapp\view" />
       <recent name="C:\projects\frameworks_etc\web\src\main\jsftest" />
       <recent name="C:\projects\frameworks_etc\hibernate\alhiber" />
-      <recent name="C:\projects\frameworks_etc\web\src\main\shopdb" />
-      <recent name="C:\projects\frameworks_etc\web\src\main\itv\jsftest" />
     </key>
     <key name="ImportMappingsDialog.RecentPackages">
       <recent name="ru.frameworks.hibernateone.entity2" />
@@ -939,14 +959,9 @@
       <workItem from="1567015538902" duration="82000" />
       <workItem from="1567068369880" duration="61000" />
       <workItem from="1567155266086" duration="705000" />
-      <workItem from="1567270142789" duration="295000" />
-    </task>
-    <task id="LOCAL-00033" summary="JSPFirstPage">
-      <created>1564298812583</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1564298812583</updated>
+      <workItem from="1567270142789" duration="1136000" />
+      <workItem from="1567334095736" duration="14000" />
+      <workItem from="1567422631043" duration="45000" />
     </task>
     <task id="LOCAL-00034" summary="JDBSTestConnection">
       <created>1564333511785</created>
@@ -1284,11 +1299,18 @@
       <option name="project" value="LOCAL" />
       <updated>1567015603987</updated>
     </task>
-    <option name="localTasksCounter" value="82" />
+    <task id="LOCAL-00082" summary="Order app jSF CDI EJB">
+      <created>1567270725596</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1567270725596</updated>
+    </task>
+    <option name="localTasksCounter" value="83" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="337839000" />
+    <option name="totallyTimeSpent" value="338739000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1302,7 +1324,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7889126" visible="true" weight="0.2277937" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7889126" visible="true" weight="0.23495702" />
       <window_info id="Structure" order="1" sideWeight="0.34396356" side_tool="true" weight="0.3014139" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -1391,7 +1413,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Application architecture" />
     <MESSAGE value="DOMParser Common" />
     <MESSAGE value="DOMParser object" />
     <MESSAGE value="DOMCreate" />
@@ -1416,7 +1437,8 @@
     <MESSAGE value="Hibernate - Al 1" />
     <MESSAGE value="JSF CDI 2" />
     <MESSAGE value="Hibernate H2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Hibernate H2" />
+    <MESSAGE value="Order app jSF CDI EJB" />
+    <option name="LAST_COMMIT_MESSAGE" value="Order app jSF CDI EJB" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1494,18 +1516,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/src/main/itv/task/flowers/web/Fialka.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/itv/task/flowers/web/add_flowers.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/itv/task/flowers/web/bunch_flowers.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/itv/task/flowers/web/index.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/src/main/itv/task/flowers/web/login.jsp">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1641,6 +1651,7 @@
     <entry file="file://$PROJECT_DIR$/hibernate/src/main/resources/log4j.properties">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/jsftest/.idea/misc.xml" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -1651,7 +1662,16 @@
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/jsftest/.idea/misc.xml">
+    <entry file="file://$PROJECT_DIR$/hibernate/alhiber/.idea/misc.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/orderapp/view/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/orderapp/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/orderapp/logic/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/hibernate/src/main/resources/hibernate.cfg.xml">
@@ -1779,7 +1799,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hibernate/alhiber/.idea/misc.xml">
+    <entry file="file://$PROJECT_DIR$/web/src/main/orderapp/ear/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
