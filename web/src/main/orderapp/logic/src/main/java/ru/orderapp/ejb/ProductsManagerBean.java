@@ -5,6 +5,7 @@ import java.util.Collections;
 import java.util.List;
 import javax.ejb.LocalBean;
 import javax.ejb.Stateless;
+import javax.inject.Inject;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 import javax.persistence.TypedQuery;
@@ -15,7 +16,7 @@ import ru.orderapp.entity.ProductEntity;
 @LocalBean
 @Stateless
 public class ProductsManagerBean {
-
+  //гарантированно будет один и тот же entity manager
   @PersistenceContext(unitName = "examplePU")
   private EntityManager entityManager;
 

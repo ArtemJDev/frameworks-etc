@@ -15,12 +15,14 @@ public class PersonEntity {
   @Id
   private String login;
   private String password;
+  private String name;
+
 
   //Одной персоне много ролей
   @OneToMany(fetch = FetchType.LAZY,cascade = CascadeType.REMOVE,mappedBy = "personEntity")
   private List<PersonRole> personRoles;
 
-  private String name;
+
 
   public String getLogin() {
     return login;

@@ -1,4 +1,4 @@
-package main.orderapp.logic.src.main.java.ru.orderapp.auth;
+package main.orderapp.view.src.main.java.ru.orderapp;
 
 import java.io.IOException;
 import javax.ejb.EJB;
@@ -12,6 +12,8 @@ import javax.servlet.ServletResponse;
 import javax.servlet.annotation.WebFilter;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import org.apache.commons.lang3.StringUtils;
+import ru.orderapp.ejb.AuthenticateBean;
 
 /**
  *  Определяем к какому ресурсу сылается персона
@@ -37,15 +39,25 @@ public class AuthFilter implements Filter {
       throws IOException, ServletException {
     HttpServletRequest httpServletRequest = (HttpServletRequest) request;
     HttpServletResponse httpServletResponse = (HttpServletResponse) response;
+
+    String resource = httpServletRequest.getRequestURI(); //запрашиваемый реусурс
+
     if(!personBean.isAuthenticated()) {
-      httpServletResponse.sendRedirect("redirect to login");
+      personBean.setInitialRequestURL(resource);
+      httpServletResponse.sendRedirect( ((HttpServletRequest) request).getContextPath() +"/login.xhtml");
       return ;
     }
 
-    String resource = httpServletRequest.getRequestURI();
     if(!authenticateBean.isGranted(personBean.getLogin(), resource)) {
       httpServletResponse.sendRedirect("redirect to acess denied");
       return ;
+    }
+
+    if(StringUtils.isNotEmpty(personBean.getInitialRequestURL())) {
+      httpServletResponse.sendRedirect(personBean.getInitialRequestURL());
+      personBean.setInitialRequestURL("");
+      return;
+
     }
     chain.doFilter(request,response);
   }
