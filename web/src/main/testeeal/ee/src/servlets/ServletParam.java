@@ -1,4 +1,4 @@
-package main.testeeal.ee.src;
+package main.testeeal.ee.src.servlets;
 
 import java.io.IOException;
 import java.util.Arrays;
@@ -17,6 +17,7 @@ public class ServletParam extends HttpServlet {
   protected void doGet(HttpServletRequest req, HttpServletResponse resp)
       throws ServletException, IOException {
     String one = req.getParameter("one");
+    one = one == null? "" : one.replaceAll("<", "&lt;").replaceAll(">","&gt;");
     String two = req.getParameter("two");
 
     System.out.println(one);
@@ -33,16 +34,18 @@ public class ServletParam extends HttpServlet {
     System.out.println(req.getServletPath());
     System.out.println(req.getLocalPort());
     System.out.println(req.getQueryString()); //строка с параметрами
+    System.out.println(req.getParameter("three"));
+
 
     String s = "<html>"
         + "<head>"
         + "<title>HelloFrom</title>"
         + "</head>"
         + "<body>"
-        + "<h1>Form for Servlet<h1/> "
+        + "<h1>Form for Servlet, one = <h1/> " + one
         + "<form action='param' method='post'> "
-        + "<input type='text' name='one'/> "
         + "<input type='text' name='two'/> "
+        + "<textarea name='one'></textarea> "
         + "<input type='submit' name='submit'/>"
         + "</form>"
         + "</body>"

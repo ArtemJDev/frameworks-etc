@@ -1,4 +1,4 @@
-package main.testeeal.ee.src;
+package main.testeeal.ee.src.servlets;
 
 import java.io.IOException;
 import javax.servlet.ServletException;
