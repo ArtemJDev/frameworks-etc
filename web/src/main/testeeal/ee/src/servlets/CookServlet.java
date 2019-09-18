@@ -25,5 +25,7 @@ public class CookServlet extends HttpServlet {
     cookieMy.setPath("/hello"); //кука тольуо на определенной страницу
     resp.addCookie(cookieMy);
 
+
+
   }
 }
