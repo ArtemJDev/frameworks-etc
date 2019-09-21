@@ -6,22 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="51af441c-13f7-485b-9066-e5164ea9f418" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/web/src/main/testeeal/ee/src/CDI/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/testeeal/ee/src/CDI/BookService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/testeeal/ee/src/CDI/BookSubscribe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/testeeal/ee/src/CDI/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/testeeal/ee/src/CDI/ChangeMyBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/testeeal/ee/src/CDI/Child.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/testeeal/ee/src/CDI/DIServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/testeeal/ee/src/CDI/Interceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/testeeal/ee/src/CDI/MyDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/testeeal/ee/src/CDI/Mybean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/testeeal/ee/src/CDI/Parent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/testeeal/ee/src/CDI/Producer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/testeeal/ee/src/CDI/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="51af441c-13f7-485b-9066-e5164ea9f418" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/HibernateTest/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/hibernate/target/" />
@@ -531,7 +516,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8 (2)" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/src/main/testeeal/ee/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/src/main/studentOrder/src" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -544,29 +529,29 @@
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="main.testeeal.ee.src" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="main.xmlpack.classtest" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\projects\frameworks_etc\web\src\main\testeeal\ee\src" />
+      <recent name="C:\projects\frameworks_etc\web\src\main\testeeal\ee\web\WEB-INF" />
+      <recent name="C:\projects\frameworks_etc\web\src\main\testeeal\ee\web" />
+      <recent name="C:\projects\frameworks_etc\hibernate\alhiber\src\main\java" />
+      <recent name="C:\projects\frameworks_etc\web\src\main\testeeal" />
+    </key>
+    <key name="ImportMappingsDialog.RecentPackages">
+      <recent name="ru.frameworks.hibernateone.entity2" />
+      <recent name="" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\projects\frameworks_etc\web\src\main\shopdb\view\src\main\webapp\WEB-INF" />
       <recent name="C:\projects\frameworks_etc\web\src\main\itv\task\flowers\web" />
       <recent name="C:\projects\frameworks_etc\springeng" />
       <recent name="C:\projects\frameworks_etc\web\src\main\xmlpack\SAX_object_1" />
       <recent name="C:\projects\frameworks_etc\springbootapp" />
-    </key>
-    <key name="ImportMappingsDialog.RecentPackages">
-      <recent name="ru.frameworks.hibernateone.entity2" />
-      <recent name="" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\projects\frameworks_etc\web\src\main\testeeal\ee\web\WEB-INF" />
-      <recent name="C:\projects\frameworks_etc\web\src\main\testeeal\ee\web" />
-      <recent name="C:\projects\frameworks_etc\web\src\main\testeeal\ee\src" />
-      <recent name="C:\projects\frameworks_etc\hibernate\alhiber\src\main\java" />
-      <recent name="C:\projects\frameworks_etc\web\src\main\testeeal" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="main.testeeal.ee.src" />
-    </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="main.xmlpack.classtest" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -978,14 +963,7 @@
       <workItem from="1568643729840" duration="471000" />
       <workItem from="1568734150185" duration="381000" />
       <workItem from="1568811122004" duration="171000" />
-      <workItem from="1568915535655" duration="229000" />
-    </task>
-    <task id="LOCAL-00043" summary="ManagedBeanJSF">
-      <created>1564775364583</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1564775364583</updated>
+      <workItem from="1568915535655" duration="273000" />
     </task>
     <task id="LOCAL-00044" summary="-jstl">
       <created>1564841020931</created>
@@ -1323,11 +1301,18 @@
       <option name="project" value="LOCAL" />
       <updated>1568811279706</updated>
     </task>
-    <option name="localTasksCounter" value="92" />
+    <task id="LOCAL-00092" summary="aliEE CDI practice">
+      <created>1568915806244</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1568915806245</updated>
+    </task>
+    <option name="localTasksCounter" value="93" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="342634000" />
+    <option name="totallyTimeSpent" value="342678000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1431,7 +1416,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="SERVLETS" />
     <MESSAGE value="WS-SOAP-REST" />
     <MESSAGE value="WS-GSON" />
     <MESSAGE value="Session-JSP-JSTl" />
@@ -1456,7 +1440,8 @@
     <MESSAGE value="ee servlet jsp al" />
     <MESSAGE value="aliHiber annotatioinsTest" />
     <MESSAGE value="aliEE web.xml practice" />
-    <option name="LAST_COMMIT_MESSAGE" value="aliEE web.xml practice" />
+    <MESSAGE value="aliEE CDI practice" />
+    <option name="LAST_COMMIT_MESSAGE" value="aliEE CDI practice" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
