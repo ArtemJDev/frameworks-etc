@@ -2,7 +2,7 @@ package main.studentOrder.src.ru.studentorder.domain;
 
 import java.time.LocalDate;
 
-public class Person {
+public abstract class Person {
 
   private String surName;
   private String givenName;
@@ -10,6 +10,20 @@ public class Person {
   private LocalDate dateOfBirthday;
   private Address address;
 
+  public Person(String surName, String givenName, String patronymic,
+      LocalDate dateOfBirthday) {
+    this.surName = surName;
+    this.givenName = givenName;
+    this.patronymic = patronymic;
+    this.dateOfBirthday = dateOfBirthday;
+  }
+
+  public Person() {
+  }
+
+  public String getPersonString(){
+    return surName + " " + givenName + " " ;
+  }
 
   public Address getAddress() {
     return address;
