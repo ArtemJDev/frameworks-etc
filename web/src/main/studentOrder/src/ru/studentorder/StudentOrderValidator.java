@@ -8,20 +8,20 @@ import ru.studentorder.domain.AnswerWedding;
 import ru.studentorder.domain.StudentOrder;
 import ru.studentorder.mail.MailSender;
 import ru.studentorder.validator.ChildrenValidator;
-import ru.studentorder.validator.CityValidator;
+import ru.studentorder.validator.CityRegisterValidator;
 import ru.studentorder.validator.StudentValidator;
 import ru.studentorder.validator.WeddingValidator;
 
 public class StudentOrderValidator {
 
-  private CityValidator cityValidator;
+  private CityRegisterValidator cityValidator;
   private WeddingValidator weddingValidator;
   private ChildrenValidator childrenValidator;
   private StudentValidator studentValidator;
   private MailSender mailSender;
 
   public StudentOrderValidator() {
-    cityValidator = new CityValidator();
+    cityValidator = new CityRegisterValidator();
     weddingValidator = new WeddingValidator();
     childrenValidator = new ChildrenValidator();
     studentValidator = new StudentValidator();

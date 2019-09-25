@@ -6,7 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="51af441c-13f7-485b-9066-e5164ea9f418" name="Default Changelist" comment="StudentOrder #3" />
+    <list default="true" id="51af441c-13f7-485b-9066-e5164ea9f418" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/HibernateTest/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/hibernate/target/" />
@@ -104,60 +104,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/src/main/testeeal/ee/src/CDI/ChangeMyBean.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/src/main/testeeal/ee/src/CDI/Child.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/src/main/testeeal/ee/src/CDI/Mybean.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/src/main/testeeal/ee/src/CDI/Producer.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/src/main/testeeal/ee/src/CDI/MyDecorator.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/src/main/studentOrder/src/ru/studentorder/validator/RealCityRegisterChecker.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/src/main/studentOrder/src/ru/studentorder/validator/ChildrenValidator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/src/main/studentOrder/src/ru/studentorder/domain/AnswerWedding.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/src/main/studentOrder/src/ru/studentorder/validator/FakeCityRegisterChecker.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/src/main/studentOrder/src/ru/studentorder/StudentOrderValidator.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/src/main/studentOrder/src/ru/studentorder/validator/CityRegisterChecker.java">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
@@ -213,6 +159,56 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/src/main/testeeal/ee/src/JPA/MainExample.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/src/main/testeeal/ee/src/ejb/ChainBeanSecond.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/src/main/testeeal/ee/src/ejb/ExampleBean.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/src/main/testeeal/ee/src/JPA/JpaBean.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/src/main/testeeal/ee/src/ejb/TempEjb.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/src/main/testeeal/ee/src/ejb/EjbServlet.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/src/main/testeeal/ee/src/ejb/HelloWorldEJB.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/src/main/testeeal/ee/src/JPA/ServletJpa.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/src/main/testeeal/ee/src/ejb/ChainBean.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/src/main/testeeal/ee/src/ejb/Interfaces/LocalExampleInterfaces.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/src/main/studentOrder/src/ru/studentorder/domain/CityRegisteCheckerResponce.java">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
@@ -227,9 +223,13 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/src/main/studentOrder/src/ru/studentorder/domain/AnswerChilren.java">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -265,7 +265,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/web/src/main/itv/ws/rest/src/service/MyService.java" />
         <option value="$PROJECT_DIR$/web/src/main/itv/ws/json/ex_002_json/Person.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/web/src/main/itv/ws/json/ex_001_json/Main.java" />
@@ -316,6 +315,7 @@
         <option value="$PROJECT_DIR$/web/src/main/studentOrder/src/AnswerChilren.java" />
         <option value="$PROJECT_DIR$/web/src/main/studentOrder/src/ru/studentorder/domain/AnswerCityRegister.java" />
         <option value="$PROJECT_DIR$/web/src/main/studentOrder/src/ru/studentorder/domain/AnswerChilren.java" />
+        <option value="$PROJECT_DIR$/web/src/main/testeeal/ee/src/ejb/Interfaces/LocalExampleInterfaces.java" />
       </list>
     </option>
   </component>
@@ -358,7 +358,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -369,11 +369,6 @@
             <path>
               <item name="frameworks_etc" type="b2602c69:ProjectViewProjectNode" />
               <item name="frameworks_etc" type="462c0819:PsiDirectoryNode" />
-              <item name="task" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="frameworks_etc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="frameworks_etc" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -395,7 +390,7 @@
               <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="studentOrder" type="462c0819:PsiDirectoryNode" />
+              <item name="testeeal" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="frameworks_etc" type="b2602c69:ProjectViewProjectNode" />
@@ -403,7 +398,17 @@
               <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="studentOrder" type="462c0819:PsiDirectoryNode" />
+              <item name="testeeal" type="462c0819:PsiDirectoryNode" />
+              <item name="ee" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="frameworks_etc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="frameworks_etc" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="testeeal" type="462c0819:PsiDirectoryNode" />
+              <item name="ee" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -412,9 +417,33 @@
               <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="studentOrder" type="462c0819:PsiDirectoryNode" />
+              <item name="testeeal" type="462c0819:PsiDirectoryNode" />
+              <item name="ee" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ru" type="462c0819:PsiDirectoryNode" />
+              <item name="ejb" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="frameworks_etc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="frameworks_etc" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="testeeal" type="462c0819:PsiDirectoryNode" />
+              <item name="ee" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ejb" type="462c0819:PsiDirectoryNode" />
+              <item name="Interfaces" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="frameworks_etc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="frameworks_etc" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="testeeal" type="462c0819:PsiDirectoryNode" />
+              <item name="ee" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="JPA" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="frameworks_etc" type="b2602c69:ProjectViewProjectNode" />
@@ -426,7 +455,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -450,7 +479,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8 (2)" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/src/main/testeeal/ee/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/src/main/studentOrder/src/ru/studentorder" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -463,29 +492,29 @@
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="main.testeeal.ee.src" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="main.xmlpack.classtest" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\projects\frameworks_etc\web\src\main\testeeal\ee\src" />
+      <recent name="C:\projects\frameworks_etc\web\src\main\studentOrder\src\ru\studentorder" />
+      <recent name="C:\projects\frameworks_etc\web\src\main\studentOrder\src" />
+      <recent name="C:\projects\frameworks_etc\web\src\main\testeeal\ee\web\WEB-INF" />
+      <recent name="C:\projects\frameworks_etc\web\src\main\testeeal\ee\web" />
+    </key>
+    <key name="ImportMappingsDialog.RecentPackages">
+      <recent name="ru.frameworks.hibernateone.entity2" />
+      <recent name="" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\projects\frameworks_etc\web\src\main\shopdb\view\src\main\webapp\WEB-INF" />
       <recent name="C:\projects\frameworks_etc\web\src\main\itv\task\flowers\web" />
       <recent name="C:\projects\frameworks_etc\springeng" />
       <recent name="C:\projects\frameworks_etc\web\src\main\xmlpack\SAX_object_1" />
       <recent name="C:\projects\frameworks_etc\springbootapp" />
-    </key>
-    <key name="ImportMappingsDialog.RecentPackages">
-      <recent name="ru.frameworks.hibernateone.entity2" />
-      <recent name="" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\projects\frameworks_etc\web\src\main\studentOrder\src\ru\studentorder" />
-      <recent name="C:\projects\frameworks_etc\web\src\main\studentOrder\src" />
-      <recent name="C:\projects\frameworks_etc\web\src\main\testeeal\ee\src" />
-      <recent name="C:\projects\frameworks_etc\web\src\main\testeeal\ee\web\WEB-INF" />
-      <recent name="C:\projects\frameworks_etc\web\src\main\testeeal\ee\web" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="main.testeeal.ee.src" />
-    </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="main.xmlpack.classtest" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -901,13 +930,7 @@
       <workItem from="1569076601206" duration="156000" />
       <workItem from="1569172690184" duration="82000" />
       <workItem from="1569338131184" duration="246000" />
-    </task>
-    <task id="LOCAL-00047" summary="-JSFController">
-      <created>1564856332956</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1564856332956</updated>
+      <workItem from="1569340633937" duration="157000" />
     </task>
     <task id="LOCAL-00048" summary="ValidationCondition">
       <created>1564859577095</created>
@@ -1245,11 +1268,18 @@
       <option name="project" value="LOCAL" />
       <updated>1569338234292</updated>
     </task>
-    <option name="localTasksCounter" value="96" />
+    <task id="LOCAL-00096" summary="EJB JPA test Start">
+      <created>1569340779948</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1569340779948</updated>
+    </task>
+    <option name="localTasksCounter" value="97" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="343162000" />
+    <option name="totallyTimeSpent" value="343319000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1264,7 +1294,7 @@
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7889126" visible="true" weight="0.2829513" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7889126" visible="true" weight="0.2829513" />
       <window_info id="Structure" order="1" sideWeight="0.34396356" side_tool="true" weight="0.3014139" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -1282,7 +1312,7 @@
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" weight="0.32916668" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="9" visible="true" weight="0.37638888" />
+      <window_info anchor="bottom" id="Version Control" order="9" visible="true" weight="0.37638888" />
       <window_info anchor="bottom" id="Database Changes" order="10" weight="0.32916668" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.32916668" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
@@ -1353,7 +1383,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Project Flowers - entity - DAO" />
     <MESSAGE value="Project Flowers - commands - servlets" />
     <MESSAGE value="Project Flowers - allJsp" />
     <MESSAGE value="Project Flowers - test" />
@@ -1378,7 +1407,8 @@
     <MESSAGE value="StudentOrder #1" />
     <MESSAGE value="StudentOrder #2" />
     <MESSAGE value="StudentOrder #3" />
-    <option name="LAST_COMMIT_MESSAGE" value="StudentOrder #3" />
+    <MESSAGE value="EJB JPA test Start" />
+    <option name="LAST_COMMIT_MESSAGE" value="EJB JPA test Start" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1456,52 +1486,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/task/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/task/src/main/java/task/springjdbc/src/main/java/jdbc/example/JdbcBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/checkstyle.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/testeeal/ee/web/test/Temp.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hibernate/alhiber/src/main/java/entitys/Address.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/testeeal/ee/src/Bean/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/testeeal/ee/web/secure/error.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="7" selection-start-column="7" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/testeeal/ee/web/index.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/testeeal/ee/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/src/main/testeeal/ee/src/CDI/BookSubscribe.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1533,6 +1517,7 @@
     <entry file="file://$PROJECT_DIR$/web/src/main/testeeal/ee/src/CDI/Book.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/studentOrder/src/ru/studentorder/mail/StudentOrderValidator.java" />
     <entry file="file://$PROJECT_DIR$/web/src/main/testeeal/ee/src/CDI/ChangeMyBean.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1543,9 +1528,6 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/web/src/main/testeeal/ee/src/CDI/Producer.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/studentOrder/src/ru/studentorder/mail/StudentOrderValidator.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/web/src/main/testeeal/ee/src/CDI/MyDecorator.java">
@@ -1600,9 +1582,6 @@
     <entry file="file://$PROJECT_DIR$/web/src/main/studentOrder/src/ru/studentorder/validator/CityValidator.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/studentOrder/src/ru/studentorder/domain/Person.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/src/main/studentOrder/src/ru/studentorder/domain/CityRegisteCheckerResponce.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1613,6 +1592,43 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/web/src/main/studentOrder/src/ru/studentorder/domain/AnswerChilren.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/studentOrder/src/ru/studentorder/domain/Person.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/testeeal/ee/src/JPA/MainExample.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/testeeal/ee/src/ejb/ChainBeanSecond.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/testeeal/ee/src/ejb/ExampleBean.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/testeeal/ee/src/JPA/JpaBean.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/testeeal/ee/src/ejb/TempEjb.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/testeeal/ee/src/ejb/EjbServlet.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/testeeal/ee/src/ejb/HelloWorldEJB.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/testeeal/ee/src/JPA/ServletJpa.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/testeeal/ee/src/ejb/ChainBean.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/testeeal/ee/src/ejb/Interfaces/LocalExampleInterfaces.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
