@@ -20,7 +20,7 @@ public class Flower {
         this.price = price;
         this.lengthSteack = lengthSteack;
         this.iceLevel = iceLevel;
-        imagePath = name + ".jpg";
+        imagePath = "img/" +name + ".jpg";
     }
 
     public int getId() {

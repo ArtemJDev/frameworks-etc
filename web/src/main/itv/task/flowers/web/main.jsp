@@ -72,7 +72,6 @@
                    <a href="controller?action=add_empty_bunch">Add free bunch</a>
                </jstl:otherwise>
            </jstl:choose>
-
        </jstl:otherwise>
    </jstl:choose>
 
