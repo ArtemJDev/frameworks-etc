@@ -1,1 +1,0 @@
-CREATE SCHEMA `springeng` DEFAULT CHARACTER SET utf8 ;
