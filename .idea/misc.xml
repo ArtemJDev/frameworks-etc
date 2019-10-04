@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="FrameworkDetectionExcludesConfiguration">
-    <file type="web" url="file://$PROJECT_DIR$/firstjsfApp" />
+    <file type="web" url="file://$PROJECT_DIR$/EEApp test" />
     <file type="web" url="file://$PROJECT_DIR$/springbootapp" />
   </component>
   <component name="JavaScriptSettings">
