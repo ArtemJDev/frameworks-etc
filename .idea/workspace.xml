@@ -6,7 +6,9 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="51af441c-13f7-485b-9066-e5164ea9f418" name="Default Changelist" comment="" />
+    <list default="true" id="51af441c-13f7-485b-9066-e5164ea9f418" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/HibernateTest/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/hibernate/target/" />
@@ -145,9 +147,21 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/src/main/testeeal/ee/src/rest/RestClient.java">
           <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/src/main/testeeal/ee/src/http/HttpRequestRead.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="55" column="14" selection-start-line="55" selection-start-column="14" selection-end-line="55" selection-end-column="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -323,7 +337,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/web/src/main/itv/ws/json/ex_002_json/Main.java" />
         <option value="$PROJECT_DIR$/web/src/main/itv/task/flowers/src/test/java/TestCommand.java" />
         <option value="$PROJECT_DIR$/web/src/main/itv/task/flowers/src/test/java/AbstractRequestWrapper.java" />
         <option value="$PROJECT_DIR$/web/src/main/itv/task/flowers/src/test/java/AbstractSessionWrapper.java" />
@@ -374,6 +387,7 @@
         <option value="$PROJECT_DIR$/web/src/main/itv/task/flowers/web/main.jsp" />
         <option value="$PROJECT_DIR$/web/src/main/testeeal/ee/src/soap/CallHelloWorld.java" />
         <option value="$PROJECT_DIR$/web/src/main/testeeal/ee/src/rest/RestClient.java" />
+        <option value="$PROJECT_DIR$/web/src/main/testeeal/ee/src/http/HttpRequestRead.java" />
       </list>
     </option>
   </component>
@@ -472,7 +486,7 @@
               <item name="testeeal" type="462c0819:PsiDirectoryNode" />
               <item name="ee" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="rest" type="462c0819:PsiDirectoryNode" />
+              <item name="http" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -503,7 +517,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8 (2)" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/web" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -516,16 +530,12 @@
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\projects\frameworks_etc\web\src\main\itv\task\flowers\web\img" />
-      <recent name="C:\projects\frameworks_etc\web\src\main\shopdb\view\src\main\webapp\WEB-INF" />
-      <recent name="C:\projects\frameworks_etc\web\src\main\itv\task\flowers\web" />
-      <recent name="C:\projects\frameworks_etc\springeng" />
-      <recent name="C:\projects\frameworks_etc\web\src\main\xmlpack\SAX_object_1" />
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="main.testeeal.ee.src.http" />
+      <recent name="main.testeeal.ee.src" />
     </key>
-    <key name="ImportMappingsDialog.RecentPackages">
-      <recent name="ru.frameworks.hibernateone.entity2" />
-      <recent name="" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="main.xmlpack.classtest" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\projects\frameworks_etc\web\src\main\testeeal\ee\src" />
@@ -534,11 +544,16 @@
       <recent name="C:\projects\frameworks_etc\web\src\main\studentOrder\src" />
       <recent name="C:\projects\frameworks_etc\web\src\main\testeeal\ee\web\WEB-INF" />
     </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="main.testeeal.ee.src" />
+    <key name="ImportMappingsDialog.RecentPackages">
+      <recent name="ru.frameworks.hibernateone.entity2" />
+      <recent name="" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="main.xmlpack.classtest" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\projects\frameworks_etc\web\src\main\itv\task\flowers\web\img" />
+      <recent name="C:\projects\frameworks_etc\web\src\main\shopdb\view\src\main\webapp\WEB-INF" />
+      <recent name="C:\projects\frameworks_etc\web\src\main\itv\task\flowers\web" />
+      <recent name="C:\projects\frameworks_etc\springeng" />
+      <recent name="C:\projects\frameworks_etc\web\src\main\xmlpack\SAX_object_1" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -963,20 +978,7 @@
       <workItem from="1570030221073" duration="82000" />
       <workItem from="1570031470601" duration="1381000" />
       <workItem from="1570172688444" duration="271000" />
-    </task>
-    <task id="LOCAL-00053" summary="SpringEngConfig">
-      <created>1565374354846</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1565374354846</updated>
-    </task>
-    <task id="LOCAL-00054" summary="SAXCountryParser">
-      <created>1565544853049</created>
-      <option name="number" value="00054" />
-      <option name="presentableId" value="LOCAL-00054" />
-      <option name="project" value="LOCAL" />
-      <updated>1565544853459</updated>
+      <workItem from="1570176107432" duration="776000" />
     </task>
     <task id="LOCAL-00055" summary="bdspringeng">
       <created>1565591017141</created>
@@ -1307,11 +1309,25 @@
       <option name="project" value="LOCAL" />
       <updated>1570172931034</updated>
     </task>
-    <option name="localTasksCounter" value="102" />
+    <task id="LOCAL-00102" summary="Http request to URL method 1">
+      <created>1570176220091</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1570176220092</updated>
+    </task>
+    <task id="LOCAL-00103" summary="Http request + parse JSON">
+      <created>1570177148666</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1570177148666</updated>
+    </task>
+    <option name="localTasksCounter" value="104" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="353165000" />
+    <option name="totallyTimeSpent" value="353941000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1323,10 +1339,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1432" y="-8" width="1616" height="876" extended-state="6" />
+    <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7889126" visible="true" weight="0.27956298" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7889126" visible="true" weight="0.3116046" />
       <window_info id="Structure" order="1" sideWeight="0.34396356" side_tool="true" weight="0.3014139" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -1344,7 +1360,7 @@
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" weight="0.32916668" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="9" visible="true" weight="0.26805556" />
+      <window_info anchor="bottom" id="Version Control" order="9" visible="true" weight="0.26805556" />
       <window_info anchor="bottom" id="Database Changes" order="10" weight="0.32916668" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.32916668" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
@@ -1363,7 +1379,7 @@
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Database" order="4" weight="0.1844473" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Maven" order="6" visible="true" weight="0.16645244" />
+      <window_info anchor="right" id="Maven" order="6" visible="true" weight="0.18553008" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="JSF" order="9" />
@@ -1415,8 +1431,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="ShopTestBd - 1 JSF EJB PostgreSQL" />
-    <MESSAGE value="FSF WEB - 1 JSF CDI  easyTest" />
     <MESSAGE value="Hibernate - Al 1" />
     <MESSAGE value="JSF CDI 2" />
     <MESSAGE value="Hibernate H2" />
@@ -1440,7 +1454,9 @@
     <MESSAGE value="EEAl easy SOAP" />
     <MESSAGE value="SpringApp ENG Moving" />
     <MESSAGE value="Rest + client(Http) easyLvl" />
-    <option name="LAST_COMMIT_MESSAGE" value="Rest + client(Http) easyLvl" />
+    <MESSAGE value="Http request to URL method 1" />
+    <MESSAGE value="Http request + parse JSON" />
+    <option name="LAST_COMMIT_MESSAGE" value="Http request + parse JSON" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1518,13 +1534,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/src/main/itv/task/flowers/src/main/java/command/RegisterCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/src/main/itv/task/flowers/src/main/java/command/MainCommand.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -1709,6 +1718,15 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/testeeal/ee/src/rest/ApplicationPathLesson.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/testeeal/ee/src/rest/HelloWorld.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/Spring/src/main/java/ru/javabegin/training/spring/main/Start.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -1817,17 +1835,18 @@
     <entry file="file://$PROJECT_DIR$/Spring/src/main/resources/context.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/testeeal/ee/src/rest/ApplicationPathLesson.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/testeeal/ee/src/rest/HelloWorld.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/src/main/testeeal/ee/src/rest/RestClient.java">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/testeeal/ee/src/http/HttpRequestRead.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="55" column="14" selection-start-line="55" selection-start-column="14" selection-end-line="55" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
