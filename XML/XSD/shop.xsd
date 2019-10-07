@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	targetNamespace="http://order.shop"
+	xmlns="http://order.shop" elementFormDefault="qualified" attributeFormDefault="qualified">
+	
+	<xsd:element name="orders" >
+		<xsd:complexType>
+		 	<xsd:sequence>
+		 		<xsd:element ref="order" minOccurs="0" maxOccurs="unbounded"></xsd:element>
+		 	</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="order" type="Order"></xsd:element>
+	<xsd:element name="product" type="Product"></xsd:element>
+	
+		<xsd:complexType name="Product">
+			<xsd:sequence>
+				<xsd:element name="title" type="xsd:token"></xsd:element>
+				<xsd:element name="price">
+					<xsd:complexType>
+						<xsd:simpleContent>
+						 	<xsd:extension base="UnsignedDouble">
+						 		<xsd:attribute name="currency">
+						 			<xsd:simpleType>
+						 			 	<xsd:restriction base="xsd:string">
+						 			 			<xsd:enumeration value="UAH"></xsd:enumeration>
+						 			 			<xsd:enumeration value="USD"></xsd:enumeration>
+						 			 	</xsd:restriction>
+						 			</xsd:simpleType>
+						 		</xsd:attribute>
+						 	</xsd:extension>
+						</xsd:simpleContent>
+					</xsd:complexType>
+				</xsd:element>
+				<xsd:element name="description" type="xsd:string" minOccurs="0"></xsd:element>
+				<xsd:element name="category" type="xsd:token" minOccurs="0" maxOccurs="unbounded"></xsd:element>
+				<xsd:element name="genre" type="xsd:token" minOccurs="0" maxOccurs="unbounded"></xsd:element>				
+			</xsd:sequence>
+		</xsd:complexType>
+		
+		<xsd:complexType name="Item">
+			<xsd:sequence>
+			<xsd:element name="product" type="Product"></xsd:element>
+			<xsd:element name="count" type="xsd:int"></xsd:element>
+			</xsd:sequence>
+		</xsd:complexType>
+		
+			<xsd:complexType name="Delivery" >
+				<xsd:sequence>
+					<xsd:element name="name" type="xsd:token" maxOccurs="1"></xsd:element>
+					<xsd:group ref="Address" minOccurs="0" maxOccurs="1"></xsd:group>
+					<xsd:element name="contact" maxOccurs="2">
+						 <xsd:simpleType>
+						 	<xsd:restriction base="xsd:string">
+						 	 	<xsd:pattern value="(\+\d{12,12})|(.+@.+\..+)"></xsd:pattern>
+						 	</xsd:restriction>
+						 </xsd:simpleType>
+					</xsd:element>
+				</xsd:sequence>
+			</xsd:complexType>
+			
+			<xsd:group name="Address">
+				<xsd:sequence>
+						<xsd:element name="index" type="xsd:token"></xsd:element>
+						<xsd:element name="country" type="xsd:token"></xsd:element>
+						<xsd:element name="city" type="xsd:token"></xsd:element>
+						<xsd:element name="addres" type="xsd:token"></xsd:element>
+				</xsd:sequence>
+			</xsd:group>
+			
+		<xsd:complexType name="Order">
+			<xsd:sequence>
+			<xsd:element name="item" type="Item" maxOccurs="unbounded"></xsd:element>
+			<xsd:element name="delivery" type="Delivery" maxOccurs="unbounded"></xsd:element>
+			</xsd:sequence>
+			<xsd:attribute name="id" type="xsd:long" use="optional"></xsd:attribute>
+		</xsd:complexType>
+
+		<xsd:simpleType name="UnsignedDouble">
+			<xsd:restriction base="xsd:double">
+				<xsd:minInclusive value="0"></xsd:minInclusive>
+				 <xsd:pattern value="\d+\.\d{2,2}"></xsd:pattern>
+			</xsd:restriction>
+		</xsd:simpleType>
+			
+				
+</xsd:schema>

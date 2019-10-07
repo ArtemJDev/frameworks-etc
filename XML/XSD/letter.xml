@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="letter.xslt"?>
+
+<letter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:noNamespaceSchemaLocation="letter.xsd">Уважаемый(ая) <name>Пупкин</name>
+Ваш заказ: <id>123</id>.
+<title>Java XML test</title> - <count>1</count>
+<title>Java XML test</title> - <count>1</count>
+<title>Java XML test</title> - <count>1</count>
+<title>Java XML test</title> - <count>1</count>
+Стоимость заказа: <total>200</total><currency> грн.</currency>
+</letter>

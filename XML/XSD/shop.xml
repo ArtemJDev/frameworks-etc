@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p:orders xmlns:p="http://order.shop" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://order.shop shop.xsd ">
+  <p:order p:id="0">
+    <p:item>
+      <p:product>
+        <p:title>token</p:title>
+        <p:price p:currency="UAH">0.0</p:price>
+      </p:product>
+      <p:count>0</p:count>
+    </p:item>
+    <p:delivery>
+      <p:name>token</p:name>
+      <p:index>token</p:index>
+      <p:country>token</p:country>
+      <p:city>token</p:city>
+      <p:addres>token</p:addres>
+      <p:contact>p:contact</p:contact>
+    </p:delivery>
+  </p:order>
+</p:orders>
