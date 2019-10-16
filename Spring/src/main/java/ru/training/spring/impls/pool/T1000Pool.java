@@ -1,9 +1,9 @@
 package ru.training.spring.impls.pool;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import ru.javabegin.training.spring.enums.ColorStyle;
-import ru.javabegin.training.spring.interfaces.Robot;
-import ru.javabegin.training.spring.qualifiers.RobotType;
+import ru.training.spring.enums.ColorStyle;
+import ru.training.spring.qualifiers.RobotType;
+
 
 public class T1000Pool {
 

@@ -2,7 +2,6 @@ package ru.training.spring.main;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
-import ru.javabegin.training.spring.impls.robot.ModelT1000;
 
 public class Start {
 

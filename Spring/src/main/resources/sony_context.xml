@@ -4,8 +4,8 @@
   xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd"
 >
 
-  <bean id="SonyHand" class="ru.javabegin.training.spring.impls.sony.SonyHand"/>
-  <bean id="SonyHead" class="ru.javabegin.training.spring.impls.sony.SonyHead"/>
-  <bean id="SonyLeg" class="ru.javabegin.training.spring.impls.sony.SonyLeg"/>
+  <bean id="SonyHand" class="ru.training.spring.impls.sony.SonyHand"/>
+  <bean id="SonyHead" class="ru.training.spring.impls.sony.SonyHead"/>
+  <bean id="SonyLeg" class="ru.training.spring.impls.sony.SonyLeg"/>
 
 </beans>

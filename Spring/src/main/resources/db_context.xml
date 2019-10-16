@@ -4,5 +4,5 @@
   xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd"
   default-lazy-init="true">
 
-  <bean id="databaseBean" class="ru.javabegin.training.spring.impls.Database"></bean>
+  <bean id="databaseBean" class="ru.training.spring.impls.Database"></bean>
 </beans>

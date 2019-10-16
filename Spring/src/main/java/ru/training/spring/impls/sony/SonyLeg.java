@@ -1,6 +1,5 @@
 package ru.training.spring.impls.sony;
 
-import ru.javabegin.training.spring.interfaces.Leg;
 
 public class SonyLeg implements Leg {
 

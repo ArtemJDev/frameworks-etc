@@ -4,17 +4,17 @@
   xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd"
 >
 
-  <bean id="ToshibaHand1" class="ru.javabegin.training.spring.impls.toshiba.ToshibaHand" >
+  <bean id="ToshibaHand1" class="ru.training.spring.impls.toshiba.ToshibaHand" >
     <property name="color" value="Golden"/>
     <qualifier value="sonyGoldenHand"></qualifier>
     </bean>
 
-  <bean id="ToshibaHand2" class="ru.javabegin.training.spring.impls.toshiba.ToshibaHand" >
+  <bean id="ToshibaHand2" class="ru.training.spring.impls.toshiba.ToshibaHand" >
     <property name="color" value="Bronze"/>
     <qualifier value="sonyBronzeHand"></qualifier>
     </bean>
 
-  <bean id="ToshibaHead" class="ru.javabegin.training.spring.impls.toshiba.ToshibaHead"/>
-  <bean id="ToshibaLeg" class="ru.javabegin.training.spring.impls.toshiba.ToshibaLeg"/>
+  <bean id="ToshibaHead" class="ru.training.spring.impls.toshiba.ToshibaHead"/>
+  <bean id="ToshibaLeg" class="ru.training.spring.impls.toshiba.ToshibaLeg"/>
 
 </beans>

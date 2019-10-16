@@ -1,10 +1,10 @@
 package ru.training.spring.abstracts.robot;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import ru.javabegin.training.spring.interfaces.Hand;
-import ru.javabegin.training.spring.interfaces.Head;
-import ru.javabegin.training.spring.interfaces.Leg;
-import ru.javabegin.training.spring.interfaces.Robot;
+import ru.training.spring.interfaces.Hand;
+import ru.training.spring.interfaces.Head;
+import ru.training.spring.interfaces.Leg;
+
 
 public abstract class BaseModel implements Robot {
 

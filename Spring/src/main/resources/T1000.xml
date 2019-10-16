@@ -11,9 +11,9 @@
   <import resource="sony_context.xml"></import>
   <import resource="db_context.xml"></import>
   <import resource="toshiba_context.xml"></import>
-  <bean id="actionReplacer" class="ru.javabegin.training.spring.impls.robot.ActionReplacer"></bean>
+  <bean id="actionReplacer" class="ru.training.spring.impls.robot.ActionReplacer"></bean>
 
-  <bean id="t1000" class="ru.javabegin.training.spring.impls.robot.ModelT1000"
+  <bean id="t1000" class="ru.training.spring.impls.robot.ModelT1000"
    scope="prototype" >
 <!--<constructor-arg ref="SonyHand"/>-->
 <!--<constructor-arg ref="SonyLeg"/>-->
@@ -31,14 +31,14 @@
 <!--    <constructor-arg ref="SonyHead"  />-->
   </bean>
 
-  <bean id="t1000empy" class="ru.javabegin.training.spring.impls.robot.ModelT1000">
+  <bean id="t1000empy" class="ru.training.spring.impls.robot.ModelT1000">
     <!--		empty object cannot be transferred-->
     <constructor-arg ref="SonyHand" />
     <constructor-arg ref="SonyLeg"  />
     <constructor-arg ref="SonyHead"  />
   </bean>
 
-  <bean id="t1000All" class="ru.javabegin.training.spring.impls.robot.ModelT1000" >
+  <bean id="t1000All" class="ru.training.spring.impls.robot.ModelT1000" >
     <constructor-arg ref="SonyHand" />
     <constructor-arg ref="SonyLeg"  />
     <constructor-arg ref="SonyHead"  />

@@ -8,20 +8,20 @@
  <import resource="T1000.xml"></import><!--использование аннотаций-->
 
 <!--	<bean class="ru.javabegin.training.spring.main.MyBeanPostProcessor"/>-->
-	<bean id="t1000Conveyor" class="ru.javabegin.training.spring.impls.conveyor.T1000Conveyor">
+	<bean id="t1000Conveyor" class="ru.training.spring.impls.conveyor.T1000Conveyor">
 		<lookup-method name="createRobot" bean="t1000"/>
 	</bean>
 
-	<bean id="t1000Pool" class="ru.javabegin.training.spring.impls.pool.T1000Pool">
+	<bean id="t1000Pool" class="ru..training.spring.impls.pool.T1000Pool">
 		<constructor-arg name="robotCollection">  <!--Передача значения по имени -->
 			<list>
 				<ref bean="t1000"/>
-				<bean class="ru.javabegin.training.spring.impls.robot.ModelT1000" parent="baseModel">
+				<bean class="ru.training.spring.impls.robot.ModelT1000" parent="baseModel">
 					<constructor-arg value="gold"/>
 					<constructor-arg value="2007"/>
 					<constructor-arg value="true"/>
 				</bean>
-				<bean class="ru.javabegin.training.spring.impls.robot.ModelT1000" parent="baseModel">
+				<bean class="ru.training.spring.impls.robot.ModelT1000" parent="baseModel">
 					<constructor-arg value="gold"/>
 					<constructor-arg value="2009"/>
 					<constructor-arg value="true"/>
@@ -30,7 +30,7 @@
 		</constructor-arg>
 	</bean>
 
-	<bean id="t1000ColdenPool" class="ru.javabegin.training.spring.impls.pool.T1000Pool">
+	<bean id="t1000ColdenPool" class="ru..training.spring.impls.pool.T1000Pool">
 		<constructor-arg name="robotCollection"
 			value="#{t1000Pool.robotCollection.?[color.toUpperCase() eq 'GOLD']}">
 		</constructor-arg>

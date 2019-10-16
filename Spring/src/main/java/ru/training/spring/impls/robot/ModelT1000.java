@@ -4,14 +4,14 @@ import org.springframework.beans.factory.config.ConfigurableBeanFactory;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
-import ru.javabegin.training.spring.abstracts.robot.BaseModel;
-import ru.javabegin.training.spring.enums.ColorStyle;
-import ru.javabegin.training.spring.interfaces.Hand;
-import ru.javabegin.training.spring.interfaces.Head;
-import ru.javabegin.training.spring.interfaces.Leg;
+import ru.training.spring.abstracts.robot.BaseModel;
+import ru.training.spring.enums.ColorStyle;
+import ru.training.spring.interfaces.Hand;
+import ru.training.spring.interfaces.Head;
+import ru.training.spring.interfaces.Leg;
 
 @Component
-public class ModelT1000 extends BaseModel  {
+public class ModelT1000 extends BaseModel {
 
 	private ColorStyle color;
 	private int year;
