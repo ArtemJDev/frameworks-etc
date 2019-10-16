@@ -12,7 +12,7 @@
 		<lookup-method name="createRobot" bean="t1000"/>
 	</bean>
 
-	<bean id="t1000Pool" class="ru..training.spring.impls.pool.T1000Pool">
+	<bean id="t1000Pool" class="ru.training.spring.impls.pool.T1000Pool">
 		<constructor-arg name="robotCollection">  <!--Передача значения по имени -->
 			<list>
 				<ref bean="t1000"/>
@@ -30,10 +30,19 @@
 		</constructor-arg>
 	</bean>
 
-	<bean id="t1000ColdenPool" class="ru..training.spring.impls.pool.T1000Pool">
+	<bean id="t1000ColdenPool" class="ru.training.spring.impls.pool.T1000Pool">
 		<constructor-arg name="robotCollection"
 			value="#{t1000Pool.robotCollection.?[color.toUpperCase() eq 'GOLD']}">
 		</constructor-arg>
 	</bean>
+
+	<aop:config>
+		<aop:aspect id="log" ref="myLoger">
+			<aop:pointcut id="getValue" expression="execution(* ru.training.spring.logger.Service.*(..))"/>
+			<aop:before method="init" pointcut-ref="getValue"/>
+			<aop:after method="close" pointcut-ref="getValue"/>
+			<aop:after-returning method="printValue"  returning="obj" pointcut-ref="getValue"/><!--после возврата результата-->
+		</aop:aspect>
+	</aop:config>
 
 </beans>
