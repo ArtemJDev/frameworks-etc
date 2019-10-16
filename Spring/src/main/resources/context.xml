@@ -43,6 +43,11 @@
 			<aop:after method="close" pointcut-ref="getValue"/>
 			<aop:after-returning method="printValue"  returning="obj" pointcut-ref="getValue"/><!--после возврата результата-->
 		</aop:aspect>
+		<aop:aspect id="logms" ref="myLogger">
+			<aop:pointcut id="allMethods" expression="execution(public * *(..))"/>
+			<aop:around  method="watchTime" pointcut-ref="allMethods"  />
+			<aop:after-returning method="print"	pointcut-ref="allMethods" returning="obj"/>
+		</aop:aspect>
 	</aop:config>
 
 </beans>
