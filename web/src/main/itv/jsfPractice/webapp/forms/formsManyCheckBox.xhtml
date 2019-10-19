@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+
+<h:head>
+    <title>Student Registration forms</title>
+</h:head>
+
+<h:body>
+    <h:form>
+        First name: <h:inputText id="firstName" value="#{studentManyCheckBox.firstName}"/>
+        <br/>
+        <br/>
+        Last name: <h:inputText id="lastName" value="#{studentManyCheckBox.lastName}"/>
+        <br/>
+        <br/>
+        Favorite Programming Language:
+        <h:selectManyCheckbox value="#{studentManyCheckBox.favoriteLanguage}">
+            <f:selectItem itemValue="Java" itemLabel="Java"/>
+            <f:selectItem itemValue="C#" itemLabel="C#"/>
+            <f:selectItem itemValue="PHP" itemLabel="PHP"/>
+            <f:selectItem itemValue="Ruby" itemLabel="Ruby"/>
+        </h:selectManyCheckbox>
+        <h:commandButton value="Submit" action="myresponseManyCheckbox"/>
+    </h:form>
+</h:body>
+</html>

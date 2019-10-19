@@ -1,4 +1,4 @@
-package main.itv.jsfPracticeForm.java.servlets.students;
+package main.itv.jsfPractice.java.servlets.students;
 
 import java.util.ArrayList;
 import java.util.List;

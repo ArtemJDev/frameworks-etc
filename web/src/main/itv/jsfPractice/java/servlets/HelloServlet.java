@@ -1,4 +1,4 @@
-package main.itv.jsfPracticeForm.java.servlets;
+package main.itv.jsfPractice.java.servlets;
 
 import java.io.IOException;
 import javax.servlet.ServletException;
