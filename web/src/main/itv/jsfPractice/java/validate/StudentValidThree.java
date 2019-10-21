@@ -1,23 +1,23 @@
-package main.itv.jsfPractice.java.servlets.validate;
+package main.itv.jsfPractice.java.validate;
 
 import javax.faces.bean.ManagedBean;
 
 @ManagedBean
-public class StudentValidOne {
+public class StudentValidThree {
 
   String name;
   String lastName;
-  String email;
+  String phoneNumber;
 
-  public StudentValidOne() {
+  public StudentValidThree() {
   }
 
-  public String getEmail() {
-    return email;
+  public String getPhoneNumber() {
+    return phoneNumber;
   }
 
-  public void setEmail(String email) {
-    this.email = email;
+  public void setPhoneNumber(String phoneNumber) {
+    this.phoneNumber = phoneNumber;
   }
 
   public String getName() {

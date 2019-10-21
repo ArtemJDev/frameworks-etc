@@ -1,4 +1,4 @@
-package main.itv.jsfPractice.java.servlets.handling;
+package main.itv.jsfPractice.java.handling;
 
 import javax.faces.bean.ManagedBean;
 

@@ -1,24 +1,23 @@
-package main.itv.jsfPractice.java.servlets.students;
+package main.itv.jsfPractice.java.students;
 
 import javax.faces.bean.ManagedBean;
 
 @ManagedBean
-public class StudentThree {
-
+public class StudentManyCheckBox {
   String firstName;
   String lastName;
-  String favoriteLamguage;
 
-  public StudentThree() {
+  String[] favoriteLanguage;
+
+  public StudentManyCheckBox() {
   }
 
-
-  public String getFavoriteLamguage() {
-    return favoriteLamguage;
+  public String[] getFavoriteLanguage() {
+    return favoriteLanguage;
   }
 
-  public void setFavoriteLamguage(String favoriteLamguage) {
-    this.favoriteLamguage = favoriteLamguage;
+  public void setFavoriteLanguage(String[] favoriteLanguage) {
+    this.favoriteLanguage = favoriteLanguage;
   }
 
   public String getFirstName() {

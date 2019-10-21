@@ -1,4 +1,4 @@
-package main.itv.jsfPractice.java.servlets.validate;
+package main.itv.jsfPractice.java.validate;
 
 import javax.faces.bean.ManagedBean;
 
