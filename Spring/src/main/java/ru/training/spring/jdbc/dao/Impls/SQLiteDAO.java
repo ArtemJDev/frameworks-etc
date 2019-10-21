@@ -15,8 +15,8 @@ import org.springframework.jdbc.core.ResultSetExtractor;
 import org.springframework.jdbc.core.RowMapper;
 import org.springframework.jdbc.core.namedparam.MapSqlParameterSource;
 import org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate;
-import org.springframework.jdbc.support.GeneratedKeyHolder;
-import org.springframework.jdbc.support.KeyHolder;
+import org.springframework.jdbc.core.namedparam.SqlParameterSource;
+import org.springframework.jdbc.core.simple.SimpleJdbcInsert;
 import org.springframework.stereotype.Component;
 import ru.javabegin.training.spring.dao.interfaces.MP3Dao;
 import ru.javabegin.training.spring.dao.objects.MP3;
@@ -24,30 +24,52 @@ import ru.javabegin.training.spring.dao.objects.MP3;
 @Component("sqliteDAO")
 public class SQLiteDAO implements MP3Dao {
 
+  private SimpleJdbcInsert insertMP3;
+
 //  private JdbcTemplate jdbcTemplate;
   private NamedParameterJdbcTemplate jdbcTemplate;
 
+  private DataSource dataSource;
+
   @Autowired
   public void setDataSource(DataSource  dataSource) {
+    this.dataSource = dataSource;
     this.jdbcTemplate = new NamedParameterJdbcTemplate(dataSource);
+    this.insertMP3 = new SimpleJdbcInsert(dataSource).withTableName("mp3").usingColumns("name", "author");
   }
 
   public int insert(MP3 mp3) {
 //    String sql = "insert into mp3(name,author) values(?,?)";
-      String sql = "insert into mp3(name,author) VALUES (:name, :author)";
-
-    KeyHolder keyHolder = new GeneratedKeyHolder();
-
+//      String sql = "insert into mp3(name,author) VALUES (:name, :author)";
+//    KeyHolder keyHolder = new GeneratedKeyHolder();
     MapSqlParameterSource parameterSource = new MapSqlParameterSource();
     parameterSource.addValue("name", mp3.getName());
     parameterSource.addValue("author", mp3.getAuthor());
-    jdbcTemplate.update(sql,parameterSource, keyHolder);
-
-    return keyHolder.getKey().intValue();
-
+//    jdbcTemplate.update(sql,parameterSource, keyHolder);
+    return insertMP3.execute(parameterSource);
     //если надо возвратить id всталенный
 //    jdbcTemplate.update(sql, new Object[]{mp3.getName(), mp3.getAuthor()});
   }
+
+  //массовая вставка
+  public int batchInsert(List<MP3> listMP3) {
+    String sql = "Insert into mp3(name, author) values(:name, :author)";
+
+    //или так чтобы не спутать места
+    SqlParameterSource[] params = new SqlParameterSource[listMP3.size()];
+    for (int i = 0; i < listMP3.size(); i++) {
+      MapSqlParameterSource p = new MapSqlParameterSource();
+      p.addValue("name", listMP3.get(i).getName());
+      p.addValue("author",listMP3.get(i).getAuthor());
+      params[i] = p;
+    }
+
+    //объъявлеям параметерSQL масмв
+//    SqlParameterSource[] batch = SqlParameterSourceUtils.createBatch(listMP3.toArray());
+    int[] updateCounts = jdbcTemplate.batchUpdate(sql, params);
+    return updateCounts.length;
+  }
+
 
   public void insert(List<MP3> mp3) {
     for(MP3 mp31 : mp3) {
