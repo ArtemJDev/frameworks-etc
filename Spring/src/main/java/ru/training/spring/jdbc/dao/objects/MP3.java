@@ -1,6 +1,7 @@
 package ru.training.spring.jdbc.dao.objects;
 
 public class MP3 {
+  int id;
   String name;
   String author;
 
@@ -18,5 +19,13 @@ public class MP3 {
 
   public void setAuthor(String author) {
     this.author = author;
+  }
+
+  public int getId() {
+    return id;
+  }
+
+  public void setId(int id) {
+    this.id = id;
   }
 }
