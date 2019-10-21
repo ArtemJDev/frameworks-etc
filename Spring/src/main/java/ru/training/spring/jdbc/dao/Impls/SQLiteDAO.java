@@ -18,8 +18,8 @@ import org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate;
 import org.springframework.jdbc.core.namedparam.SqlParameterSource;
 import org.springframework.jdbc.core.simple.SimpleJdbcInsert;
 import org.springframework.stereotype.Component;
-import ru.javabegin.training.spring.dao.interfaces.MP3Dao;
-import ru.javabegin.training.spring.dao.objects.MP3;
+import ru.training.spring.dao.interfaces.MP3Dao;
+import ru.training.spring.dao.objects.MP3;
 
 @Component("sqliteDAO")
 public class SQLiteDAO implements MP3Dao {

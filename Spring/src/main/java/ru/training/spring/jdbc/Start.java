@@ -4,8 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
-import ru.javabegin.training.spring.dao.interfaces.MP3Dao;
-import ru.javabegin.training.spring.dao.objects.MP3;
+import ru.training.spring.dao.interfaces.MP3Dao;
+import ru.training.spring.dao.objects.MP3;
 
 public class Start {
 
