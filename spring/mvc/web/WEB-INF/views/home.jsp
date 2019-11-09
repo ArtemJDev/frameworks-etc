@@ -14,6 +14,12 @@
 <p>Are you Admin? ${user.admin}</p>
 <p>Locale : ${locale}</p>
 
+<%--test error--%>
+<form method="post" action="uploadFile" enctype="multipart/form-data">
+    File to upload:
+    <input type="file" name="file"><br>
+    <input type="submit" value="Upload"> Press here
+</form>
 
 </form>
 </body>
