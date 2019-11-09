@@ -17,8 +17,7 @@
   <modules>
     <module>hibernate</module>
     <module>Spring</module>
-    <module>firstjsfApp</module>
-    <module>task</module>
+    <module>web</module>
   </modules>
 
   <build>
