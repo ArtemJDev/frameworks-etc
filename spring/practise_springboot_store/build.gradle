@@ -1,0 +1,43 @@
+package practise_springboot_store
+
+plugins {
+    id 'org.springframework.boot' version '2.2.1.RELEASE'
+    id 'io.spring.dependency-management' version '1.0.8.RELEASE'
+    id 'java'
+    id 'war'
+}
+
+group = 'ru.javagain'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = '1.8'
+
+repositories {
+    mavenCentral()
+}
+
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+ext['hibernate.version'] = '5.4.2.Final'
+
+configurations {
+    providedRuntime
+
+    compile.exclude module: 'spring-boot-starter-tomcat'// исключаем Tomcat,
+
+}
+
+dependencies {
+    implementation('org.springframework.boot:spring-boot-starter-data-jpa:+')
+    implementation('org.springframework.boot:spring-boot-starter-web:+')
+    implementation('org.springframework.boot:spring-boot-starter-security:+')
+    implementation("org.springframework.boot:spring-boot-starter-actuator:+")
+    implementation("org.springframework.boot:spring-boot-starter-aop:+")
+
+    implementation 'org.projectlombok:lombok:+'
+    implementation 'com.google.guava:guava:+'
+
+    implementation group: 'mysql', name: 'mysql-connector-java', version: '5.1.13'
+    providedCompile 'javax:javaee-api:7.0'
+}
