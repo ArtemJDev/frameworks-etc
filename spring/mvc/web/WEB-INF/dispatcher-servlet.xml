@@ -33,6 +33,21 @@
     </bean>
   </mvc:interceptors>
 
+<!--  interceptor-->
+  <!--  <bean id="requestHandlerMapping" class="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping">-->
+  <!--    <property name="interceptors">-->
+  <!--      <list>-->
+  <!--        <ref bean="checkUserInterceptor" />-->
+  <!--      </list>-->
+  <!--    </property>-->
+  <!--  </bean>-->
+  <!--  <mvc:interceptors>-->
+  <!--    <mvc:interceptor>-->
+  <!--      <mvc:mapping path="/*"/>-->
+  <!--      <bean class="ru.javastudy.springMVC.interceptor.CheckUserInterceptor"/>-->
+  <!--    </mvc:interceptor>-->
+  <!--  </mvc:interceptors>-->
+
   <bean id="messageSource" class="org.springframework.context.support.ReloadableResourceBundleMessageSource">
     <property name="basename" value="/WEB-INF/locale/messages"/>
     <property name="defaultEncoding" value="UTF-8" />
