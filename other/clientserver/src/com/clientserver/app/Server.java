@@ -19,14 +19,23 @@ public class Server {
             Socket clientSocket = serverSocket.accept();//create clientSocket
             System.out.println("Client accepted " + client++);
 
-            OutputStreamWriter outputStream = new OutputStreamWriter(clientSocket.getOutputStream());
-            outputStream.write("HTTP/1.0 200 OK\n "
-                + "Content-type: text/html\n"
-                + "\n"
-                + "<h2>Hello</h2>");
-            outputStream.flush();
-            outputStream.close();
+            BufferedReader reader = new BufferedReader(new InputStreamReader(clientSocket.getInputStream()));
+            OutputStreamWriter writer = new OutputStreamWriter(clientSocket.getOutputStream());
 
+            String request = reader.readLine();
+            String response =  "#" + client + ": your message length is " + request.length() + "\n";
+            writer.write(response);
+            writer.flush();
+
+
+            //for client
+//            outputStream.write("HTTP/1.0 200 OK\n "
+//                + "Content-type: text/html\n"
+//                + "\n"
+//                + "<h2>Hello</h2>");
+
+            reader.close();
+            writer.close();
             clientSocket.close();
         }
 
