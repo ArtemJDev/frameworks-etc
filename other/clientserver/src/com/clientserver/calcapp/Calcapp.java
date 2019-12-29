@@ -20,10 +20,26 @@ public class Calcapp {
     }
 
     private void runServer(String port, String operation) {
-
+        Phone phone = new Phone(port);
+        System.out.println("Started server with " + operation + " on " + port);
+        while(true) {
+            phone.accept(); // create socket and thread IO
+            String a = phone.readLine();
+            String b = phone.readLine();
+            int result = calculate(operation, a, b);
+            String msg = a + " " + operation + " " + b + " = " + result;
+            phone.writeLine(msg);
+            System.out.println("Accepted: " + msg);
+            phone.close();
+        }
     }
 
     private void runClient(String ip, String port, String a, String b) {
-
+        Phone phone = new Phone(ip, port);
+        phone.writeLine(a);
+        phone.writeLine(b);
+        String answer = phone.readLine();
+        System.out.println(answer);
+        phone.close();
     }
 }
