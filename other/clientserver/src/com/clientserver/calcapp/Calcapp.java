@@ -42,4 +42,18 @@ public class Calcapp {
         System.out.println(answer);
         phone.close();
     }
+
+    private int calculate(String operation, String a, String b) {
+        int x = Integer.parseInt(a);
+        int y = Integer.parseInt(b);
+        switch (operation) {
+            case "-" : return  x - y;
+            case "*" : return  x * y;
+            case "/" : return  x / y;
+            case "+" :
+            default:  return  x + y;
+        }
+
+
+    }
 }
