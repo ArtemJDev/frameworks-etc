@@ -19,17 +19,17 @@ public class Phone {
     BufferedReader reader;
     BufferedWriter writer;
 
-    // own socket for each instance
-    public Phone(Phone phone) {
-        this.server = phone.getServer();
-    }
-
-    public Phone(String port) {
+        public Phone(String port) { //server
         try {
             server = new ServerSocket(Integer.parseInt(port));
         } catch (IOException e) {
             e.printStackTrace();
         }
+    }
+
+    public Phone(Phone phoneServer) {
+        this.server = phoneServer.getServer();
+        accept();
     }
 
     public Phone(String ip, String port) {
@@ -41,7 +41,7 @@ public class Phone {
         }
     }
 
-    public void accept() {
+    private void accept() {
         try {
             client = server.accept(); // for comm with a client
             createStrewams();
