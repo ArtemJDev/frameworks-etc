@@ -19,6 +19,11 @@ public class Phone {
     BufferedReader reader;
     BufferedWriter writer;
 
+    // own socket for each instance
+    public Phone(Phone phone) {
+        this.server = phone.getServer();
+    }
+
     public Phone(String port) {
         try {
             server = new ServerSocket(Integer.parseInt(port));
@@ -81,5 +86,9 @@ public class Phone {
         } catch (IOException e) {
             e.printStackTrace();
         }
+    }
+
+    public ServerSocket getServer() {
+        return server;
     }
 }
