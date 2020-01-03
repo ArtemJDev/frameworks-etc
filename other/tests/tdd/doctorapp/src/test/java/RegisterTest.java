@@ -50,6 +50,27 @@ public class RegisterTest {
         Assert.assertSame(pinicilin, retrievePinicilin1);
         Assert.assertSame(purgative, retrievePurgative1);
     }
+    // add the same name - exception
+    @Test(expected = RuntimeException.class)
+    public void secondRegisterOfSameNamethrowsException() {
+    register.add("same", new Object());
+    register.add("same", new Object());
+
+    }
+    //when add patient we can read all his field and find those marked with annotation Inject
+    @Test
+    public void patientShouldBeInjectByPinicilin() {
+        Pinicilin pinicilin = new Pinicilin();
+        register.add(pinicilin);
+        register.add(new Patient());
+
+        Patient retrievedPatient = register.get(Patient.class);
+        Pinicilin injectPinicilin = retrievedPatient.getPinicilin();
+
+        Assert.assertNotNull(injectPinicilin);
+        Assert.assertSame(pinicilin, injectPinicilin);
+
+    }
 
 
 }
