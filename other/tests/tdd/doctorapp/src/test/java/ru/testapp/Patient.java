@@ -1,4 +1,4 @@
-import ru.testapp.Inject;
+package ru.testapp;
 
 //test injection
 public class Patient {

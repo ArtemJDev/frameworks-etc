@@ -1,7 +1,8 @@
+package ru.testapp;
+
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
-import ru.testapp.Register;
 
 public class RegisterTest {
 
@@ -61,8 +62,11 @@ public class RegisterTest {
     @Test
     public void patientShouldBeInjectByPinicilin() {
         Pinicilin pinicilin = new Pinicilin();
-        register.add(pinicilin);
+        //all is well if we add medicine first, fix it
         register.add(new Patient());
+        register.add(pinicilin);
+
+        register.inject();
 
         Patient retrievedPatient = register.get(Patient.class);
         Pinicilin injectPinicilin = retrievedPatient.getPinicilin();
