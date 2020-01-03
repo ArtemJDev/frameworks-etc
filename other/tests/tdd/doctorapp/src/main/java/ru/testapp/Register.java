@@ -3,6 +3,7 @@ package ru.testapp;
 import java.lang.reflect.Field;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Optional;
 
 public class Register {
 
@@ -38,6 +39,7 @@ public class Register {
     public <T> T get(Class<T> medType) {
         return (T) get(medType.getName());
     }
+
 
      void inject() {
         for (Field field : fieldsToInject.keySet()) {
