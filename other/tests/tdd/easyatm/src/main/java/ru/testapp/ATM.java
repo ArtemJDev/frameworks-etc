@@ -2,6 +2,7 @@ package ru.testapp;
 
 
 import java.util.Collections;
+import java.util.HashMap;
 import java.util.Map;
 import java.util.SortedMap;
 import java.util.TreeMap;
@@ -26,6 +27,16 @@ public class ATM {
     }
     //return map notes different denomination
     public Map<Integer, Integer> withDraw(int amount) {
-        return null;
+        Map<Integer, Integer> withdrowal = new HashMap<>();
+        for(Integer denomination : dispensers.keySet()) {
+            int notesThereIs = dispensers.get(denomination);
+            int notesWantDispence = amount / denomination;
+            int notesToDispence = notesWantDispence > notesThereIs ? notesThereIs : notesWantDispence;
+
+            withdrowal.put(denomination, notesToDispence);
+            dispensers.compute(denomination, (key, oldValue) -> oldValue - notesToDispence);
+            amount -= notesToDispence * denomination;
+        }
+        return withdrowal;
     }
 }

@@ -30,11 +30,28 @@ public class ATMTest {
     @Test
     public void shouldWithdrawAmountMinimumOfNotes() {
         atm.deposit(10, 100);
-        atm.deposit(5, 500);
+        atm.deposit(10, 500);
+
+        int balanceBefore = atm.getBalance();
         Map<Integer, Integer> withdrawal  = atm.withDraw(700);
-        Assert.assertEquals(5300, atm.getBalance());
-        Assert.assertEquals(1, withdrawal.get(100).byteValue());
-        Assert.assertEquals(2, withdrawal.get(200).byteValue());
+        Assert.assertEquals(balanceBefore - 700, atm.getBalance());
+        Assert.assertEquals(2, withdrawal.get(100).byteValue());
+        Assert.assertEquals(1, withdrawal.get(500).byteValue());
+    }
+
+    //returns small bills if there are no large
+    @Test
+    public void shouldNotDispenseMoreThanThereIsNotes() {
+        atm.deposit(1, 1000);
+        atm.deposit(10, 500);
+
+        int balanceBefore = atm.getBalance();
+        Map<Integer, Integer> withdrawal  = atm.withDraw(2500);
+        Assert.assertEquals(balanceBefore - 2500, atm.getBalance());
+        Assert.assertEquals(3, withdrawal.get(500).byteValue());
+        Assert.assertEquals(1, withdrawal.get(1000).byteValue());
+
+
 
     }
 
