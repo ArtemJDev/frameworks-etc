@@ -39,6 +39,13 @@ public class ATMTest {
         Assert.assertEquals(1, withdrawal.get(500).byteValue());
     }
 
+    @Test(expected = RuntimeException.class)
+    public void shouldThrowExceptionWhenCantDispense() {
+        atm.deposit(1, 500);
+        atm.deposit(2, 100);
+        atm.withDraw(800);
+    }
+
     //returns small bills if there are no large
     @Test
     public void shouldNotDispenseMoreThanThereIsNotes() {
