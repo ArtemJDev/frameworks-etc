@@ -1,6 +1,6 @@
 [![forthebadge](https://forthebadge.com/images/badges/made-with-java.svg)](https://forthebadge.com)  
 
-# Frameworks-etc.
+# Frameworks-etc. ( work has been stopped)
 Hello!
 This is a complex repository, my practice, all attempts to parse technologies, incomprehensible things and discoveries to me, everything is here.  
 All this is more for personal use than for general, there are few comments and a not very clear structure, but I will try to explain to you.  
