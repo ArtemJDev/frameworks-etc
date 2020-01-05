@@ -53,4 +53,25 @@ public class Register {
             }
         }
     }
+
+    /**
+     * Fills the structure of the hospital and tells the pencil to write
+     */
+    public void write(Pencil pencil) {
+        Hospital  hospital = new Hospital();
+        register.forEach((thingName, thingObject) -> {
+            Thing thing = new Thing();
+            thing.setName(thingName);
+            fieldsToInject.keySet().stream()
+                .filter(field -> field.getAnnotatedType().getClass() == thingObject.getClass())
+                .forEach(field -> {
+                    Injection injection = new Injection();
+                    injection.setName(field.getName());
+                    injection.setCure(fieldsToInject.get(field).getClass().getName());
+                    thing.getInjections().add(injection);
+                });
+            hospital.getThings().add(thing);
+        });
+        pencil.write(hospital);
+    }
 }
