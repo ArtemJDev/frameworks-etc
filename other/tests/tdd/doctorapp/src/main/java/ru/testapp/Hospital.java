@@ -2,18 +2,19 @@ package ru.testapp;
 
 import java.util.ArrayList;
 import java.util.List;
+import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
 
 @XmlRootElement
 public class Hospital {
 
-    private List<Thing> things = new ArrayList<>();
+    private List<Note> notes = new ArrayList<>();
 
-    public List<Thing> getThings() {
-        return things;
+    public List<Note> getNotes() {
+        return notes;
     }
-
-    public void setThings(List<Thing> things) {
-        this.things = things;
+    @XmlElement(name = "note")
+    public void setNotes(List<Note> notes) {
+        this.notes = notes;
     }
 }

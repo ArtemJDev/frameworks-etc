@@ -1,5 +1,7 @@
 package ru.testapp;
 
+import javax.xml.bind.annotation.XmlAttribute;
+
 public class Injection {
 
     private String name;
@@ -16,7 +18,7 @@ public class Injection {
     public String getName() {
         return name;
     }
-
+    @XmlAttribute
     public void setName(String name) {
         this.name = name;
     }

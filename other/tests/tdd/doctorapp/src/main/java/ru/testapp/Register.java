@@ -3,7 +3,6 @@ package ru.testapp;
 import java.lang.reflect.Field;
 import java.util.HashMap;
 import java.util.Map;
-import java.util.Optional;
 
 public class Register {
 
@@ -55,23 +54,23 @@ public class Register {
     }
 
     /**
-     * Fills the structure of the hospital and tells the pencil to write
+     * Fills the structure of the hospital and tells the pencil to getHospital
      */
-    public void write(Pencil pencil) {
+    public Hospital getHospital() {
         Hospital  hospital = new Hospital();
         register.forEach((thingName, thingObject) -> {
-            Thing thing = new Thing();
-            thing.setName(thingName);
+            Note note = new Note();
+            note.setName(thingName);
             fieldsToInject.keySet().stream()
-                .filter(field -> field.getAnnotatedType().getClass() == thingObject.getClass())
+                .filter(field -> fieldsToInject.get(field).getClass() == thingObject.getClass())
                 .forEach(field -> {
                     Injection injection = new Injection();
                     injection.setName(field.getName());
-                    injection.setCure(fieldsToInject.get(field).getClass().getName());
-                    thing.getInjections().add(injection);
+                    injection.setCure(field.getType().getName());
+                    note.getInjections().add(injection);
                 });
-            hospital.getThings().add(thing);
+            hospital.getNotes().add(note);
         });
-        pencil.write(hospital);
+        return hospital;
     }
 }

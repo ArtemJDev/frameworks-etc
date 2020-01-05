@@ -20,9 +20,8 @@ public class XmlTest {
         Register register = doctor
             .register(new Patient())
             .register(new Pinicilin())
-            .register(new Purgative())
-            .build();
-
-        register.write(pencil);
+            .register(new Purgative()).build();
+        Hospital hospital = register.getHospital();
+        pencil.write(hospital);
     }
 }
