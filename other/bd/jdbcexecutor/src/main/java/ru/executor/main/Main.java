@@ -18,8 +18,9 @@ public class Main {
 //      try (DataBaseService dbService = new DataBaseServiceConnection()) {
 //      try (DataBaseService dbService = new DataBaseServiceUpdate()) {
 //      try (DataBaseService dbService = new DataBaseServiceLog()) {
-      try (DataBaseService dbService = new DataBaseServicePrepared()) {
-//        try (DataBaseService dbService = new DataBaseServiceSimple()) {
+//      try (DataBaseService dbService = new DataBaseServiceSimple()) {
+        try (DataBaseService dbService = new DataBaseServicePrepared()) {
+        //try (DataBaseService dbService = new DataBaseServicePreparedTransactional()) {
             System.out.println(dbService.getMetaData());
 
             dbService.prepareTables();
