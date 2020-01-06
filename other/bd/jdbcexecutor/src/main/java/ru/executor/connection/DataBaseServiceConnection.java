@@ -8,7 +8,7 @@ import ru.executor.base.DataBaseService;
 import ru.executor.base.User;
 
 /**
- * First main implementation
+ * First main implementation with metaData
  */
 public class DataBaseServiceConnection implements DataBaseService {
     private final Connection connection;
