@@ -3,7 +3,7 @@ package ru.executor.logger;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import ru.executor.connection.DataBaseServiceUpdate;
-import ru.executor.executor.LoggingExecutor;
+import ru.executor.paternex.LoggingExecutor;
 /**
  * Do logging SELECT from DB
  */

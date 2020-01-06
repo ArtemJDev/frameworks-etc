@@ -1,7 +1,7 @@
 package ru.executor.connection;
 
 import java.sql.SQLException;
-import ru.executor.executor.LoggingExecutor;
+import ru.executor.paternex.LoggingExecutor;
 
 /**
  * Second  implementation with actions for update

@@ -1,4 +1,4 @@
-package ru.executor.executor;
+package ru.executor.paternex;
 
 import java.sql.Connection;
 import java.sql.ResultSet;
