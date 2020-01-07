@@ -1,5 +1,6 @@
 package ru.references;
 
+import java.lang.ref.SoftReference;
 import java.lang.ref.WeakReference;
 import java.util.ArrayList;
 import java.util.List;
@@ -35,16 +36,32 @@ public class Main {
             WeakReference<LargeObject> reference = new WeakReference<>(bigObject);
             references.add(reference);
         }
-
         //System.gc(); //0 with +- without
+        int sum = 0;
+        for (int k = 0; k < size; k++) {
+            if (references.get(k).get() != null) sum++;
+        }
+        System.out.println("Weak references: " + sum);
+    }
+
+    private static void soft() {
+        int size = 1000;
+        List<SoftReference<LargeObject>> references = new ArrayList<>(size);
+
+        for (int k = 0; k < size; k++) {
+            references.add(new SoftReference<>(new LargeObject()));
+        }
+
+//        System.gc(); not important
 
         int sum = 0;
         for (int k = 0; k < size; k++) {
             if (references.get(k).get() != null) sum++;
         }
 
-        System.out.println("Weak references: " + sum);
+        System.out.println("Soft references: " + sum);
     }
+
 }
 
 
