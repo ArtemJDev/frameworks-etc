@@ -1,8 +1,18 @@
 package ru.msg.messageSystem;
 
-public class Address {
+import java.util.Objects;
+import java.util.concurrent.atomic.AtomicInteger;
 
+/**
+ * Something that identifies the service
+ */
+public class Address {
+    private static final AtomicInteger ID_GENERATOR = new AtomicInteger();
     private final String id;
+
+    public Address(){
+        id = String.valueOf(ID_GENERATOR.getAndIncrement());
+    }
 
     public Address(String id) {
         this.id = id;
@@ -15,7 +25,7 @@ public class Address {
 
         Address address = (Address) o;
 
-        return id != null ? id.equals(address.id) : address.id == null;
+        return Objects.equals(id, address.id);
     }
 
     @Override

@@ -1,5 +1,9 @@
 package ru.msg.messageSystem;
 
+/**
+ * Our abstract message
+ * Have address and method to execute
+ */
 public abstract class Message {
     private final Address from;
     private final Address to;
