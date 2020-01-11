@@ -4,6 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 import ru.msg.app.FrontendService;
 import ru.msg.app.MessageSystemContext;
+import ru.msg.db.MsgGetUserId;
 import ru.msg.messageSystem.Address;
 import ru.msg.messageSystem.Message;
 import ru.msg.messageSystem.MessageSystem;
