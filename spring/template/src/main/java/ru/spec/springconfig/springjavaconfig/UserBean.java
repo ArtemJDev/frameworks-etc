@@ -1,4 +1,4 @@
-package template.src.main.java.ru.spec.springconfig;
+package template.src.main.java.ru.spec.springconfig.springjavaconfig;
 
 public class UserBean {
 

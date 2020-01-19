@@ -1,4 +1,4 @@
-package template.src.main.java.ru.spec.springconfig;
+package template.src.main.java.ru.spec.springconfig.springjavaconfig;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
