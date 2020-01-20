@@ -1,25 +1,18 @@
-package template.src.main.java.ru.spec.springconfig.springdixml;
+package template.src.main.java.ru.spec.springconfig.codeconfigdi;
 
 import java.util.Map;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Qualifier;
-import org.springframework.beans.factory.annotation.Value;
-import org.springframework.stereotype.Component;
-import ru.spec.springconfig.springdixml.door.Door;
-import ru.spec.springconfig.springdixml.wall.Material;
-import ru.spec.springconfig.springdixml.window.Window;
+import ru.spec.springconfig.codeconfigdi.door.Door;
+import ru.spec.springconfig.codeconfigdi.wall.Brick;
+import ru.spec.springconfig.codeconfigdi.wall.Material;
+import ru.spec.springconfig.codeconfigdi.window.Window;
 
-@Component
 public class House {
 
     private Window window;
-
-    @Value("2")//for prop
     private int height;
-
-    @Autowired //Inject   javax.inject
-    @Qualifier("woodBean") //Named()
-    private Material wall;
+    @Autowired
+    private Brick wall;
     //    private Collection<Door> doors;
 
     private Map<String, Door> doors;
@@ -29,9 +22,8 @@ public class House {
 
     public House(Window window) {
         this.window = window;
-        this.height = height;
     }
-    @Autowired
+
     public Map<String, Door> getDoors() {
         return doors;
     }
@@ -45,7 +37,7 @@ public class House {
         return wall;
     }
 
-    public void setWall(Material wall) {
+    public void setWall(Brick wall) {
         this.wall = wall;
     }
 
@@ -71,7 +63,7 @@ public class House {
 
     public void buildWall() {
         for (int i = 0; i < getHeight(); i++) {
-            System.out.println("Flooe N " + i);
+            System.out.print("Flooe N " + i + " ");
             getWall().cover();
         }
     }

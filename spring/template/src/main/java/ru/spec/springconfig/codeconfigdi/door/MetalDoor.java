@@ -1,8 +1,5 @@
-package template.src.main.java.ru.spec.springconfig.springdixml.door;
+package template.src.main.java.ru.spec.springconfig.codeconfigdi.door;
 
-import org.springframework.stereotype.Component;
-
-@Component
 public class MetalDoor implements Door {
 
     public void install() {
