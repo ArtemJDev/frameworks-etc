@@ -1,5 +1,14 @@
-package template.src.test.java.main.java.ru.spec.hibernatedb.dao;
+package template.src.test.java.main.java.ru.spec.dao;
 
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "courses")
 public class Course {
 
     private int id;
@@ -7,6 +16,9 @@ public class Course {
     private int length;
     private String description;
 
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "id")
     public int getId() {
         return id;
     }
@@ -15,6 +27,7 @@ public class Course {
         this.id = id;
     }
 
+    @Column
     public String getTitle() {
         return title;
     }
@@ -23,6 +36,7 @@ public class Course {
         this.title = title;
     }
 
+    @Column
     public int getLength() {
         return length;
     }
@@ -31,6 +45,7 @@ public class Course {
         this.length = length;
     }
 
+    @Column
     public String getDescription() {
         return description;
     }
