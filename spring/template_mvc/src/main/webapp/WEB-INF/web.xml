@@ -9,10 +9,9 @@
     <param-name>contextConfigLocation</param-name>
     <param-value>WEB-INF/spring/root-context.xml</param-value>
   </context-param>
-
   <!-- enc for russian -->
   <filter>
-    <filter-name>HttpMethodFilter</filter-name>
+    <filter-name>HttpMethodFilter</filter-name><!--PUT DELETE-->
     <filter-class>org.springframework.web.filter.HiddenHttpMethodFilter</filter-class>
   </filter>
 
