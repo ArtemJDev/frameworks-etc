@@ -8,6 +8,8 @@
     http://www.springframework.org/schema/context/spring-context.xsd">
 
   <import resource="../../META-INF/spring/datasource-tx-jpa.xml"/>
+  <import resource="../../META-INF/spring/security-context.xml"/>
+  
   <context:component-scan base-package="ru.spec.DAO"/>
  
 </beans>
