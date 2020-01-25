@@ -2,6 +2,7 @@ package template_mvc.src.main.java.ru.spec.controllers;
 
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
@@ -36,6 +37,7 @@ public class CourseController {
         return "courses/edit";
     }
 
+    @PreAuthorize("hasRole('ROLE_USER')")
     @RequestMapping(value = "update/{id}", method = RequestMethod.POST)
     public String update(Course course, BindingResult bindingResult, Model model){
         if(bindingResult.hasErrors()) { // if error occurred(can add in model)
@@ -51,6 +53,8 @@ public class CourseController {
         return "courses/edit";
     }
 
+//    @PreAuthorize("isAuthenticated()")
+    @PreAuthorize("hasRole('ROLE_USER')")
     @RequestMapping(value = "delete/{id}", method = RequestMethod.GET)
     public String delete(@PathVariable("id") int id, Model model) {
         courseService.delete(id);
